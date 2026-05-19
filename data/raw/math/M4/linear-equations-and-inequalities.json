@@ -1,0 +1,579 @@
+{
+  "subject": "math",
+  "grade": "M4",
+  "topic": "Linear Equations and Inequalities",
+  "url": "https://openstax.org/books/algebra-and-trigonometry-2e/pages/2-2-linear-equations-in-one-variable",
+  "title": "2.2 Linear Equations in One Variable",
+  "sections": [
+    {
+      "heading": "2.2 Linear Equations in One Variable",
+      "content": "In this section, you will:\n- Solve equations in one variable algebraically.\n- Solve a rational equation.\n- Find a linear equation.\n- Given the equations of two lines, determine whether their graphs are parallel or perpendicular.\n- Write the equation of a line parallel or perpendicular to a given line.\nCaroline is a full-time college student planning a spring break vacation. To earn enough money for the trip, she has taken a part-time job at the local bank that pays $15.00/hr, and she opened a savings account with an initial deposit of $400 on January 15. She arranged for direct deposit of her payroll checks. If spring break begins March 20 and the trip will cost approximately $2,500, how many hours will she have to work to earn enough to pay for her vacation? If she can only work 4 hours per day, how many days per week will she have to work? How many weeks will it take? In this section, we will investigate problems like this and others, which generate graphs like the line in Figure 1 ."
+    },
+    {
+      "heading": "Solving Linear Equations in One Variable",
+      "content": "A linear equation is an equation of a straight line, written in one variable. The only power of the variable is 1. Linear equations in one variable may take the form a x + b = 0 a x + b = 0 and are solved using basic algebraic operations.\nWe begin by classifying linear equations in one variable as one of three types: identity, conditional, or inconsistent. An identity equation is true for all values of the variable. Here is an example of an identity equation.\nThe solution set consists of all values that make the equation true. For this equation, the solution set is all real numbers because any real number substituted for x x will make the equation true.\nA conditional equation is true for only some values of the variable. For example, if we are to solve the equation 5 x + 2 = 3 x − 6 , 5 x + 2 = 3 x − 6 , we have the following:\nThe solution set consists of one number: { − 4 } . { − 4 } . It is the only solution and, therefore, we have solved a conditional equation.\nAn inconsistent equation results in a false statement. For example, if we are to solve 5 x − 15 = 5 ( x − 4 ) , 5 x − 15 = 5 ( x − 4 ) , we have the following:\nIndeed, −15 ≠ −20. −15 ≠ −20. There is no solution because this is an inconsistent equation.\nSolving linear equations in one variable involves the fundamental properties of equality and basic algebraic operations. A brief review of those operations follows.\nA linear equation in one variable can be written in the form\nwhere a and b are real numbers, a ≠ 0. a ≠ 0.\nGiven a linear equation in one variable, use algebra to solve it.\nThe following steps are used to manipulate an equation and isolate the unknown variable, so that the last line reads x = _________, x = _________, if x is the unknown. There is no set order, as the steps used depend on what is given:\n- We may add, subtract, multiply, or divide an equation by a number or an expression as long as we do the same thing to both sides of the equal sign. Note that we cannot divide by zero.\n- Apply the distributive property as needed: a ( b + c ) = a b + a c . a ( b + c ) = a b + a c .\n- Isolate the variable on one side of the equation.\n- When the variable is multiplied by a coefficient in the final stage, multiply both sides of the equation by the reciprocal of the coefficient."
+    },
+    {
+      "heading": "Solving an Equation in One Variable",
+      "content": "Solve the following equation: 2 x + 7 = 19. 2 x + 7 = 19."
+    },
+    {
+      "heading": "Solution",
+      "content": "This equation can be written in the form a x + b = 0 a x + b = 0 by subtracting 19 19 from both sides. However, we may proceed to solve the equation in its original form by performing algebraic operations.\nThe solution is 6.\nSolve the linear equation in one variable: 2 x + 1 = −9. 2 x + 1 = −9."
+    },
+    {
+      "heading": "Solving an Equation Algebraically When the Variable Appears on Both Sides",
+      "content": "Solve the following equation: 4 ( x −3 ) + 12 = 15 −5 ( x + 6 ) . 4 ( x −3 ) + 12 = 15 −5 ( x + 6 ) ."
+    },
+    {
+      "heading": "Solution",
+      "content": "Apply standard algebraic properties."
+    },
+    {
+      "heading": "Analysis",
+      "content": "This problem requires the distributive property to be applied twice, and then the properties of algebra are used to reach the final line, x = − 5 3 . x = − 5 3 .\nSolve the equation in one variable: −2 ( 3 x − 1 ) + x = 14 − x . −2 ( 3 x − 1 ) + x = 14 − x ."
+    },
+    {
+      "heading": "Solving a Rational Equation",
+      "content": "In this section, we look at rational equations that, after some manipulation, result in a linear equation. If an equation contains at least one rational expression, it is a considered a rational equation .\nRecall that a rational number is the ratio of two numbers, such as 2 3 2 3 or 7 2 . 7 2 . A rational expression is the ratio, or quotient, of two polynomials. Here are three examples.\nRational equations have a variable in the denominator in at least one of the terms.\nOur goal is to perform algebraic operations so that the variables appear in the numerator. In fact, we will eliminate all denominators by multiplying both sides of the equation by the least common denominator (LCD).\nFinding the LCD is identifying an expression that contains the highest power of all of the factors in all of the denominators. We do this because when the equation is multiplied by the LCD, the common factors in the LCD and in each denominator will equal one and will cancel out."
+    },
+    {
+      "heading": "Solving a Rational Equation",
+      "content": "Solve the rational equation: 7 2 x − 5 3 x = 22 3 . 7 2 x − 5 3 x = 22 3 ."
+    },
+    {
+      "heading": "Solution",
+      "content": "We have three denominators; 2 x , 3 x , 2 x , 3 x , and 3. The LCD must contain 2 x , 3 x , 2 x , 3 x , and 3. An LCD of 6 x 6 x contains all three denominators. In other words, each denominator can be divided evenly into the LCD. Next, multiply both sides of the equation by the LCD 6 x . 6 x .\nA common mistake made when solving rational equations involves finding the LCD when one of the denominators is a binomial—two terms added or subtracted—such as ( x + 1 ) . ( x + 1 ) . Always consider a binomial as an individual factor—the terms cannot be separated. For example, suppose a problem has three terms and the denominators are x , x , x − 1 , x − 1 , and 3 x − 3. 3 x − 3. First, factor all denominators. We then have x , x , ( x − 1 ) , ( x − 1 ) , and 3 ( x − 1 ) 3 ( x − 1 ) as the denominators. (Note the parentheses placed around the second denominator.) Only the last two denominators have a common factor of ( x − 1 ) . ( x − 1 ) . The x x in the first denominator is separate from the x x in the ( x − 1 ) ( x − 1 ) denominators. An effective way to remember this is to write factored and binomial denominators in parentheses, and consider each parentheses as a separate unit or a separate factor. The LCD in this instance is found by multiplying together the x , x , one factor of ( x − 1 ) , ( x − 1 ) , and the 3. Thus, the LCD is the following:\nSo, both sides of the equation would be multiplied by 3 x ( x − 1 ) . 3 x ( x − 1 ) . Leave the LCD in factored form, as this makes it easier to see how each denominator in the problem cancels out.\nAnother example is a problem with two denominators, such as x x and x 2 + 2 x . x 2 + 2 x . Once the second denominator is factored as x 2 + 2 x = x ( x + 2 ) , x 2 + 2 x = x ( x + 2 ) , there is a common factor of x in both denominators and the LCD is x ( x + 2 ) . x ( x + 2 ) .\nSometimes we have a rational equation in the form of a proportion; that is, when one fraction equals another fraction and there are no other terms in the equation.\nWe can use another method of solving the equation without finding the LCD: cross-multiplication. We multiply terms by crossing over the equal sign.\nMultiply a ( d ) a ( d ) and b ( c ) , b ( c ) , which results in a d = b c . a d = b c .\nAny solution that makes a denominator in the original expression equal zero must be excluded from the possibilities.\nA rational equation contains at least one rational expression where the variable appears in at least one of the denominators.\nGiven a rational equation, solve it.\n- Factor all denominators in the equation.\n- Find and exclude values that set each denominator equal to zero.\n- Find the LCD.\n- Multiply the whole equation by the LCD. If the LCD is correct, there will be no denominators left.\n- Solve the remaining equation.\n- Make sure to check solutions back in the original equations to avoid a solution producing zero in a denominator."
+    },
+    {
+      "heading": "Solving a Rational Equation without Factoring",
+      "content": "Solve the following rational equation:"
+    },
+    {
+      "heading": "Solution",
+      "content": "We have three denominators: x , x , 2 , 2 , and 2 x . 2 x . No factoring is required. The product of the first two denominators is equal to the third denominator, so, the LCD is 2 x . 2 x . Only one value is excluded from a solution set, 0. Next, multiply the whole equation (both sides of the equal sign) by 2 x . 2 x .\nThe proposed solution is −1, which is not an excluded value, so the solution set contains one number, −1 , −1 , or { −1 } { −1 } written in set notation.\nSolve the rational equation: 2 3 x = 1 4 − 1 6 x . 2 3 x = 1 4 − 1 6 x ."
+    },
+    {
+      "heading": "Solving a Rational Equation by Factoring the Denominator",
+      "content": "Solve the following rational equation: 1 x = 1 10 − 3 4 x . 1 x = 1 10 − 3 4 x ."
+    },
+    {
+      "heading": "Solution",
+      "content": "First find the common denominator. The three denominators in factored form are x , 10 = 2 ⋅ 5 , x , 10 = 2 ⋅ 5 , and 4 x = 2 ⋅ 2 ⋅ x . 4 x = 2 ⋅ 2 ⋅ x . The smallest expression that is divisible by each one of the denominators is 20 x . 20 x . Only x = 0 x = 0 is an excluded value. Multiply the whole equation by 20 x . 20 x .\nThe solution is 35 2 . 35 2 .\nSolve the rational equation: − 5 2 x + 3 4 x = − 7 4 . − 5 2 x + 3 4 x = − 7 4 ."
+    },
+    {
+      "heading": "Solving Rational Equations with a Binomial in the Denominator",
+      "content": "Solve the following rational equations and state the excluded values:\n- ⓐ 3 x − 6 = 5 x 3 x − 6 = 5 x\n- ⓑ x x − 3 = 5 x − 3 − 1 2 x x − 3 = 5 x − 3 − 1 2\n- ⓒ x x − 2 = 5 x − 2 − 1 2 x x − 2 = 5 x − 2 − 1 2"
+    },
+    {
+      "heading": "Solution",
+      "content": "- ⓐ The denominators x x and x − 6 x − 6 have nothing in common. Therefore, the LCD is the product x ( x − 6 ) . x ( x − 6 ) . However, for this problem, we can cross-multiply. 3 x − 6 = 5 x 3 x = 5 ( x − 6 ) Distribute . 3 x = 5 x − 30 −2 x = −30 x = 15 3 x − 6 = 5 x 3 x = 5 ( x − 6 ) Distribute . 3 x = 5 x − 30 −2 x = −30 x = 15 The solution is 15. The excluded values are 6 6 and 0. 0.\n- ⓑ The LCD is 2 ( x − 3 ) . 2 ( x − 3 ) . Multiply both sides of the equation by 2 ( x − 3 ) . 2 ( x − 3 ) . 2 ( x − 3 ) ( x x − 3 ) = ( 5 x − 3 − 1 2 ) 2 ( x − 3 ) 2 ( x − 3 ) x x − 3 = 2 ( x − 3 ) 5 x − 3 − 2 ( x − 3 ) 2 2 x = 10 − ( x − 3 ) 2 x = 10 − x + 3 2 x = 13 − x 3 x = 13 x = 13 3 2 ( x − 3 ) ( x x − 3 ) = ( 5 x − 3 − 1 2 ) 2 ( x − 3 ) 2 ( x − 3 ) x x − 3 = 2 ( x − 3 ) 5 x − 3 − 2 ( x − 3 ) 2 2 x = 10 − ( x − 3 ) 2 x = 10 − x + 3 2 x = 13 − x 3 x = 13 x = 13 3 The solution is 13 3 . 13 3 . The excluded value is 3. 3.\n- ⓒ The least common denominator is 2 ( x − 2 ) . 2 ( x − 2 ) . Multiply both sides of the equation by 2 ( x − 2 ) . 2 ( x − 2 ) . 2 ( x − 2 ) ( x x − 2 ) = ( 5 x − 2 − 1 2 ) 2 ( x − 2 ) 2 x = 10 − ( x − 2 ) 2 x = 12 − x 3 x = 12 x = 4 2 ( x − 2 ) ( x x − 2 ) = ( 5 x − 2 − 1 2 ) 2 ( x − 2 ) 2 x = 10 − ( x − 2 ) 2 x = 12 − x 3 x = 12 x = 4 The solution is 4. The excluded value is 2. 2.\nThe denominators x x and x − 6 x − 6 have nothing in common. Therefore, the LCD is the product x ( x − 6 ) . x ( x − 6 ) . However, for this problem, we can cross-multiply.\nThe solution is 15. The excluded values are 6 6 and 0. 0.\nThe LCD is 2 ( x − 3 ) . 2 ( x − 3 ) . Multiply both sides of the equation by 2 ( x − 3 ) . 2 ( x − 3 ) .\nThe solution is 13 3 . 13 3 . The excluded value is 3. 3.\nThe least common denominator is 2 ( x − 2 ) . 2 ( x − 2 ) . Multiply both sides of the equation by 2 ( x − 2 ) . 2 ( x − 2 ) .\nThe solution is 4. The excluded value is 2. 2.\nSolve − 3 2 x + 1 = 4 3 x + 1 . − 3 2 x + 1 = 4 3 x + 1 . State the excluded values."
+    },
+    {
+      "heading": "Solving a Rational Equation with Factored Denominators and Stating Excluded Values",
+      "content": "Solve the rational equation after factoring the denominators: 2 x + 1 − 1 x − 1 = 2 x x 2 − 1 . 2 x + 1 − 1 x − 1 = 2 x x 2 − 1 . State the excluded values."
+    },
+    {
+      "heading": "Solution",
+      "content": "We must factor the denominator x 2 −1. x 2 −1. We recognize this as the difference of squares, and factor it as ( x − 1 ) ( x + 1 ) . ( x − 1 ) ( x + 1 ) . Thus, the LCD that contains each denominator is ( x − 1 ) ( x + 1 ) . ( x − 1 ) ( x + 1 ) . Multiply the whole equation by the LCD, cancel out the denominators, and solve the remaining equation.\nThe solution is −3. −3. The excluded values are 1 1 and −1. −1.\nSolve the rational equation: 2 x − 2 + 1 x + 1 = 1 x 2 − x − 2 . 2 x − 2 + 1 x + 1 = 1 x 2 − x − 2 ."
+    },
+    {
+      "heading": "Finding a Linear Equation",
+      "content": "Perhaps the most familiar form of a linear equation is the slope-intercept form, written as y = m x + b , y = m x + b , where m = slope m = slope and b = y -intercept . b = y -intercept . Let us begin with the slope."
+    },
+    {
+      "heading": "The Slope of a Line",
+      "content": "The slope of a line refers to the ratio of the vertical change in y over the horizontal change in x between any two points on a line. It indicates the direction in which a line slants as well as its steepness. Slope is sometimes described as rise over run.\nIf the slope is positive, the line slants upward to the right. If the slope is negative, the line slants downward to the right. As the absolute value of the slope increases, the line becomes steeper. Some examples are shown in Figure 2 . The lines indicate the following slopes: m = −3 , m = −3 , m = 2 , m = 2 , and m = 1 3 . m = 1 3 .\nThe slope of a line, m , represents the change in y over the change in x. Given two points, ( x 1 , y 1 ) ( x 1 , y 1 ) and ( x 2 , y 2 ) , ( x 2 , y 2 ) , the following formula determines the slope of a line containing these points:"
+    },
+    {
+      "heading": "Finding the Slope of a Line Given Two Points",
+      "content": "Find the slope of a line that passes through the points ( 2 , −1 ) ( 2 , −1 ) and ( −5 , 3 ) . ( −5 , 3 ) ."
+    },
+    {
+      "heading": "Solution",
+      "content": "We substitute the y- values and the x- values into the formula.\nThe slope is − 4 7 . − 4 7 ."
+    },
+    {
+      "heading": "Analysis",
+      "content": "It does not matter which point is called ( x 1 , y 1 ) ( x 1 , y 1 ) or ( x 2 , y 2 ) . ( x 2 , y 2 ) . As long as we are consistent with the order of the y terms and the order of the x terms in the numerator and denominator, the calculation will yield the same result.\nFind the slope of the line that passes through the points ( −2 , 6 ) ( −2 , 6 ) and ( 1 , 4 ) . ( 1 , 4 ) ."
+    },
+    {
+      "heading": "Identifying the Slope and y- intercept of a Line Given an Equation",
+      "content": "Identify the slope and y- intercept, given the equation y = − 3 4 x − 4. y = − 3 4 x − 4."
+    },
+    {
+      "heading": "Solution",
+      "content": "As the line is in y = m x + b y = m x + b form, the given line has a slope of m = − 3 4 . m = − 3 4 . The y- intercept is b = −4. b = −4."
+    },
+    {
+      "heading": "Analysis",
+      "content": "The y -intercept is the point at which the line crosses the y- axis. On the y- axis, x = 0. x = 0. We can always identify the y- intercept when the line is in slope-intercept form, as it will always equal b. Or, just substitute x = 0 x = 0 and solve for y."
+    },
+    {
+      "heading": "The Point-Slope Formula",
+      "content": "Given the slope and one point on a line, we can find the equation of the line using the point-slope formula.\nThis is an important formula, as it will be used in other areas of college algebra and often in calculus to find the equation of a tangent line. We need only one point and the slope of the line to use the formula. After substituting the slope and the coordinates of one point into the formula, we simplify it and write it in slope-intercept form.\nGiven one point and the slope, the point-slope formula will lead to the equation of a line:"
+    },
+    {
+      "heading": "Finding the Equation of a Line Given the Slope and One Point",
+      "content": "Write the equation of the line with slope m = −3 m = −3 and passing through the point ( 4 , 8 ) . ( 4 , 8 ) . Write the final equation in slope-intercept form."
+    },
+    {
+      "heading": "Solution",
+      "content": "Using the point-slope formula, substitute −3 −3 for m and the point ( 4 , 8 ) ( 4 , 8 ) for ( x 1 , y 1 ) . ( x 1 , y 1 ) ."
+    },
+    {
+      "heading": "Analysis",
+      "content": "Note that any point on the line can be used to find the equation. If done correctly, the same final equation will be obtained.\nGiven m = 4 , m = 4 , find the equation of the line in slope-intercept form passing through the point ( 2 , 5 ) . ( 2 , 5 ) ."
+    },
+    {
+      "heading": "Finding the Equation of a Line Passing Through Two Given Points",
+      "content": "Find the equation of the line passing through the points ( 3 , 4 ) ( 3 , 4 ) and ( 0 , −3 ) . ( 0 , −3 ) . Write the final equation in slope-intercept form."
+    },
+    {
+      "heading": "Solution",
+      "content": "First, we calculate the slope using the slope formula and two points.\nNext, we use the point-slope formula with the slope of 7 3 , 7 3 , and either point. Let’s pick the point ( 3 , 4 ) ( 3 , 4 ) for ( x 1 , y 1 ) . ( x 1 , y 1 ) .\nIn slope-intercept form, the equation is written as y = 7 3 x − 3. y = 7 3 x − 3."
+    },
+    {
+      "heading": "Analysis",
+      "content": "To prove that either point can be used, let us use the second point ( 0 , −3 ) ( 0 , −3 ) and see if we get the same equation.\nWe see that the same line will be obtained using either point. This makes sense because we used both points to calculate the slope."
+    },
+    {
+      "heading": "Standard Form of a Line",
+      "content": "Another way that we can represent the equation of a line is in standard form . Standard form is given as\nwhere A , A , B , B , and C C are integers. The x- and y- terms are on one side of the equal sign and the constant term is on the other side."
+    },
+    {
+      "heading": "Finding the Equation of a Line and Writing It in Standard Form",
+      "content": "Find the equation of the line with m = −6 m = −6 and passing through the point ( 1 4 , −2 ) . ( 1 4 , −2 ) . Write the equation in standard form."
+    },
+    {
+      "heading": "Solution",
+      "content": "We begin using the point-slope formula.\nFrom here, we multiply through by 2, as no fractions are permitted in standard form, and then move both variables to the left aside of the equal sign and move the constants to the right.\nThis equation is now written in standard form.\nFind the equation of the line in standard form with slope m = − 1 3 m = − 1 3 and passing through the point ( 1 , 1 3 ) . ( 1 , 1 3 ) ."
+    },
+    {
+      "heading": "Vertical and Horizontal Lines",
+      "content": "The equations of vertical and horizontal lines do not require any of the preceding formulas, although we can use the formulas to prove that the equations are correct. The equation of a vertical line is given as\nwhere c is a constant. The slope of a vertical line is undefined, and regardless of the y- value of any point on the line, the x- coordinate of the point will be c .\nSuppose that we want to find the equation of a line containing the following points: ( −3 , −5 ) , ( −3 , 1 ) , ( −3 , 3 ) , ( −3 , −5 ) , ( −3 , 1 ) , ( −3 , 3 ) , and ( −3 , 5 ) . ( −3 , 5 ) . First, we will find the slope.\nZero in the denominator means that the slope is undefined and, therefore, we cannot use the point-slope formula. However, we can plot the points. Notice that all of the x- coordinates are the same and we find a vertical line through x = −3. x = −3. See Figure 3 .\nThe equation of a horizontal line is given as\nwhere c is a constant. The slope of a horizontal line is zero, and for any x- value of a point on the line, the y- coordinate will be c .\nSuppose we want to find the equation of a line that contains the following set of points: ( −2 , −2 ) , ( 0 , −2 ) , ( 3 , −2 ) , ( −2 , −2 ) , ( 0 , −2 ) , ( 3 , −2 ) , and ( 5 , −2 ) . ( 5 , −2 ) . We can use the point-slope formula. First, we find the slope using any two points on the line.\nUse any point for ( x 1 , y 1 ) ( x 1 , y 1 ) in the formula, or use the y -intercept.\nThe graph is a horizontal line through y = −2. y = −2. Notice that all of the y- coordinates are the same. See Figure 3 ."
+    },
+    {
+      "heading": "Finding the Equation of a Line Passing Through the Given Points",
+      "content": "Find the equation of the line passing through the given points: ( 1 , −3 ) ( 1 , −3 ) and ( 1 , 4 ) . ( 1 , 4 ) ."
+    },
+    {
+      "heading": "Solution",
+      "content": "The x- coordinate of both points is 1. Therefore, we have a vertical line, x = 1. x = 1.\nFind the equation of the line passing through ( −5 , 2 ) ( −5 , 2 ) and ( 2 , 2 ) . ( 2 , 2 ) ."
+    },
+    {
+      "heading": "Determining Whether Graphs of Lines are Parallel or Perpendicular",
+      "content": "Parallel lines have the same slope and different y- intercepts. Lines that are parallel to each other will never intersect. For example, Figure 4 shows the graphs of various lines with the same slope, m = 2. m = 2.\nAll of the lines shown in the graph are parallel because they have the same slope and different y- intercepts.\nLines that are perpendicular intersect to form a 90° 90° -angle. The slope of one line is the negative reciprocal of the other. We can show that two lines are perpendicular if the product of the two slopes is −1 : m 1 ⋅ m 2 = −1. −1 : m 1 ⋅ m 2 = −1. For example, Figure 5 shows the graph of two perpendicular lines. One line has a slope of 3; the other line has a slope of − 1 3 . − 1 3 ."
+    },
+    {
+      "heading": "Graphing Two Equations, and Determining Whether the Lines are Parallel, Perpendicular, or Neither",
+      "content": "Graph the equations of the given lines, and state whether they are parallel, perpendicular, or neither: 3 y = − 4 x + 3 3 y = − 4 x + 3 and 3 x − 4 y = 8. 3 x − 4 y = 8."
+    },
+    {
+      "heading": "Solution",
+      "content": "The first thing we want to do is rewrite the equations so that both equations are in slope-intercept form.\nFirst equation:\nSecond equation:\nSee the graph of both lines in Figure 6\nFrom the graph, we can see that the lines appear perpendicular, but we must compare the slopes.\nThe slopes are negative reciprocals of each other, confirming that the lines are perpendicular.\nGraph the two lines and determine whether they are parallel, perpendicular, or neither: 2 y − x = 10 2 y − x = 10 and 2 y = x + 4. 2 y = x + 4."
+    },
+    {
+      "heading": "Writing the Equations of Lines Parallel or Perpendicular to a Given Line",
+      "content": "As we have learned, determining whether two lines are parallel or perpendicular is a matter of finding the slopes. To write the equation of a line parallel or perpendicular to another line, we follow the same principles as we do for finding the equation of any line. After finding the slope, use the point-slope formula to write the equation of the new line.\nGiven an equation for a line, write the equation of a line parallel or perpendicular to it.\n- Find the slope of the given line. The easiest way to do this is to write the equation in slope-intercept form.\n- Use the slope and the given point with the point-slope formula.\n- Simplify the line to slope-intercept form and compare the equation to the given line."
+    },
+    {
+      "heading": "Writing the Equation of a Line Parallel to a Given Line Passing Through a Given Point",
+      "content": "Write the equation of line parallel to a 5 x + 3 y = 1 5 x + 3 y = 1 and passing through the point ( 3 , 5 ) . ( 3 , 5 ) ."
+    },
+    {
+      "heading": "Solution",
+      "content": "First, we will write the equation in slope-intercept form to find the slope.\nThe slope is m = − 5 3 . m = − 5 3 . The y- intercept is 1 3 , 1 3 , but that really does not enter into our problem, as the only thing we need for two lines to be parallel is the same slope. The one exception is that if the y- intercepts are the same, then the two lines are the same line. The next step is to use this slope and the given point with the point-slope formula.\nThe equation of the line is y = − 5 3 x + 10. y = − 5 3 x + 10. See Figure 7 .\nFind the equation of the line parallel to 5 x = 7 + y 5 x = 7 + y and passing through the point ( −1 , −2 ) . ( −1 , −2 ) ."
+    },
+    {
+      "heading": "Finding the Equation of a Line Perpendicular to a Given Line Passing Through a Given Point",
+      "content": "Find the equation of the line perpendicular to 5 x − 3 y + 4 = 0 5 x − 3 y + 4 = 0 and passing through the point ( − 4 , 1 ) . ( − 4 , 1 ) ."
+    },
+    {
+      "heading": "Solution",
+      "content": "The first step is to write the equation in slope-intercept form.\nWe see that the slope is m = 5 3 . m = 5 3 . This means that the slope of the line perpendicular to the given line is the negative reciprocal, or − 3 5 . − 3 5 . Next, we use the point-slope formula with this new slope and the given point.\nAccess these online resources for additional instruction and practice with linear equations.\n- Solving rational equations\n- Equation of a line given two points\n- Finding the equation of a line perpendicular to another line through a given point\n- Finding the equation of a line parallel to another line through a given point"
+    },
+    {
+      "heading": "Verbal",
+      "content": "What does it mean when we say that two lines are parallel?\nWhat is the relationship between the slopes of perpendicular lines (assuming neither is horizontal nor vertical)?\nHow do we recognize when an equation, for example y = 4 x + 3 , y = 4 x + 3 , will be a straight line (linear) when graphed?\nWhat does it mean when we say that a linear equation is inconsistent?\nWhen solving the following equation:\n2 x − 5 = 4 x + 1 2 x − 5 = 4 x + 1\nexplain why we must exclude x = 5 x = 5 and x = −1 x = −1 as possible solutions from the solution set."
+    },
+    {
+      "heading": "Algebraic",
+      "content": "For the following exercises, solve the equation for x . x .\n7 x + 2 = 3 x − 9 7 x + 2 = 3 x − 9\n4 x − 3 = 5 4 x − 3 = 5\n3 ( x + 2 ) − 12 = 5 ( x + 1 ) 3 ( x + 2 ) − 12 = 5 ( x + 1 )\n12 − 5 ( x + 3 ) = 2 x − 5 12 − 5 ( x + 3 ) = 2 x − 5\n1 2 − 1 3 x = 4 3 1 2 − 1 3 x = 4 3\nx 3 − 3 4 = 2 x + 3 12 x 3 − 3 4 = 2 x + 3 12\n2 3 x + 1 2 = 31 6 2 3 x + 1 2 = 31 6\n3 ( 2 x − 1 ) + x = 5 x + 3 3 ( 2 x − 1 ) + x = 5 x + 3\n2 x 3 − 3 4 = x 6 + 21 4 2 x 3 − 3 4 = x 6 + 21 4\nx + 2 4 − x − 1 3 = 2 x + 2 4 − x − 1 3 = 2\nFor the following exercises, solve each rational equation for x . x . State all x -values that are excluded from the solution set.\n3 x − 1 3 = 1 6 3 x − 1 3 = 1 6\n2 − 3 x + 4 = x + 2 x + 4 2 − 3 x + 4 = x + 2 x + 4\n3 x − 2 = 1 x − 1 + 7 ( x − 1 ) ( x − 2 ) 3 x − 2 = 1 x − 1 + 7 ( x − 1 ) ( x − 2 )\n3 x x − 1 + 2 = 3 x − 1 3 x x − 1 + 2 = 3 x − 1\n5 x + 1 + 1 x − 3 = − 6 x 2 − 2 x − 3 5 x + 1 + 1 x − 3 = − 6 x 2 − 2 x − 3\n1 x = 1 5 + 3 2 x 1 x = 1 5 + 3 2 x\nFor the following exercises, find the equation of the line using the point-slope formula.\nWrite all the final equations using the slope-intercept form.\n( 0 , 3 ) ( 0 , 3 ) with a slope of 2 3 2 3\n( 1 , 2 ) ( 1 , 2 ) with a slope of − 4 5 − 4 5\nx -intercept is 1, and ( −2 , 6 ) ( −2 , 6 )\ny -intercept is 2, and ( 4 , −1 ) ( 4 , −1 )\n( −3 , 10 ) ( −3 , 10 ) and ( 5 , −6 ) ( 5 , −6 )\n( 1 , 3 ) and ( 5 , 5 ) ( 1 , 3 ) and ( 5 , 5 )\nparallel to y = 2 x + 5 y = 2 x + 5 and passes through the point ( 4 , 3 ) ( 4 , 3 )\nperpendicular to 3 y = x − 4 3 y = x − 4 and passes through the point ( −2 , 1 ) ( −2 , 1 ) .\nFor the following exercises, find the equation of the line using the given information.\n( − 2 , 0 ) ( − 2 , 0 ) and ( −2 , 5 ) ( −2 , 5 )\n( 1 , 7 ) ( 1 , 7 ) and ( 3 , 7 ) ( 3 , 7 )\nThe slope is undefined and it passes through the point ( 2 , 3 ) . ( 2 , 3 ) .\nThe slope equals zero and it passes through the point ( 1 , −4 ) . ( 1 , −4 ) .\nThe slope is 3 4 3 4 and it passes through the point ( 1 , 4 ) ( 1 , 4 ) .\n( –1 , 3 ) ( –1 , 3 ) and ( 4 , –5 ) ( 4 , –5 )"
+    },
+    {
+      "heading": "Graphical",
+      "content": "For the following exercises, graph the pair of equations on the same axes, and state whether they are parallel, perpendicular, or neither.\ny = 2 x + 7 y = − 1 2 x − 4 y = 2 x + 7 y = − 1 2 x − 4\n3 x − 2 y = 5 6 y − 9 x = 6 3 x − 2 y = 5 6 y − 9 x = 6\ny = 3 x + 1 4 y = 3 x + 2 y = 3 x + 1 4 y = 3 x + 2\nx = 4 y = −3 x = 4 y = −3"
+    },
+    {
+      "heading": "Numeric",
+      "content": "For the following exercises, find the slope of the line that passes through the given points.\n( 5 , 4 ) ( 5 , 4 ) and ( 7 , 9 ) ( 7 , 9 )\n( −3 , 2 ) ( −3 , 2 ) and ( 4 , −7 ) ( 4 , −7 )\n( −5 , 4 ) ( −5 , 4 ) and ( 2 , 4 ) ( 2 , 4 )\n( −1 , −2 ) ( −1 , −2 ) and ( 3 , 4 ) ( 3 , 4 )\n( 3 , 3 ) ( 3 , 3 ) and ( 3 , −2 ) ( 3 , −2 )\nFor the following exercises, find the slope of the lines that pass through each pair of points and determine whether the lines are parallel or perpendicular.\n( −1 , 3 ) and ( 5 , 1 ) ( −2 , 3 ) and ( 0 , 9 ) ( −1 , 3 ) and ( 5 , 1 ) ( −2 , 3 ) and ( 0 , 9 )\n( 2 , 5 ) and ( 5 , 9 ) ( −1 , −1 ) and ( 2 , 3 ) ( 2 , 5 ) and ( 5 , 9 ) ( −1 , −1 ) and ( 2 , 3 )"
+    },
+    {
+      "heading": "Technology",
+      "content": "For the following exercises, express the equations in slope intercept form (rounding each number to the thousandths place). Enter this into a graphing calculator as Y1, then adjust the ymin and ymax values for your window to include where the y -intercept occurs. State your ymin and ymax values.\n0.537 x − 2.19 y = 100 0.537 x − 2.19 y = 100\n4,500 x − 200 y = 9,528 4,500 x − 200 y = 9,528\n200 − 30 y x = 70 200 − 30 y x = 70"
+    },
+    {
+      "heading": "Extensions",
+      "content": "Starting with the point-slope formula y − y 1 = m ( x − x 1 ) , y − y 1 = m ( x − x 1 ) , solve this expression for x x in terms of x 1 , y , y 1 , x 1 , y , y 1 , and m m .\nStarting with the standard form of an equation A x + B y = C A x + B y = C solve this expression for y y in terms of A , B , C A , B , C and x x . Then put the expression in slope-intercept form.\nUse the above derived formula to put the following standard equation in slope intercept form: 7 x − 5 y = 25. 7 x − 5 y = 25.\nGiven that the following coordinates are the vertices of a rectangle, prove that this truly is a rectangle by showing the slopes of the sides that meet are perpendicular.\n( – 1 , 1 ) , ( 2 , 0 ) , ( 3 , 3 ) ( – 1 , 1 ) , ( 2 , 0 ) , ( 3 , 3 ) and ( 0 , 4 ) ( 0 , 4 )\nFind the slopes of the diagonals in the previous exercise. Are they perpendicular?"
+    },
+    {
+      "heading": "Real-World Applications",
+      "content": "The slope for a wheelchair ramp for a home has to be 1 12 . 1 12 . If the vertical distance from the ground to the door bottom is 2.5 ft, find the distance the ramp has to extend from the home in order to comply with the needed slope.\nIf the profit equation for a small business selling x x number of item one and y y number of item two is p = 3 x + 4 y , p = 3 x + 4 y , find the y y value when p = $ 453 and x = 75. p = $ 453 and x = 75.\nFor the following exercises, use this scenario: The cost of renting a car is $45/wk plus $0.25/mi traveled during that week. An equation to represent the cost would be y = 45 + .25 x , y = 45 + .25 x , where x x is the number of miles traveled.\nWhat is your cost if you travel 50 mi?\nIf your cost were $ 63.75 , $ 63.75 , how many miles were you charged for traveling?\nSuppose you have a maximum of $100 to spend for the car rental. What would be the maximum number of miles you could travel?"
+    }
+  ],
+  "key_terms": [],
+  "equations": [
+    "a x + b = 0 a x + b = 0",
+    "3 x = 2 x + x 3 x = 2 x + x",
+    "x x",
+    "5 x + 2 = 3 x − 6 , 5 x + 2 = 3 x − 6 ,",
+    "5 x + 2 = 3 x − 6 2 x = −8 x = −4 5 x + 2 = 3 x − 6 2 x = −8 x = −4",
+    "{ − 4 } . { − 4 } .",
+    "5 x − 15 = 5 ( x − 4 ) , 5 x − 15 = 5 ( x − 4 ) ,",
+    "5 x − 15 = 5 x − 20 5 x − 15 − 5 x = 5 x − 20 − 5 x Subtract 5 x from both sides . −15 ≠ −20 False statement 5 x − 15 = 5 x − 20 5 x − 15 − 5 x = 5 x − 20 − 5 x Subtract 5 x from both sides . −15 ≠ −20 False statement",
+    "−15 ≠ −20. −15 ≠ −20.",
+    "a ≠ 0. a ≠ 0.",
+    "x = _________, x = _________,",
+    "a ( b + c ) = a b + a c . a ( b + c ) = a b + a c .",
+    "2 x + 7 = 19. 2 x + 7 = 19.",
+    "19 19",
+    "2 x + 7 = 19 2 x = 12 Subtract 7 from both sides . x = 6 Multiply both sides by 1 2 or divide by 2 . 2 x + 7 = 19 2 x = 12 Subtract 7 from both sides . x = 6 Multiply both sides by 1 2 or divide by 2 .",
+    "2 x + 1 = −9. 2 x + 1 = −9.",
+    "4 ( x −3 ) + 12 = 15 −5 ( x + 6 ) . 4 ( x −3 ) + 12 = 15 −5 ( x + 6 ) .",
+    "4 ( x − 3 ) + 12 = 15 − 5 ( x + 6 ) 4 x − 12 + 12 = 15 − 5 x − 30 Apply the distributive property . 4 x = −15 − 5 x Combine like terms . 9 x = −15 Place x -terms on one side and simplify . x = − 15 9 Multiply both sides by 1 9 , the reciprocal of 9 . x = − 5 3 4 ( x − 3 ) + 12 = 15 − 5 ( x + 6 ) 4 x − 12 + 12 = 15 − 5 x − 30 Apply the distributive property . 4 x = −15 − 5 x Combine like terms . 9 x = −15 Place x -terms on one side and simplify . x = − 15 9 Multiply both sides by 1 9 , the reciprocal of 9 . x = − 5 3",
+    "x = − 5 3 . x = − 5 3 .",
+    "−2 ( 3 x − 1 ) + x = 14 − x . −2 ( 3 x − 1 ) + x = 14 − x .",
+    "2 3 2 3",
+    "7 2 . 7 2 .",
+    "x + 1 x 2 − 4 , 1 x − 3 , or 4 x 2 + x − 2 x + 1 x 2 − 4 , 1 x − 3 , or 4 x 2 + x − 2",
+    "7 2 x − 5 3 x = 22 3 . 7 2 x − 5 3 x = 22 3 .",
+    "2 x , 3 x , 2 x , 3 x ,",
+    "6 x 6 x",
+    "6 x . 6 x .",
+    "( 6 x ) ( 7 2 x − 5 3 x ) = ( 22 3 ) ( 6 x ) ( 6 x ) ( 7 2 x ) − ( 6 x ) ( 5 3 x ) = ( 22 3 ) ( 6 x ) Use the distributive property . ( 6 x ) ( 7 2 x ) − ( 6 x ) ( 5 3 x ) = ( 22 3 ) ( 6 x ) Cancel out the common factors . 3 ( 7 ) − 2 ( 5 ) = 22 ( 2 x ) Multiply remaining factors by each numerator . 21 − 10 = 44 x 11 = 44 x 11 44 = x 1 4 = x ( 6 x ) ( 7 2 x − 5 3 x ) = ( 22 3 ) ( 6 x ) ( 6 x ) ( 7 2 x ) − ( 6 x ) ( 5 3 x ) = ( 22 3 ) ( 6 x ) Use the distributive property . ( 6 x ) ( 7 2 x ) − ( 6 x ) ( 5 3 x ) = ( 22 3 ) ( 6 x ) Cancel out the common factors . 3 ( 7 ) − 2 ( 5 ) = 22 ( 2 x ) Multiply remaining factors by each numerator . 21 − 10 = 44 x 11 = 44 x 11 44 = x 1 4 = x",
+    "( x + 1 ) . ( x + 1 ) .",
+    "x , x ,",
+    "x − 1 , x − 1 ,",
+    "3 x − 3. 3 x − 3.",
+    "( x − 1 ) , ( x − 1 ) ,",
+    "3 ( x − 1 ) 3 ( x − 1 )",
+    "( x − 1 ) . ( x − 1 ) .",
+    "( x − 1 ) ( x − 1 )",
+    "x ( x − 1 ) 3 = 3 x ( x − 1 ) x ( x − 1 ) 3 = 3 x ( x − 1 )",
+    "3 x ( x − 1 ) . 3 x ( x − 1 ) .",
+    "x 2 + 2 x . x 2 + 2 x .",
+    "x 2 + 2 x = x ( x + 2 ) , x 2 + 2 x = x ( x + 2 ) ,",
+    "x ( x + 2 ) . x ( x + 2 ) .",
+    "a b = c d a b = c d",
+    "a ( d ) a ( d )",
+    "b ( c ) , b ( c ) ,",
+    "a d = b c . a d = b c .",
+    "2 x − 3 2 = 7 2 x 2 x − 3 2 = 7 2 x",
+    "2 , 2 ,",
+    "2 x . 2 x .",
+    "2 x ( 2 x − 3 2 ) = ( 7 2 x ) 2 x 2 x ( 2 x ) − 2 x ( 3 2 ) = ( 7 2 x ) 2 x Distribute 2 x . 2 ( 2 ) − 3 x = 7 Denominators cancel out . 4 − 3 x = 7 −3 x = 3 x = −1 or { −1 } 2 x ( 2 x − 3 2 ) = ( 7 2 x ) 2 x 2 x ( 2 x ) − 2 x ( 3 2 ) = ( 7 2 x ) 2 x Distribute 2 x . 2 ( 2 ) − 3 x = 7 Denominators cancel out . 4 − 3 x = 7 −3 x = 3 x = −1 or { −1 }",
+    "−1 , −1 ,",
+    "{ −1 } { −1 }",
+    "2 3 x = 1 4 − 1 6 x . 2 3 x = 1 4 − 1 6 x .",
+    "1 x = 1 10 − 3 4 x . 1 x = 1 10 − 3 4 x .",
+    "x , 10 = 2 ⋅ 5 , x , 10 = 2 ⋅ 5 ,",
+    "4 x = 2 ⋅ 2 ⋅ x . 4 x = 2 ⋅ 2 ⋅ x .",
+    "20 x . 20 x .",
+    "x = 0 x = 0",
+    "20 x ( 1 x ) = ( 1 10 − 3 4 x ) 20 x 20 = 2 x − 15 35 = 2 x 35 2 = x 20 x ( 1 x ) = ( 1 10 − 3 4 x ) 20 x 20 = 2 x − 15 35 = 2 x 35 2 = x",
+    "35 2 . 35 2 .",
+    "− 5 2 x + 3 4 x = − 7 4 . − 5 2 x + 3 4 x = − 7 4 .",
+    "3 x − 6 = 5 x 3 x − 6 = 5 x",
+    "x x − 3 = 5 x − 3 − 1 2 x x − 3 = 5 x − 3 − 1 2",
+    "x x − 2 = 5 x − 2 − 1 2 x x − 2 = 5 x − 2 − 1 2",
+    "x − 6 x − 6",
+    "x ( x − 6 ) . x ( x − 6 ) .",
+    "3 x − 6 = 5 x 3 x = 5 ( x − 6 ) Distribute . 3 x = 5 x − 30 −2 x = −30 x = 15 3 x − 6 = 5 x 3 x = 5 ( x − 6 ) Distribute . 3 x = 5 x − 30 −2 x = −30 x = 15",
+    "6 6",
+    "0. 0.",
+    "2 ( x − 3 ) . 2 ( x − 3 ) .",
+    "2 ( x − 3 ) ( x x − 3 ) = ( 5 x − 3 − 1 2 ) 2 ( x − 3 ) 2 ( x − 3 ) x x − 3 = 2 ( x − 3 ) 5 x − 3 − 2 ( x − 3 ) 2 2 x = 10 − ( x − 3 ) 2 x = 10 − x + 3 2 x = 13 − x 3 x = 13 x = 13 3 2 ( x − 3 ) ( x x − 3 ) = ( 5 x − 3 − 1 2 ) 2 ( x − 3 ) 2 ( x − 3 ) x x − 3 = 2 ( x − 3 ) 5 x − 3 − 2 ( x − 3 ) 2 2 x = 10 − ( x − 3 ) 2 x = 10 − x + 3 2 x = 13 − x 3 x = 13 x = 13 3",
+    "13 3 . 13 3 .",
+    "3. 3.",
+    "2 ( x − 2 ) . 2 ( x − 2 ) .",
+    "2 ( x − 2 ) ( x x − 2 ) = ( 5 x − 2 − 1 2 ) 2 ( x − 2 ) 2 x = 10 − ( x − 2 ) 2 x = 12 − x 3 x = 12 x = 4 2 ( x − 2 ) ( x x − 2 ) = ( 5 x − 2 − 1 2 ) 2 ( x − 2 ) 2 x = 10 − ( x − 2 ) 2 x = 12 − x 3 x = 12 x = 4",
+    "2. 2.",
+    "− 3 2 x + 1 = 4 3 x + 1 . − 3 2 x + 1 = 4 3 x + 1 .",
+    "2 x + 1 − 1 x − 1 = 2 x x 2 − 1 . 2 x + 1 − 1 x − 1 = 2 x x 2 − 1 .",
+    "x 2 −1. x 2 −1.",
+    "( x − 1 ) ( x + 1 ) . ( x − 1 ) ( x + 1 ) .",
+    "( x − 1 ) ( x + 1 ) ( 2 x + 1 − 1 x − 1 ) = ( 2 x ( x − 1 ) ( x + 1 ) ) ( x − 1 ) ( x + 1 ) 2 ( x − 1 ) − 1 ( x + 1 ) = 2 x 2 x − 2 − x − 1 = 2 x Distribute the negative sign . −3 − x = 0 −3 = x ( x − 1 ) ( x + 1 ) ( 2 x + 1 − 1 x − 1 ) = ( 2 x ( x − 1 ) ( x + 1 ) ) ( x − 1 ) ( x + 1 ) 2 ( x − 1 ) − 1 ( x + 1 ) = 2 x 2 x − 2 − x − 1 = 2 x Distribute the negative sign . −3 − x = 0 −3 = x",
+    "−3. −3.",
+    "1 1",
+    "−1. −1.",
+    "2 x − 2 + 1 x + 1 = 1 x 2 − x − 2 . 2 x − 2 + 1 x + 1 = 1 x 2 − x − 2 .",
+    "y = m x + b , y = m x + b ,",
+    "m = slope m = slope",
+    "b = y -intercept . b = y -intercept .",
+    "m = y 2 − y 1 x 2 − x 1 m = y 2 − y 1 x 2 − x 1",
+    "m = −3 , m = −3 ,",
+    "m = 2 , m = 2 ,",
+    "m = 1 3 . m = 1 3 .",
+    "( x 1 , y 1 ) ( x 1 , y 1 )",
+    "( x 2 , y 2 ) , ( x 2 , y 2 ) ,",
+    "( 2 , −1 ) ( 2 , −1 )",
+    "( −5 , 3 ) . ( −5 , 3 ) .",
+    "m = 3 − ( −1 ) −5 − 2 = 4 −7 = − 4 7 m = 3 − ( −1 ) −5 − 2 = 4 −7 = − 4 7",
+    "− 4 7 . − 4 7 .",
+    "( x 2 , y 2 ) . ( x 2 , y 2 ) .",
+    "( −2 , 6 ) ( −2 , 6 )",
+    "( 1 , 4 ) . ( 1 , 4 ) .",
+    "y = − 3 4 x − 4. y = − 3 4 x − 4.",
+    "y = m x + b y = m x + b",
+    "m = − 3 4 . m = − 3 4 .",
+    "b = −4. b = −4.",
+    "x = 0. x = 0.",
+    "y − y 1 = m ( x − x 1 ) y − y 1 = m ( x − x 1 )",
+    "m = −3 m = −3",
+    "( 4 , 8 ) . ( 4 , 8 ) .",
+    "−3 −3",
+    "( 4 , 8 ) ( 4 , 8 )",
+    "( x 1 , y 1 ) . ( x 1 , y 1 ) .",
+    "y − y 1 = m ( x − x 1 ) y − 8 = −3 ( x − 4 ) y − 8 = −3 x + 12 y = −3 x + 20 y − y 1 = m ( x − x 1 ) y − 8 = −3 ( x − 4 ) y − 8 = −3 x + 12 y = −3 x + 20",
+    "m = 4 , m = 4 ,",
+    "( 2 , 5 ) . ( 2 , 5 ) .",
+    "( 3 , 4 ) ( 3 , 4 )",
+    "( 0 , −3 ) . ( 0 , −3 ) .",
+    "m = −3 − 4 0 − 3 = − 7 − 3 = 7 3 m = −3 − 4 0 − 3 = − 7 − 3 = 7 3",
+    "7 3 , 7 3 ,",
+    "y − 4 = 7 3 ( x − 3 ) y − 4 = 7 3 x − 7 Distribute the 7 3 . y = 7 3 x − 3 y − 4 = 7 3 ( x − 3 ) y − 4 = 7 3 x − 7 Distribute the 7 3 . y = 7 3 x − 3",
+    "y = 7 3 x − 3. y = 7 3 x − 3.",
+    "( 0 , −3 ) ( 0 , −3 )",
+    "y − ( − 3 ) = 7 3 ( x − 0 ) y + 3 = 7 3 x y = 7 3 x − 3 y − ( − 3 ) = 7 3 ( x − 0 ) y + 3 = 7 3 x y = 7 3 x − 3",
+    "A x + B y = C A x + B y = C",
+    "A , A ,",
+    "B , B ,",
+    "C C",
+    "m = −6 m = −6",
+    "( 1 4 , −2 ) . ( 1 4 , −2 ) .",
+    "y − ( −2 ) = −6 ( x − 1 4 ) y + 2 = −6 x + 3 2 y − ( −2 ) = −6 ( x − 1 4 ) y + 2 = −6 x + 3 2",
+    "2 ( y + 2 ) = ( −6 x + 3 2 ) 2 2 y + 4 = −12 x + 3 12 x + 2 y = −1 2 ( y + 2 ) = ( −6 x + 3 2 ) 2 2 y + 4 = −12 x + 3 12 x + 2 y = −1",
+    "m = − 1 3 m = − 1 3",
+    "( 1 , 1 3 ) . ( 1 , 1 3 ) .",
+    "x = c x = c",
+    "( −3 , −5 ) , ( −3 , 1 ) , ( −3 , 3 ) , ( −3 , −5 ) , ( −3 , 1 ) , ( −3 , 3 ) ,",
+    "( −3 , 5 ) . ( −3 , 5 ) .",
+    "m = 5 − 3 − 3 − ( −3 ) = 2 0 m = 5 − 3 − 3 − ( −3 ) = 2 0",
+    "x = −3. x = −3.",
+    "y = c y = c",
+    "( −2 , −2 ) , ( 0 , −2 ) , ( 3 , −2 ) , ( −2 , −2 ) , ( 0 , −2 ) , ( 3 , −2 ) ,",
+    "( 5 , −2 ) . ( 5 , −2 ) .",
+    "m = −2 − ( −2 ) 0 − ( −2 ) = 0 2 = 0 m = −2 − ( −2 ) 0 − ( −2 ) = 0 2 = 0",
+    "y − ( −2 ) = 0 ( x − 3 ) y + 2 = 0 y = −2 y − ( −2 ) = 0 ( x − 3 ) y + 2 = 0 y = −2",
+    "y = −2. y = −2.",
+    "( 1 , −3 ) ( 1 , −3 )",
+    "x = 1. x = 1.",
+    "( −5 , 2 ) ( −5 , 2 )",
+    "( 2 , 2 ) . ( 2 , 2 ) .",
+    "m = 2. m = 2.",
+    "90° 90°",
+    "−1 : m 1 ⋅ m 2 = −1. −1 : m 1 ⋅ m 2 = −1.",
+    "− 1 3 . − 1 3 .",
+    "m 1 ⋅ m 2 = −1 3 ⋅ ( − 1 3 ) = −1 m 1 ⋅ m 2 = −1 3 ⋅ ( − 1 3 ) = −1",
+    "3 y = − 4 x + 3 3 y = − 4 x + 3",
+    "3 x − 4 y = 8. 3 x − 4 y = 8.",
+    "3 y = −4 x + 3 y = − 4 3 x + 1 3 y = −4 x + 3 y = − 4 3 x + 1",
+    "3 x − 4 y = 8 −4 y = −3 x + 8 y = 3 4 x - 2 3 x − 4 y = 8 −4 y = −3 x + 8 y = 3 4 x - 2",
+    "m 1 = − 4 3 m 2 = 3 4 m 1 ⋅ m 2 = ( − 4 3 ) ( 3 4 ) = −1 m 1 = − 4 3 m 2 = 3 4 m 1 ⋅ m 2 = ( − 4 3 ) ( 3 4 ) = −1",
+    "2 y − x = 10 2 y − x = 10",
+    "2 y = x + 4. 2 y = x + 4.",
+    "5 x + 3 y = 1 5 x + 3 y = 1",
+    "( 3 , 5 ) . ( 3 , 5 ) .",
+    "5 x + 3 y = 1 3 y = –5 x + 1 y = − 5 3 x + 1 3 5 x + 3 y = 1 3 y = –5 x + 1 y = − 5 3 x + 1 3",
+    "m = − 5 3 . m = − 5 3 .",
+    "1 3 , 1 3 ,",
+    "y − 5 = − 5 3 ( x − 3 ) y − 5 = − 5 3 x + 5 y = − 5 3 x + 10 y − 5 = − 5 3 ( x − 3 ) y − 5 = − 5 3 x + 5 y = − 5 3 x + 10",
+    "y = − 5 3 x + 10. y = − 5 3 x + 10.",
+    "5 x = 7 + y 5 x = 7 + y",
+    "( −1 , −2 ) . ( −1 , −2 ) .",
+    "5 x − 3 y + 4 = 0 5 x − 3 y + 4 = 0",
+    "( − 4 , 1 ) . ( − 4 , 1 ) .",
+    "5 x − 3 y + 4 = 0 −3 y = −5 x − 4 y = 5 3 x + 4 3 5 x − 3 y + 4 = 0 −3 y = −5 x − 4 y = 5 3 x + 4 3",
+    "m = 5 3 . m = 5 3 .",
+    "− 3 5 . − 3 5 .",
+    "y − 1 = − 3 5 ( x − ( −4 ) ) y − 1 = − 3 5 x − 12 5 y = − 3 5 x − 12 5 + 5 5 y = − 3 5 x − 7 5 y − 1 = − 3 5 ( x − ( −4 ) ) y − 1 = − 3 5 x − 12 5 y = − 3 5 x − 12 5 + 5 5 y = − 3 5 x − 7 5",
+    "y = 4 x + 3 , y = 4 x + 3 ,",
+    "2 x − 5 = 4 x + 1 2 x − 5 = 4 x + 1",
+    "x = 5 x = 5",
+    "x = −1 x = −1",
+    "x . x .",
+    "7 x + 2 = 3 x − 9 7 x + 2 = 3 x − 9",
+    "4 x − 3 = 5 4 x − 3 = 5",
+    "3 ( x + 2 ) − 12 = 5 ( x + 1 ) 3 ( x + 2 ) − 12 = 5 ( x + 1 )",
+    "12 − 5 ( x + 3 ) = 2 x − 5 12 − 5 ( x + 3 ) = 2 x − 5",
+    "1 2 − 1 3 x = 4 3 1 2 − 1 3 x = 4 3",
+    "x 3 − 3 4 = 2 x + 3 12 x 3 − 3 4 = 2 x + 3 12",
+    "2 3 x + 1 2 = 31 6 2 3 x + 1 2 = 31 6",
+    "3 ( 2 x − 1 ) + x = 5 x + 3 3 ( 2 x − 1 ) + x = 5 x + 3",
+    "2 x 3 − 3 4 = x 6 + 21 4 2 x 3 − 3 4 = x 6 + 21 4",
+    "x + 2 4 − x − 1 3 = 2 x + 2 4 − x − 1 3 = 2",
+    "3 x − 1 3 = 1 6 3 x − 1 3 = 1 6",
+    "2 − 3 x + 4 = x + 2 x + 4 2 − 3 x + 4 = x + 2 x + 4",
+    "3 x − 2 = 1 x − 1 + 7 ( x − 1 ) ( x − 2 ) 3 x − 2 = 1 x − 1 + 7 ( x − 1 ) ( x − 2 )",
+    "3 x x − 1 + 2 = 3 x − 1 3 x x − 1 + 2 = 3 x − 1",
+    "5 x + 1 + 1 x − 3 = − 6 x 2 − 2 x − 3 5 x + 1 + 1 x − 3 = − 6 x 2 − 2 x − 3",
+    "1 x = 1 5 + 3 2 x 1 x = 1 5 + 3 2 x",
+    "( 0 , 3 ) ( 0 , 3 )",
+    "( 1 , 2 ) ( 1 , 2 )",
+    "− 4 5 − 4 5",
+    "( 4 , −1 ) ( 4 , −1 )",
+    "( −3 , 10 ) ( −3 , 10 )",
+    "( 5 , −6 ) ( 5 , −6 )",
+    "( 1 , 3 ) and ( 5 , 5 ) ( 1 , 3 ) and ( 5 , 5 )",
+    "y = 2 x + 5 y = 2 x + 5",
+    "( 4 , 3 ) ( 4 , 3 )",
+    "3 y = x − 4 3 y = x − 4",
+    "( −2 , 1 ) ( −2 , 1 )",
+    "( − 2 , 0 ) ( − 2 , 0 )",
+    "( −2 , 5 ) ( −2 , 5 )",
+    "( 1 , 7 ) ( 1 , 7 )",
+    "( 3 , 7 ) ( 3 , 7 )",
+    "( 2 , 3 ) . ( 2 , 3 ) .",
+    "( 1 , −4 ) . ( 1 , −4 ) .",
+    "3 4 3 4",
+    "( 1 , 4 ) ( 1 , 4 )",
+    "( –1 , 3 ) ( –1 , 3 )",
+    "( 4 , –5 ) ( 4 , –5 )",
+    "y = 2 x + 7 y = − 1 2 x − 4 y = 2 x + 7 y = − 1 2 x − 4",
+    "3 x − 2 y = 5 6 y − 9 x = 6 3 x − 2 y = 5 6 y − 9 x = 6",
+    "y = 3 x + 1 4 y = 3 x + 2 y = 3 x + 1 4 y = 3 x + 2",
+    "x = 4 y = −3 x = 4 y = −3",
+    "( 5 , 4 ) ( 5 , 4 )",
+    "( 7 , 9 ) ( 7 , 9 )",
+    "( −3 , 2 ) ( −3 , 2 )",
+    "( 4 , −7 ) ( 4 , −7 )",
+    "( −5 , 4 ) ( −5 , 4 )",
+    "( 2 , 4 ) ( 2 , 4 )",
+    "( −1 , −2 ) ( −1 , −2 )",
+    "( 3 , 3 ) ( 3 , 3 )",
+    "( 3 , −2 ) ( 3 , −2 )",
+    "( −1 , 3 ) and ( 5 , 1 ) ( −2 , 3 ) and ( 0 , 9 ) ( −1 , 3 ) and ( 5 , 1 ) ( −2 , 3 ) and ( 0 , 9 )",
+    "( 2 , 5 ) and ( 5 , 9 ) ( −1 , −1 ) and ( 2 , 3 ) ( 2 , 5 ) and ( 5 , 9 ) ( −1 , −1 ) and ( 2 , 3 )",
+    "0.537 x − 2.19 y = 100 0.537 x − 2.19 y = 100",
+    "4,500 x − 200 y = 9,528 4,500 x − 200 y = 9,528",
+    "200 − 30 y x = 70 200 − 30 y x = 70",
+    "y − y 1 = m ( x − x 1 ) , y − y 1 = m ( x − x 1 ) ,",
+    "x 1 , y , y 1 , x 1 , y , y 1 ,",
+    "m m",
+    "y y",
+    "A , B , C A , B , C",
+    "7 x − 5 y = 25. 7 x − 5 y = 25.",
+    "( – 1 , 1 ) , ( 2 , 0 ) , ( 3 , 3 ) ( – 1 , 1 ) , ( 2 , 0 ) , ( 3 , 3 )",
+    "( 0 , 4 ) ( 0 , 4 )",
+    "1 12 . 1 12 .",
+    "p = 3 x + 4 y , p = 3 x + 4 y ,",
+    "p = $ 453 and x = 75. p = $ 453 and x = 75.",
+    "y = 45 + .25 x , y = 45 + .25 x ,",
+    "$ 63.75 , $ 63.75 ,"
+  ],
+  "examples": [
+    "Solving an Equation in One Variable\nSolve the following equation:\n2\nx\n+\n7\n=\n19.\n2\nx\n+\n7\n=\n19.\nSolution\nThis equation can be written in the form\na\nx\n+\nb\n=\n0\na\nx\n+\nb\n=\n0\nby subtracting\n19\n19\nfrom both sides. However, we may proceed to solve the equation in its original form by performing algebraic operations.\n2\nx\n+\n7\n=\n19\n2\nx\n=\n12\nSubtract 7 from both sides\n.\nx\n=\n6\nMultiply both sides by\n1\n2\nor divide by 2\n.\n2\nx\n+\n7\n=\n19\n2\nx\n=\n12\nSubtract 7 from both sides\n.\nx\n=\n6\nMultiply both sides by\n1\n2\nor divide by 2\n.\nThe solution is 6.",
+    "Solving an Equation in One Variable\nSolve the following equation:\n2\nx\n+\n7\n=\n19.\n2\nx\n+\n7\n=\n19.",
+    "Solve the linear equation in one variable:\n2\nx\n+\n1\n=\n−9.\n2\nx\n+\n1\n=\n−9.",
+    "Solving an Equation Algebraically When the Variable Appears on Both Sides\nSolve the following equation:\n4\n(\nx\n−3\n)\n+\n12\n=\n15\n−5\n(\nx\n+\n6\n)\n.\n4\n(\nx\n−3\n)\n+\n12\n=\n15\n−5\n(\nx\n+\n6\n)\n.\nSolution\nApply standard algebraic properties.\n4\n(\nx\n−\n3\n)\n+\n12\n=\n15\n−\n5\n(\nx\n+\n6\n)\n4\nx\n−\n12\n+\n12\n=\n15\n−\n5\nx\n−\n30\nApply the distributive property\n.\n4\nx\n=\n−15\n−\n5\nx\nCombine like terms\n.\n9\nx\n=\n−15\nPlace\nx\n-terms on one side and simplify\n.\nx\n=\n−\n15\n9\nMultiply both sides by\n1\n9\n, the reciprocal of 9\n.\nx\n=\n−\n5\n3\n4\n(\nx\n−\n3\n)\n+\n12\n=\n15\n−\n5\n(\nx\n+\n6\n)\n4\nx\n−\n12\n+\n12\n=\n15\n−\n5\nx\n−\n30\nApply the distributive property\n.\n4\nx\n=\n−15\n−\n5\nx\nCombine like terms\n.\n9\nx\n=\n−15\nPlace\nx\n-terms on one side and simplify\n.\nx\n=\n−\n15\n9\nMultiply both sides by\n1\n9\n, the reciprocal of 9\n.\nx\n=\n−\n5\n3\nAnalysis\nThis problem requires the distributive property to be applied twice, and then the properties of algebra are used to reach the final line,\nx\n=\n−\n5\n3\n.\nx\n=\n−\n5\n3\n.",
+    "Solving an Equation Algebraically When the Variable Appears on Both Sides\nSolve the following equation:\n4\n(\nx\n−3\n)\n+\n12\n=\n15\n−5\n(\nx\n+\n6\n)\n.\n4\n(\nx\n−3\n)\n+\n12\n=\n15\n−5\n(\nx\n+\n6\n)\n.",
+    "Solve the equation in one variable:\n−2\n(\n3\nx\n−\n1\n)\n+\nx\n=\n14\n−\nx\n.\n−2\n(\n3\nx\n−\n1\n)\n+\nx\n=\n14\n−\nx\n.",
+    "Solving a Rational Equation\nSolve the rational equation:\n7\n2\nx\n−\n5\n3\nx\n=\n22\n3\n.\n7\n2\nx\n−\n5\n3\nx\n=\n22\n3\n.\nSolution\nWe have three denominators;\n2\nx\n,\n3\nx\n,\n2\nx\n,\n3\nx\n,\nand 3. The LCD must contain\n2\nx\n,\n3\nx\n,\n2\nx\n,\n3\nx\n,\nand 3. An LCD of\n6\nx\n6\nx\ncontains all three denominators. In other words, each denominator can be divided evenly into the LCD. Next, multiply both sides of the equation by the LCD\n6\nx\n.\n6\nx\n.\n(\n6\nx\n)\n(\n7\n2\nx\n−\n5\n3\nx\n)\n=\n(\n22\n3\n)\n(\n6\nx\n)\n(\n6\nx\n)\n(\n7\n2\nx\n)\n−\n(\n6\nx\n)\n(\n5\n3\nx\n)\n=\n(\n22\n3\n)\n(\n6\nx\n)\nUse the distributive property\n.\n(\n6\nx\n)\n(\n7\n2\nx\n)\n−\n(\n6\nx\n)\n(\n5\n3\nx\n)\n=\n(\n22\n3\n)\n(\n6\nx\n)\nCancel out the common factors\n.\n3\n(\n7\n)\n−\n2\n(\n5\n)\n=\n22\n(\n2\nx\n)\nMultiply remaining factors by each numerator\n.\n21\n−\n10\n=\n44\nx\n11\n=\n44\nx\n11\n44\n=\nx\n1\n4\n=\nx\n(\n6\nx\n)\n(\n7\n2\nx\n−\n5\n3\nx\n)\n=\n(\n22\n3\n)\n(\n6\nx\n)\n(\n6\nx\n)\n(\n7\n2\nx\n)\n−\n(\n6\nx\n)\n(\n5\n3\nx\n)\n=\n(\n22\n3\n)\n(\n6\nx\n)\nUse the distributive property\n.\n(\n6\nx\n)\n(\n7\n2\nx\n)\n−\n(\n6\nx\n)\n(\n5\n3\nx\n)\n=\n(\n22\n3\n)\n(\n6\nx\n)\nCancel out the common factors\n.\n3\n(\n7\n)\n−\n2\n(\n5\n)\n=\n22\n(\n2\nx\n)\nMultiply remaining factors by each numerator\n.\n21\n−\n10\n=\n44\nx\n11\n=\n44\nx\n11\n44\n=\nx\n1\n4\n=\nx",
+    "Solving a Rational Equation\nSolve the rational equation:\n7\n2\nx\n−\n5\n3\nx\n=\n22\n3\n.\n7\n2\nx\n−\n5\n3\nx\n=\n22\n3\n.",
+    "Solving a Rational Equation without Factoring\nSolve the following rational equation:\n2\nx\n−\n3\n2\n=\n7\n2\nx\n2\nx\n−\n3\n2\n=\n7\n2\nx\nSolution\nWe have three denominators:\nx\n,\nx\n,\n2\n,\n2\n,\nand\n2\nx\n.\n2\nx\n.\nNo factoring is required. The product of the first two denominators is equal to the third denominator, so, the LCD is\n2\nx\n.\n2\nx\n.\nOnly one value is excluded from a solution set, 0.\nNext, multiply the whole equation (both sides of the equal sign) by\n2\nx\n.\n2\nx\n.\n2\nx\n(\n2\nx\n−\n3\n2\n)\n=\n(\n7\n2\nx\n)\n2\nx\n2\nx\n(\n2\nx\n)\n−\n2\nx\n(\n3\n2\n)\n=\n(\n7\n2\nx\n)\n2\nx\nDistribute\n2\nx\n.\n2\n(\n2\n)\n−\n3\nx\n=\n7\nDenominators cancel out\n.\n4\n−\n3\nx\n=\n7\n−3\nx\n=\n3\nx\n=\n−1\nor\n{\n−1\n}\n2\nx\n(\n2\nx\n−\n3\n2\n)\n=\n(\n7\n2\nx\n)\n2\nx\n2\nx\n(\n2\nx\n)\n−\n2\nx\n(\n3\n2\n)\n=\n(\n7\n2\nx\n)\n2\nx\nDistribute\n2\nx\n.\n2\n(\n2\n)\n−\n3\nx\n=\n7\nDenominators cancel out\n.\n4\n−\n3\nx\n=\n7\n−3\nx\n=\n3\nx\n=\n−1\nor\n{\n−1\n}\nThe proposed solution is −1,\nwhich is not an excluded value, so the solution set contains one number,\n−1\n,\n−1\n,\nor\n{\n−1\n}\n{\n−1\n}\nwritten in set notation.",
+    "Solving a Rational Equation without Factoring\nSolve the following rational equation:\n2\nx\n−\n3\n2\n=\n7\n2\nx\n2\nx\n−\n3\n2\n=\n7\n2\nx",
+    "Solve the rational equation:\n2\n3\nx\n=\n1\n4\n−\n1\n6\nx\n.\n2\n3\nx\n=\n1\n4\n−\n1\n6\nx\n.",
+    "Solving a Rational Equation by Factoring the Denominator\nSolve the following rational equation:\n1\nx\n=\n1\n10\n−\n3\n4\nx\n.\n1\nx\n=\n1\n10\n−\n3\n4\nx\n.\nSolution\nFirst find the common denominator. The three denominators in factored form are\nx\n,\n10\n=\n2\n⋅\n5\n,\nx\n,\n10\n=\n2\n⋅\n5\n,\nand\n4\nx\n=\n2\n⋅\n2\n⋅\nx\n.\n4\nx\n=\n2\n⋅\n2\n⋅\nx\n.\nThe smallest expression that is divisible by each one of the denominators is\n20\nx\n.\n20\nx\n.\nOnly\nx\n=\n0\nx\n=\n0\nis an excluded value. Multiply the whole equation by\n20\nx\n.\n20\nx\n.\n20\nx\n(\n1\nx\n)\n=\n(\n1\n10\n−\n3\n4\nx\n)\n20\nx\n20\n=\n2\nx\n−\n15\n35\n=\n2\nx\n35\n2\n=\nx\n20\nx\n(\n1\nx\n)\n=\n(\n1\n10\n−\n3\n4\nx\n)\n20\nx\n20\n=\n2\nx\n−\n15\n35\n=\n2\nx\n35\n2\n=\nx\nThe solution is\n35\n2\n.\n35\n2\n.",
+    "Solving a Rational Equation by Factoring the Denominator\nSolve the following rational equation:\n1\nx\n=\n1\n10\n−\n3\n4\nx\n.\n1\nx\n=\n1\n10\n−\n3\n4\nx\n.",
+    "Solve the rational equation:\n−\n5\n2\nx\n+\n3\n4\nx\n=\n−\n7\n4\n.\n−\n5\n2\nx\n+\n3\n4\nx\n=\n−\n7\n4\n.",
+    "Solving Rational Equations with a Binomial in the Denominator\nSolve the following rational equations and state the excluded values:\nⓐ\n3\nx\n−\n6\n=\n5\nx\n3\nx\n−\n6\n=\n5\nx\nⓑ\nx\nx\n−\n3\n=\n5\nx\n−\n3\n−\n1\n2\nx\nx\n−\n3\n=\n5\nx\n−\n3\n−\n1\n2\nⓒ\nx\nx\n−\n2\n=\n5\nx\n−\n2\n−\n1\n2\nx\nx\n−\n2\n=\n5\nx\n−\n2\n−\n1\n2\nSolution\nⓐ\nThe denominators\nx\nx\nand\nx\n−\n6\nx\n−\n6\nhave nothing in common. Therefore, the LCD is the product\nx\n(\nx\n−\n6\n)\n.\nx\n(\nx\n−\n6\n)\n.\nHowever, for this problem, we can cross-multiply.\n3\nx\n−\n6\n=\n5\nx\n3\nx\n=\n5\n(\nx\n−\n6\n)\nDistribute\n.\n3\nx\n=\n5\nx\n−\n30\n−2\nx\n=\n−30\nx\n=\n15\n3\nx\n−\n6\n=\n5\nx\n3\nx\n=\n5\n(\nx\n−\n6\n)\nDistribute\n.\n3\nx\n=\n5\nx\n−\n30\n−2\nx\n=\n−30\nx\n=\n15\nThe solution is 15.\nThe excluded values are\n6\n6\nand\n0.\n0.\nⓑ\nThe LCD is\n2\n(\nx\n−\n3\n)\n.\n2\n(\nx\n−\n3\n)\n.\nMultiply both sides of the equation by\n2\n(\nx\n−\n3\n)\n.\n2\n(\nx\n−\n3\n)\n.\n2\n(\nx\n−\n3\n)\n(\nx\nx\n−\n3\n)\n=\n(\n5\nx\n−\n3\n−\n1\n2\n)\n2\n(\nx\n−\n3\n)\n2\n(\nx\n−\n3\n)\nx\nx\n−\n3\n=\n2\n(\nx\n−\n3\n)\n5\nx\n−\n3\n−\n2\n(\nx\n−\n3\n)\n2\n2\nx\n=\n10\n−\n(\nx\n−\n3\n)\n2\nx\n=\n10\n−\nx\n+\n3\n2\nx\n=\n13\n−\nx\n3\nx\n=\n13\nx\n=\n13\n3\n2\n(\nx\n−\n3\n)\n(\nx\nx\n−\n3\n)\n=\n(\n5\nx\n−\n3\n−\n1\n2\n)\n2\n(\nx\n−\n3\n)\n2\n(\nx\n−\n3\n)\nx\nx\n−\n3\n=\n2\n(\nx\n−\n3\n)\n5\nx\n−\n3\n−\n2\n(\nx\n−\n3\n)\n2\n2\nx\n=\n10\n−\n(\nx\n−\n3\n)\n2\nx\n=\n10\n−\nx\n+\n3\n2\nx\n=\n13\n−\nx\n3\nx\n=\n13\nx\n=\n13\n3\nThe solution is\n13\n3\n.\n13\n3\n.\nThe excluded value is\n3.\n3.\nⓒ\nThe least common denominator is\n2\n(\nx\n−\n2\n)\n.\n2\n(\nx\n−\n2\n)\n.\nMultiply both sides of the equation by\n2\n(\nx\n−\n2\n)\n.\n2\n(\nx\n−\n2\n)\n.\n2\n(\nx\n−\n2\n)\n(\nx\nx\n−\n2\n)\n=\n(\n5\nx\n−\n2\n−\n1\n2\n)\n2\n(\nx\n−\n2\n)\n2\nx\n=\n10\n−\n(\nx\n−\n2\n)\n2\nx\n=\n12\n−\nx\n3\nx\n=\n12\nx\n=\n4\n2\n(\nx\n−\n2\n)\n(\nx\nx\n−\n2\n)\n=\n(\n5\nx\n−\n2\n−\n1\n2\n)\n2\n(\nx\n−\n2\n)\n2\nx\n=\n10\n−\n(\nx\n−\n2\n)\n2\nx\n=\n12\n−\nx\n3\nx\n=\n12\nx\n=\n4\nThe solution is 4. The excluded value is\n2.\n2.",
+    "Solving Rational Equations with a Binomial in the Denominator\nSolve the following rational equations and state the excluded values:\nⓐ\n3\nx\n−\n6\n=\n5\nx\n3\nx\n−\n6\n=\n5\nx\nⓑ\nx\nx\n−\n3\n=\n5\nx\n−\n3\n−\n1\n2\nx\nx\n−\n3\n=\n5\nx\n−\n3\n−\n1\n2\nⓒ\nx\nx\n−\n2\n=\n5\nx\n−\n2\n−\n1\n2\nx\nx\n−\n2\n=\n5\nx\n−\n2\n−\n1\n2",
+    "Solve\n−\n3\n2\nx\n+\n1\n=\n4\n3\nx\n+\n1\n.\n−\n3\n2\nx\n+\n1\n=\n4\n3\nx\n+\n1\n.\nState the excluded values.",
+    "Solving a Rational Equation with Factored Denominators and Stating Excluded Values\nSolve the rational equation after factoring the denominators:\n2\nx\n+\n1\n−\n1\nx\n−\n1\n=\n2\nx\nx\n2\n−\n1\n.\n2\nx\n+\n1\n−\n1\nx\n−\n1\n=\n2\nx\nx\n2\n−\n1\n.\nState the excluded values.\nSolution\nWe must factor the denominator\nx\n2\n−1.\nx\n2\n−1.\nWe recognize this as the difference of squares, and factor it as\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n.\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n.\nThus, the LCD that contains each denominator is\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n.\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n.\nMultiply the whole equation by the LCD, cancel out the denominators, and solve the remaining equation.\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n(\n2\nx\n+\n1\n−\n1\nx\n−\n1\n)\n=\n(\n2\nx\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n)\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n2\n(\nx\n−\n1\n)\n−\n1\n(\nx\n+\n1\n)\n=\n2\nx\n2\nx\n−\n2\n−\nx\n−\n1\n=\n2\nx\nDistribute the negative sign\n.\n−3\n−\nx\n=\n0\n−3\n=\nx\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n(\n2\nx\n+\n1\n−\n1\nx\n−\n1\n)\n=\n(\n2\nx\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n)\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n2\n(\nx\n−\n1\n)\n−\n1\n(\nx\n+\n1\n)\n=\n2\nx\n2\nx\n−\n2\n−\nx\n−\n1\n=\n2\nx\nDistribute the negative sign\n.\n−3\n−\nx\n=\n0\n−3\n=\nx\nThe solution is\n−3.\n−3.\nThe excluded values are\n1\n1\nand\n−1.\n−1.",
+    "Solving a Rational Equation with Factored Denominators and Stating Excluded Values\nSolve the rational equation after factoring the denominators:\n2\nx\n+\n1\n−\n1\nx\n−\n1\n=\n2\nx\nx\n2\n−\n1\n.\n2\nx\n+\n1\n−\n1\nx\n−\n1\n=\n2\nx\nx\n2\n−\n1\n.\nState the excluded values.",
+    "Solve the rational equation:\n2\nx\n−\n2\n+\n1\nx\n+\n1\n=\n1\nx\n2\n−\nx\n−\n2\n.\n2\nx\n−\n2\n+\n1\nx\n+\n1\n=\n1\nx\n2\n−\nx\n−\n2\n.",
+    "Finding the Slope of a Line Given Two Points\nFind the slope of a line that passes through the points\n(\n2\n,\n−1\n)\n(\n2\n,\n−1\n)\nand\n(\n−5\n,\n3\n)\n.\n(\n−5\n,\n3\n)\n.\nSolution\nWe substitute the\ny-\nvalues and the\nx-\nvalues into the formula.\nm\n=\n3\n−\n(\n−1\n)\n−5\n−\n2\n=\n4\n−7\n=\n−\n4\n7\nm\n=\n3\n−\n(\n−1\n)\n−5\n−\n2\n=\n4\n−7\n=\n−\n4\n7\nThe slope is\n−\n4\n7\n.\n−\n4\n7\n.\nAnalysis\nIt does not matter which point is called\n(\nx\n1\n,\ny\n1\n)\n(\nx\n1\n,\ny\n1\n)\nor\n(\nx\n2\n,\ny\n2\n)\n.\n(\nx\n2\n,\ny\n2\n)\n.\nAs long as we are consistent with the order of the\ny\nterms and the order of the\nx\nterms in the numerator and denominator, the calculation will yield the same result.",
+    "Finding the Slope of a Line Given Two Points\nFind the slope of a line that passes through the points\n(\n2\n,\n−1\n)\n(\n2\n,\n−1\n)\nand\n(\n−5\n,\n3\n)\n.\n(\n−5\n,\n3\n)\n.",
+    "Find the slope of the line that passes through the points\n(\n−2\n,\n6\n)\n(\n−2\n,\n6\n)\nand\n(\n1\n,\n4\n)\n.\n(\n1\n,\n4\n)\n.",
+    "Identifying the Slope and\ny-\nintercept of a Line Given an Equation\nIdentify the slope and\ny-\nintercept, given the equation\ny\n=\n−\n3\n4\nx\n−\n4.\ny\n=\n−\n3\n4\nx\n−\n4.\nSolution\nAs the line is in\ny\n=\nm\nx\n+\nb\ny\n=\nm\nx\n+\nb\nform, the given line has a slope of\nm\n=\n−\n3\n4\n.\nm\n=\n−\n3\n4\n.\nThe\ny-\nintercept is\nb\n=\n−4.\nb\n=\n−4.\nAnalysis\nThe\ny\n-intercept is the point at which the line crosses the\ny-\naxis. On the\ny-\naxis,\nx\n=\n0.\nx\n=\n0.\nWe can always identify the\ny-\nintercept when the line is in slope-intercept form, as it will always equal\nb.\nOr, just substitute\nx\n=\n0\nx\n=\n0\nand solve for\ny.",
+    "Identifying the Slope and\ny-\nintercept of a Line Given an Equation\nIdentify the slope and\ny-\nintercept, given the equation\ny\n=\n−\n3\n4\nx\n−\n4.\ny\n=\n−\n3\n4\nx\n−\n4.",
+    "Finding the Equation of a Line Given the Slope and One Point\nWrite the equation of the line with slope\nm\n=\n−3\nm\n=\n−3\nand passing through the point\n(\n4\n,\n8\n)\n.\n(\n4\n,\n8\n)\n.\nWrite the final equation in slope-intercept form.\nSolution\nUsing the point-slope formula, substitute\n−3\n−3\nfor\nm\nand the point\n(\n4\n,\n8\n)\n(\n4\n,\n8\n)\nfor\n(\nx\n1\n,\ny\n1\n)\n.\n(\nx\n1\n,\ny\n1\n)\n.\ny\n−\ny\n1\n=\nm\n(\nx\n−\nx\n1\n)\ny\n−\n8\n=\n−3\n(\nx\n−\n4\n)\ny\n−\n8\n=\n−3\nx\n+\n12\ny\n=\n−3\nx\n+\n20\ny\n−\ny\n1\n=\nm\n(\nx\n−\nx\n1\n)\ny\n−\n8\n=\n−3\n(\nx\n−\n4\n)\ny\n−\n8\n=\n−3\nx\n+\n12\ny\n=\n−3\nx\n+\n20\nAnalysis\nNote that any point on the line can be used to find the equation. If done correctly, the same final equation will be obtained.",
+    "Finding the Equation of a Line Given the Slope and One Point\nWrite the equation of the line with slope\nm\n=\n−3\nm\n=\n−3\nand passing through the point\n(\n4\n,\n8\n)\n.\n(\n4\n,\n8\n)\n.\nWrite the final equation in slope-intercept form.",
+    "Given\nm\n=\n4\n,\nm\n=\n4\n,\nfind the equation of the line in slope-intercept form passing through the point\n(\n2\n,\n5\n)\n.\n(\n2\n,\n5\n)\n.",
+    "Finding the Equation of a Line Passing Through Two Given Points\nFind the equation of the line passing through the points\n(\n3\n,\n4\n)\n(\n3\n,\n4\n)\nand\n(\n0\n,\n−3\n)\n.\n(\n0\n,\n−3\n)\n.\nWrite the final equation in slope-intercept form.\nSolution\nFirst, we calculate the slope using the slope formula and two points.\nm\n=\n−3\n−\n4\n0\n−\n3\n=\n−\n7\n−\n3\n=\n7\n3\nm\n=\n−3\n−\n4\n0\n−\n3\n=\n−\n7\n−\n3\n=\n7\n3\nNext, we use the point-slope formula with the slope of\n7\n3\n,\n7\n3\n,\nand either point. Let’s pick the point\n(\n3\n,\n4\n)\n(\n3\n,\n4\n)\nfor\n(\nx\n1\n,\ny\n1\n)\n.\n(\nx\n1\n,\ny\n1\n)\n.\ny\n−\n4\n=\n7\n3\n(\nx\n−\n3\n)\ny\n−\n4\n=\n7\n3\nx\n−\n7\nDistribute the\n7\n3\n.\ny\n=\n7\n3\nx\n−\n3\ny\n−\n4\n=\n7\n3\n(\nx\n−\n3\n)\ny\n−\n4\n=\n7\n3\nx\n−\n7\nDistribute the\n7\n3\n.\ny\n=\n7\n3\nx\n−\n3\nIn slope-intercept form, the equation is written as\ny\n=\n7\n3\nx\n−\n3.\ny\n=\n7\n3\nx\n−\n3.\nAnalysis\nTo prove that either point can be used, let us use the second point\n(\n0\n,\n−3\n)\n(\n0\n,\n−3\n)\nand see if we get the same equation.\ny\n−\n(\n−\n3\n)\n=\n7\n3\n(\nx\n−\n0\n)\ny\n+\n3\n=\n7\n3\nx\ny\n=\n7\n3\nx\n−\n3\ny\n−\n(\n−\n3\n)\n=\n7\n3\n(\nx\n−\n0\n)\ny\n+\n3\n=\n7\n3\nx\ny\n=\n7\n3\nx\n−\n3\nWe see that the same line will be obtained using either point. This makes sense because we used both points to calculate the slope.",
+    "Finding the Equation of a Line Passing Through Two Given Points\nFind the equation of the line passing through the points\n(\n3\n,\n4\n)\n(\n3\n,\n4\n)\nand\n(\n0\n,\n−3\n)\n.\n(\n0\n,\n−3\n)\n.\nWrite the final equation in slope-intercept form.",
+    "Finding the Equation of a Line and Writing It in Standard Form\nFind the equation of the line with\nm\n=\n−6\nm\n=\n−6\nand passing through the point\n(\n1\n4\n,\n−2\n)\n.\n(\n1\n4\n,\n−2\n)\n.\nWrite the equation in standard form.\nSolution\nWe begin using the point-slope formula.\ny\n−\n(\n−2\n)\n=\n−6\n(\nx\n−\n1\n4\n)\ny\n+\n2\n=\n−6\nx\n+\n3\n2\ny\n−\n(\n−2\n)\n=\n−6\n(\nx\n−\n1\n4\n)\ny\n+\n2\n=\n−6\nx\n+\n3\n2\nFrom here, we multiply through by 2, as no fractions are permitted in standard form, and then move both variables to the left aside of the equal sign and move the constants to the right.\n2\n(\ny\n+\n2\n)\n=\n(\n−6\nx\n+\n3\n2\n)\n2\n2\ny\n+\n4\n=\n−12\nx\n+\n3\n12\nx\n+\n2\ny\n=\n−1\n2\n(\ny\n+\n2\n)\n=\n(\n−6\nx\n+\n3\n2\n)\n2\n2\ny\n+\n4\n=\n−12\nx\n+\n3\n12\nx\n+\n2\ny\n=\n−1\nThis equation is now written in standard form.",
+    "Finding the Equation of a Line and Writing It in Standard Form\nFind the equation of the line with\nm\n=\n−6\nm\n=\n−6\nand passing through the point\n(\n1\n4\n,\n−2\n)\n.\n(\n1\n4\n,\n−2\n)\n.\nWrite the equation in standard form.",
+    "Find the equation of the line in standard form with slope\nm\n=\n−\n1\n3\nm\n=\n−\n1\n3\nand passing through the point\n(\n1\n,\n1\n3\n)\n.\n(\n1\n,\n1\n3\n)\n.",
+    "Finding the Equation of a Line Passing Through the Given Points\nFind the equation of the line passing through the given points:\n(\n1\n,\n−3\n)\n(\n1\n,\n−3\n)\nand\n(\n1\n,\n4\n)\n.\n(\n1\n,\n4\n)\n.\nSolution\nThe\nx-\ncoordinate of both points is 1. Therefore, we have a vertical line,\nx\n=\n1.\nx\n=\n1.",
+    "Finding the Equation of a Line Passing Through the Given Points\nFind the equation of the line passing through the given points:\n(\n1\n,\n−3\n)\n(\n1\n,\n−3\n)\nand\n(\n1\n,\n4\n)\n.\n(\n1\n,\n4\n)\n.",
+    "Find the equation of the line passing through\n(\n−5\n,\n2\n)\n(\n−5\n,\n2\n)\nand\n(\n2\n,\n2\n)\n.\n(\n2\n,\n2\n)\n.",
+    "Graphing Two Equations, and Determining Whether the Lines are Parallel, Perpendicular, or Neither\nGraph the equations of the given lines, and state whether they are parallel, perpendicular, or neither:\n3\ny\n=\n−\n4\nx\n+\n3\n3\ny\n=\n−\n4\nx\n+\n3\nand\n3\nx\n−\n4\ny\n=\n8.\n3\nx\n−\n4\ny\n=\n8.\nSolution\nThe first thing we want to do is rewrite the equations so that both equations are in slope-intercept form.\nFirst equation:\n3\ny\n=\n−4\nx\n+\n3\ny\n=\n−\n4\n3\nx\n+\n1\n3\ny\n=\n−4\nx\n+\n3\ny\n=\n−\n4\n3\nx\n+\n1\nSecond equation:\n3\nx\n−\n4\ny\n=\n8\n−4\ny\n=\n−3\nx\n+\n8\ny\n=\n3\n4\nx\n-\n2\n3\nx\n−\n4\ny\n=\n8\n−4\ny\n=\n−3\nx\n+\n8\ny\n=\n3\n4\nx\n-\n2\nSee the graph of both lines in\nFigure 6\nFigure\n6\nFrom the graph, we can see that the lines appear perpendicular, but we must compare the slopes.\nm\n1\n=\n−\n4\n3\nm\n2\n=\n3\n4\nm\n1\n⋅\nm\n2\n=\n(\n−\n4\n3\n)\n(\n3\n4\n)\n=\n−1\nm\n1\n=\n−\n4\n3\nm\n2\n=\n3\n4\nm\n1\n⋅\nm\n2\n=\n(\n−\n4\n3\n)\n(\n3\n4\n)\n=\n−1\nThe slopes are negative reciprocals of each other, confirming that the lines are perpendicular.",
+    "Graphing Two Equations, and Determining Whether the Lines are Parallel, Perpendicular, or Neither\nGraph the equations of the given lines, and state whether they are parallel, perpendicular, or neither:\n3\ny\n=\n−\n4\nx\n+\n3\n3\ny\n=\n−\n4\nx\n+\n3\nand\n3\nx\n−\n4\ny\n=\n8.\n3\nx\n−\n4\ny\n=\n8.",
+    "Graph the two lines and determine whether they are parallel, perpendicular, or neither:\n2\ny\n−\nx\n=\n10\n2\ny\n−\nx\n=\n10\nand\n2\ny\n=\nx\n+\n4.\n2\ny\n=\nx\n+\n4.",
+    "Writing the Equation of a Line Parallel to a Given Line Passing Through a Given Point\nWrite the equation of line parallel to a\n5\nx\n+\n3\ny\n=\n1\n5\nx\n+\n3\ny\n=\n1\nand passing through the point\n(\n3\n,\n5\n)\n.\n(\n3\n,\n5\n)\n.\nSolution\nFirst, we will write the equation in slope-intercept form to find the slope.\n5\nx\n+\n3\ny\n=\n1\n3\ny\n=\n–5\nx\n+\n1\ny\n=\n−\n5\n3\nx\n+\n1\n3\n5\nx\n+\n3\ny\n=\n1\n3\ny\n=\n–5\nx\n+\n1\ny\n=\n−\n5\n3\nx\n+\n1\n3\nThe slope is\nm\n=\n−\n5\n3\n.\nm\n=\n−\n5\n3\n.\nThe\ny-\nintercept is\n1\n3\n,\n1\n3\n,\nbut that really does not enter into our problem, as the only thing we need for two lines to be parallel is the same slope. The one exception is that if the\ny-\nintercepts are the same, then the two lines are the same line. The next step is to use this slope and the given point with the point-slope formula.\ny\n−\n5\n=\n−\n5\n3\n(\nx\n−\n3\n)\ny\n−\n5\n=\n−\n5\n3\nx\n+\n5\ny\n=\n−\n5\n3\nx\n+\n10\ny\n−\n5\n=\n−\n5\n3\n(\nx\n−\n3\n)\ny\n−\n5\n=\n−\n5\n3\nx\n+\n5\ny\n=\n−\n5\n3\nx\n+\n10\nThe equation of the line is\ny\n=\n−\n5\n3\nx\n+\n10.\ny\n=\n−\n5\n3\nx\n+\n10.\nSee\nFigure 7\n.\nFigure\n7",
+    "Writing the Equation of a Line Parallel to a Given Line Passing Through a Given Point\nWrite the equation of line parallel to a\n5\nx\n+\n3\ny\n=\n1\n5\nx\n+\n3\ny\n=\n1\nand passing through the point\n(\n3\n,\n5\n)\n.\n(\n3\n,\n5\n)\n.",
+    "Find the equation of the line parallel to\n5\nx\n=\n7\n+\ny\n5\nx\n=\n7\n+\ny\nand passing through the point\n(\n−1\n,\n−2\n)\n.\n(\n−1\n,\n−2\n)\n.",
+    "Finding the Equation of a Line Perpendicular to a Given Line Passing Through a Given Point\nFind the equation of the line perpendicular to\n5\nx\n−\n3\ny\n+\n4\n=\n0\n5\nx\n−\n3\ny\n+\n4\n=\n0\nand passing through the point\n(\n−\n4\n,\n1\n)\n.\n(\n−\n4\n,\n1\n)\n.\nSolution\nThe first step is to write the equation in slope-intercept form.\n5\nx\n−\n3\ny\n+\n4\n=\n0\n−3\ny\n=\n−5\nx\n−\n4\ny\n=\n5\n3\nx\n+\n4\n3\n5\nx\n−\n3\ny\n+\n4\n=\n0\n−3\ny\n=\n−5\nx\n−\n4\ny\n=\n5\n3\nx\n+\n4\n3\nWe see that the slope is\nm\n=\n5\n3\n.\nm\n=\n5\n3\n.\nThis means that the slope of the line perpendicular to the given line is the negative reciprocal, or\n−\n3\n5\n.\n−\n3\n5\n.\nNext, we use the point-slope formula with this new slope and the given point.\ny\n−\n1\n=\n−\n3\n5\n(\nx\n−\n(\n−4\n)\n)\ny\n−\n1\n=\n−\n3\n5\nx\n−\n12\n5\ny\n=\n−\n3\n5\nx\n−\n12\n5\n+\n5\n5\ny\n=\n−\n3\n5\nx\n−\n7\n5\ny\n−\n1\n=\n−\n3\n5\n(\nx\n−\n(\n−4\n)\n)\ny\n−\n1\n=\n−\n3\n5\nx\n−\n12\n5\ny\n=\n−\n3\n5\nx\n−\n12\n5\n+\n5\n5\ny\n=\n−\n3\n5\nx\n−\n7\n5",
+    "Finding the Equation of a Line Perpendicular to a Given Line Passing Through a Given Point\nFind the equation of the line perpendicular to\n5\nx\n−\n3\ny\n+\n4\n=\n0\n5\nx\n−\n3\ny\n+\n4\n=\n0\nand passing through the point\n(\n−\n4\n,\n1\n)\n.\n(\n−\n4\n,\n1\n)\n.",
+    "1\n.\nWhat does it mean when we say that two lines are parallel?",
+    "2\n.\nWhat is the relationship between the slopes of perpendicular lines (assuming neither is horizontal nor vertical)?",
+    "3\n.\nHow do we recognize when an equation, for example\ny\n=\n4\nx\n+\n3\n,\ny\n=\n4\nx\n+\n3\n,\nwill be a straight line (linear) when graphed?",
+    "4\n.\nWhat does it mean when we say that a linear equation is inconsistent?",
+    "5\n.\nWhen solving the following equation:\n2\nx\n−\n5\n=\n4\nx\n+\n1\n2\nx\n−\n5\n=\n4\nx\n+\n1\nexplain why we must exclude\nx\n=\n5\nx\n=\n5\nand\nx\n=\n−1\nx\n=\n−1\nas possible solutions from the solution set.",
+    "8\n.\n3\n(\nx\n+\n2\n)\n−\n12\n=\n5\n(\nx\n+\n1\n)\n3\n(\nx\n+\n2\n)\n−\n12\n=\n5\n(\nx\n+\n1\n)",
+    "9\n.\n12\n−\n5\n(\nx\n+\n3\n)\n=\n2\nx\n−\n5\n12\n−\n5\n(\nx\n+\n3\n)\n=\n2\nx\n−\n5",
+    "10\n.\n1\n2\n−\n1\n3\nx\n=\n4\n3\n1\n2\n−\n1\n3\nx\n=\n4\n3",
+    "11\n.\nx\n3\n−\n3\n4\n=\n2\nx\n+\n3\n12\nx\n3\n−\n3\n4\n=\n2\nx\n+\n3\n12",
+    "12\n.\n2\n3\nx\n+\n1\n2\n=\n31\n6\n2\n3\nx\n+\n1\n2\n=\n31\n6",
+    "13\n.\n3\n(\n2\nx\n−\n1\n)\n+\nx\n=\n5\nx\n+\n3\n3\n(\n2\nx\n−\n1\n)\n+\nx\n=\n5\nx\n+\n3",
+    "14\n.\n2\nx\n3\n−\n3\n4\n=\nx\n6\n+\n21\n4\n2\nx\n3\n−\n3\n4\n=\nx\n6\n+\n21\n4",
+    "15\n.\nx\n+\n2\n4\n−\nx\n−\n1\n3\n=\n2\nx\n+\n2\n4\n−\nx\n−\n1\n3\n=\n2",
+    "17\n.\n2\n−\n3\nx\n+\n4\n=\nx\n+\n2\nx\n+\n4\n2\n−\n3\nx\n+\n4\n=\nx\n+\n2\nx\n+\n4",
+    "18\n.\n3\nx\n−\n2\n=\n1\nx\n−\n1\n+\n7\n(\nx\n−\n1\n)\n(\nx\n−\n2\n)\n3\nx\n−\n2\n=\n1\nx\n−\n1\n+\n7\n(\nx\n−\n1\n)\n(\nx\n−\n2\n)",
+    "19\n.\n3\nx\nx\n−\n1\n+\n2\n=\n3\nx\n−\n1\n3\nx\nx\n−\n1\n+\n2\n=\n3\nx\n−\n1",
+    "20\n.\n5\nx\n+\n1\n+\n1\nx\n−\n3\n=\n−\n6\nx\n2\n−\n2\nx\n−\n3\n5\nx\n+\n1\n+\n1\nx\n−\n3\n=\n−\n6\nx\n2\n−\n2\nx\n−\n3",
+    "21\n.\n1\nx\n=\n1\n5\n+\n3\n2\nx\n1\nx\n=\n1\n5\n+\n3\n2\nx",
+    "22\n.\n(\n0\n,\n3\n)\n(\n0\n,\n3\n)\nwith a slope of\n2\n3\n2\n3",
+    "23\n.\n(\n1\n,\n2\n)\n(\n1\n,\n2\n)\nwith a slope of\n−\n4\n5\n−\n4\n5",
+    "24\n.\nx\n-intercept is 1, and\n(\n−2\n,\n6\n)\n(\n−2\n,\n6\n)",
+    "25\n.\ny\n-intercept is 2, and\n(\n4\n,\n−1\n)\n(\n4\n,\n−1\n)",
+    "26\n.\n(\n−3\n,\n10\n)\n(\n−3\n,\n10\n)\nand\n(\n5\n,\n−6\n)\n(\n5\n,\n−6\n)",
+    "27\n.\n(\n1\n,\n3\n)\nand\n(\n5\n,\n5\n)\n(\n1\n,\n3\n)\nand\n(\n5\n,\n5\n)",
+    "28\n.\nparallel to\ny\n=\n2\nx\n+\n5\ny\n=\n2\nx\n+\n5\nand passes through the point\n(\n4\n,\n3\n)\n(\n4\n,\n3\n)",
+    "29\n.\nperpendicular to\n3\ny\n=\nx\n−\n4\n3\ny\n=\nx\n−\n4\nand passes through the point\n(\n−2\n,\n1\n)\n(\n−2\n,\n1\n)\n.",
+    "30\n.\n(\n−\n2\n,\n0\n)\n(\n−\n2\n,\n0\n)\nand\n(\n−2\n,\n5\n)\n(\n−2\n,\n5\n)",
+    "31\n.\n(\n1\n,\n7\n)\n(\n1\n,\n7\n)\nand\n(\n3\n,\n7\n)\n(\n3\n,\n7\n)",
+    "32\n.\nThe slope is undefined and it passes through the point\n(\n2\n,\n3\n)\n.\n(\n2\n,\n3\n)\n.",
+    "33\n.\nThe slope equals zero and it passes through the point\n(\n1\n,\n−4\n)\n.\n(\n1\n,\n−4\n)\n.",
+    "34\n.\nThe slope is\n3\n4\n3\n4\nand it passes through the point\n(\n1\n,\n4\n)\n(\n1\n,\n4\n)\n.",
+    "35\n.\n(\n–1\n,\n3\n)\n(\n–1\n,\n3\n)\nand\n(\n4\n,\n–5\n)\n(\n4\n,\n–5\n)",
+    "36\n.\ny\n=\n2\nx\n+\n7\ny\n=\n−\n1\n2\nx\n−\n4\ny\n=\n2\nx\n+\n7\ny\n=\n−\n1\n2\nx\n−\n4",
+    "37\n.\n3\nx\n−\n2\ny\n=\n5\n6\ny\n−\n9\nx\n=\n6\n3\nx\n−\n2\ny\n=\n5\n6\ny\n−\n9\nx\n=\n6",
+    "38\n.\ny\n=\n3\nx\n+\n1\n4\ny\n=\n3\nx\n+\n2\ny\n=\n3\nx\n+\n1\n4\ny\n=\n3\nx\n+\n2",
+    "40\n.\n(\n5\n,\n4\n)\n(\n5\n,\n4\n)\nand\n(\n7\n,\n9\n)\n(\n7\n,\n9\n)",
+    "41\n.\n(\n−3\n,\n2\n)\n(\n−3\n,\n2\n)\nand\n(\n4\n,\n−7\n)\n(\n4\n,\n−7\n)",
+    "42\n.\n(\n−5\n,\n4\n)\n(\n−5\n,\n4\n)\nand\n(\n2\n,\n4\n)\n(\n2\n,\n4\n)",
+    "43\n.\n(\n−1\n,\n−2\n)\n(\n−1\n,\n−2\n)\nand\n(\n3\n,\n4\n)\n(\n3\n,\n4\n)",
+    "44\n.\n(\n3\n,\n3\n)\n(\n3\n,\n3\n)\nand\n(\n3\n,\n−2\n)\n(\n3\n,\n−2\n)",
+    "45\n.\n(\n−1\n,\n3\n)\nand\n(\n5\n,\n1\n)\n(\n−2\n,\n3\n)\nand\n(\n0\n,\n9\n)\n(\n−1\n,\n3\n)\nand\n(\n5\n,\n1\n)\n(\n−2\n,\n3\n)\nand\n(\n0\n,\n9\n)",
+    "46\n.\n(\n2\n,\n5\n)\nand\n(\n5\n,\n9\n)\n(\n−1\n,\n−1\n)\nand\n(\n2\n,\n3\n)\n(\n2\n,\n5\n)\nand\n(\n5\n,\n9\n)\n(\n−1\n,\n−1\n)\nand\n(\n2\n,\n3\n)",
+    "47\n.\n0.537\nx\n−\n2.19\ny\n=\n100\n0.537\nx\n−\n2.19\ny\n=\n100",
+    "48\n.\n4,500\nx\n−\n200\ny\n=\n9,528\n4,500\nx\n−\n200\ny\n=\n9,528",
+    "49\n.\n200\n−\n30\ny\nx\n=\n70\n200\n−\n30\ny\nx\n=\n70",
+    "50\n.\nStarting with the point-slope formula\ny\n−\ny\n1\n=\nm\n(\nx\n−\nx\n1\n)\n,\ny\n−\ny\n1\n=\nm\n(\nx\n−\nx\n1\n)\n,\nsolve this expression for\nx\nx\nin terms of\nx\n1\n,\ny\n,\ny\n1\n,\nx\n1\n,\ny\n,\ny\n1\n,\nand\nm\nm\n.",
+    "51\n.\nStarting with the standard form of an equation\nA\nx\n+\nB\ny\n=\nC\nA\nx\n+\nB\ny\n=\nC\nsolve this expression for\ny\ny\nin terms of\nA\n,\nB\n,\nC\nA\n,\nB\n,\nC\nand\nx\nx\n. Then put the expression in slope-intercept form.",
+    "52\n.\nUse the above derived formula to put the following standard equation in slope intercept form:\n7\nx\n−\n5\ny\n=\n25.\n7\nx\n−\n5\ny\n=\n25.",
+    "53\n.\nGiven that the following coordinates are the vertices of a rectangle, prove that this truly is a rectangle by showing the slopes of the sides that meet are perpendicular.\n(\n–\n1\n,\n1\n)\n,\n(\n2\n,\n0\n)\n,\n(\n3\n,\n3\n)\n(\n–\n1\n,\n1\n)\n,\n(\n2\n,\n0\n)\n,\n(\n3\n,\n3\n)\nand\n(\n0\n,\n4\n)\n(\n0\n,\n4\n)",
+    "54\n.\nFind the slopes of the diagonals in the previous exercise. Are they perpendicular?",
+    "55\n.\nThe slope for a wheelchair ramp for a home has to be\n1\n12\n.\n1\n12\n.\nIf the vertical distance from the ground to the door bottom is 2.5 ft, find the distance the ramp has to extend from the home in order to comply with the needed slope.",
+    "56\n.\nIf the profit equation for a small business selling\nx\nx\nnumber of item one and\ny\ny\nnumber of item two is\np\n=\n3\nx\n+\n4\ny\n,\np\n=\n3\nx\n+\n4\ny\n,\nfind the\ny\ny\nvalue when\np\n=\n$\n453\nand\nx\n=\n75.\np\n=\n$\n453\nand\nx\n=\n75.",
+    "57\n.\nWhat is your cost if you travel 50 mi?",
+    "58\n.\nIf your cost were\n$\n63.75\n,\n$\n63.75\n,\nhow many miles were you charged for traveling?",
+    "59\n.\nSuppose you have a maximum of $100 to spend for the car rental. What would be the maximum number of miles you could travel?"
+  ],
+  "raw_text": "2.2\nLinear Equations in One Variable\nIn this section, you will:\nSolve equations in one variable algebraically.\nSolve a rational equation.\nFind a linear equation.\nGiven the equations of two lines, determine whether their graphs are parallel or perpendicular.\nWrite the equation of a line parallel or perpendicular to a given line.\nCaroline is a full-time college student planning a spring break vacation. To earn enough money for the trip, she has taken a part-time job at the local bank that pays $15.00/hr, and she opened a savings account with an initial deposit of $400 on January 15. She arranged for direct deposit of her payroll checks. If spring break begins March 20 and the trip will cost approximately $2,500, how many hours will she have to work to earn enough to pay for her vacation? If she can only work 4 hours per day, how many days per week will she have to work? How many weeks will it take? In this section, we will investigate problems like this and others, which generate graphs like the line in\nFigure 1\n.\nFigure\n1\nSolving Linear Equations in One Variable\nA\nlinear equation\nis an equation of a straight line, written in one variable. The only power of the variable is 1. Linear equations in one variable may take the form\na\nx\n+\nb\n=\n0\na\nx\n+\nb\n=\n0\nand are solved using basic algebraic operations.\nWe begin by classifying linear equations in one variable as one of three types: identity, conditional, or inconsistent. An\nidentity equation\nis true for all values of the variable. Here is an example of an identity equation.\n3\nx\n=\n2\nx\n+\nx\n3\nx\n=\n2\nx\n+\nx\nThe\nsolution set\nconsists of all values that make the equation true. For this equation, the solution set is all real numbers because any real number substituted for\nx\nx\nwill make the equation true.\nA\nconditional equation\nis true for only some values of the variable. For example, if we are to solve the equation\n5\nx\n+\n2\n=\n3\nx\n−\n6\n,\n5\nx\n+\n2\n=\n3\nx\n−\n6\n,\nwe have the following:\n5\nx\n+\n2\n=\n3\nx\n−\n6\n2\nx\n=\n−8\nx\n=\n−4\n5\nx\n+\n2\n=\n3\nx\n−\n6\n2\nx\n=\n−8\nx\n=\n−4\nThe solution set consists of one number:\n{\n−\n4\n}\n.\n{\n−\n4\n}\n.\nIt is the only solution and, therefore, we have solved a conditional equation.\nAn\ninconsistent equation\nresults in a false statement. For example, if we are to solve\n5\nx\n−\n15\n=\n5\n(\nx\n−\n4\n)\n,\n5\nx\n−\n15\n=\n5\n(\nx\n−\n4\n)\n,\nwe have the following:\n5\nx\n−\n15\n=\n5\nx\n−\n20\n5\nx\n−\n15\n−\n5\nx\n=\n5\nx\n−\n20\n−\n5\nx\nSubtract\n5\nx\nfrom both sides\n.\n−15\n≠\n−20\nFalse statement\n5\nx\n−\n15\n=\n5\nx\n−\n20\n5\nx\n−\n15\n−\n5\nx\n=\n5\nx\n−\n20\n−\n5\nx\nSubtract\n5\nx\nfrom both sides\n.\n−15\n≠\n−20\nFalse statement\nIndeed,\n−15\n≠\n−20.\n−15\n≠\n−20.\nThere is no solution because this is an inconsistent equation.\nSolving linear equations in one variable involves the fundamental properties of equality and basic algebraic operations. A brief review of those operations follows.\nA linear equation in one variable can be written in the form\na\nx\n+\nb\n=\n0\na\nx\n+\nb\n=\n0\nwhere\na\nand\nb\nare real numbers,\na\n≠\n0.\na\n≠\n0.\nGiven a linear equation in one variable, use algebra to solve it.\nThe following steps are used to manipulate an equation and isolate the unknown variable, so that the last line reads\nx\n=\n_________,\nx\n=\n_________,\nif\nx\nis the unknown. There is no set order, as the steps used depend on what is given:\nWe may add, subtract, multiply, or divide an equation by a number or an expression as long as we do the same thing to both sides of the equal sign. Note that we cannot divide by zero.\nApply the distributive property as needed:\na\n(\nb\n+\nc\n)\n=\na\nb\n+\na\nc\n.\na\n(\nb\n+\nc\n)\n=\na\nb\n+\na\nc\n.\nIsolate the variable on one side of the equation.\nWhen the variable is multiplied by a coefficient in the final stage, multiply both sides of the equation by the reciprocal of the coefficient.\nSolving an Equation in One Variable\nSolve the following equation:\n2\nx\n+\n7\n=\n19.\n2\nx\n+\n7\n=\n19.\nSolution\nThis equation can be written in the form\na\nx\n+\nb\n=\n0\na\nx\n+\nb\n=\n0\nby subtracting\n19\n19\nfrom both sides. However, we may proceed to solve the equation in its original form by performing algebraic operations.\n2\nx\n+\n7\n=\n19\n2\nx\n=\n12\nSubtract 7 from both sides\n.\nx\n=\n6\nMultiply both sides by\n1\n2\nor divide by 2\n.\n2\nx\n+\n7\n=\n19\n2\nx\n=\n12\nSubtract 7 from both sides\n.\nx\n=\n6\nMultiply both sides by\n1\n2\nor divide by 2\n.\nThe solution is 6.\nSolve the linear equation in one variable:\n2\nx\n+\n1\n=\n−9.\n2\nx\n+\n1\n=\n−9.\nSolving an Equation Algebraically When the Variable Appears on Both Sides\nSolve the following equation:\n4\n(\nx\n−3\n)\n+\n12\n=\n15\n−5\n(\nx\n+\n6\n)\n.\n4\n(\nx\n−3\n)\n+\n12\n=\n15\n−5\n(\nx\n+\n6\n)\n.\nSolution\nApply standard algebraic properties.\n4\n(\nx\n−\n3\n)\n+\n12\n=\n15\n−\n5\n(\nx\n+\n6\n)\n4\nx\n−\n12\n+\n12\n=\n15\n−\n5\nx\n−\n30\nApply the distributive property\n.\n4\nx\n=\n−15\n−\n5\nx\nCombine like terms\n.\n9\nx\n=\n−15\nPlace\nx\n-terms on one side and simplify\n.\nx\n=\n−\n15\n9\nMultiply both sides by\n1\n9\n, the reciprocal of 9\n.\nx\n=\n−\n5\n3\n4\n(\nx\n−\n3\n)\n+\n12\n=\n15\n−\n5\n(\nx\n+\n6\n)\n4\nx\n−\n12\n+\n12\n=\n15\n−\n5\nx\n−\n30\nApply the distributive property\n.\n4\nx\n=\n−15\n−\n5\nx\nCombine like terms\n.\n9\nx\n=\n−15\nPlace\nx\n-terms on one side and simplify\n.\nx\n=\n−\n15\n9\nMultiply both sides by\n1\n9\n, the reciprocal of 9\n.\nx\n=\n−\n5\n3\nAnalysis\nThis problem requires the distributive property to be applied twice, and then the properties of algebra are used to reach the final line,\nx\n=\n−\n5\n3\n.\nx\n=\n−\n5\n3\n.\nSolve the equation in one variable:\n−2\n(\n3\nx\n−\n1\n)\n+\nx\n=\n14\n−\nx\n.\n−2\n(\n3\nx\n−\n1\n)\n+\nx\n=\n14\n−\nx\n.\nSolving a Rational Equation\nIn this section, we look at rational equations that, after some manipulation, result in a linear equation. If an equation contains at least one rational expression, it is a considered a\nrational equation\n.\nRecall that a\nrational number\nis the ratio of two numbers, such as\n2\n3\n2\n3\nor\n7\n2\n.\n7\n2\n.\nA\nrational expression\nis the ratio, or quotient, of two polynomials. Here are three examples.\nx\n+\n1\nx\n2\n−\n4\n,\n1\nx\n−\n3\n,\nor\n4\nx\n2\n+\nx\n−\n2\nx\n+\n1\nx\n2\n−\n4\n,\n1\nx\n−\n3\n,\nor\n4\nx\n2\n+\nx\n−\n2\nRational equations have a variable in the denominator in at least one of the terms.\nOur goal is to perform algebraic operations so that the variables appear in the numerator. In fact, we will eliminate all denominators by multiplying both sides of the equation by the\nleast common denominator\n(LCD).\nFinding the LCD is identifying an expression that contains the highest power of all of the factors in all of the denominators. We do this because when the equation is multiplied by the LCD, the common factors in the LCD and in each denominator will equal one and will cancel out.\nSolving a Rational Equation\nSolve the rational equation:\n7\n2\nx\n−\n5\n3\nx\n=\n22\n3\n.\n7\n2\nx\n−\n5\n3\nx\n=\n22\n3\n.\nSolution\nWe have three denominators;\n2\nx\n,\n3\nx\n,\n2\nx\n,\n3\nx\n,\nand 3. The LCD must contain\n2\nx\n,\n3\nx\n,\n2\nx\n,\n3\nx\n,\nand 3. An LCD of\n6\nx\n6\nx\ncontains all three denominators. In other words, each denominator can be divided evenly into the LCD. Next, multiply both sides of the equation by the LCD\n6\nx\n.\n6\nx\n.\n(\n6\nx\n)\n(\n7\n2\nx\n−\n5\n3\nx\n)\n=\n(\n22\n3\n)\n(\n6\nx\n)\n(\n6\nx\n)\n(\n7\n2\nx\n)\n−\n(\n6\nx\n)\n(\n5\n3\nx\n)\n=\n(\n22\n3\n)\n(\n6\nx\n)\nUse the distributive property\n.\n(\n6\nx\n)\n(\n7\n2\nx\n)\n−\n(\n6\nx\n)\n(\n5\n3\nx\n)\n=\n(\n22\n3\n)\n(\n6\nx\n)\nCancel out the common factors\n.\n3\n(\n7\n)\n−\n2\n(\n5\n)\n=\n22\n(\n2\nx\n)\nMultiply remaining factors by each numerator\n.\n21\n−\n10\n=\n44\nx\n11\n=\n44\nx\n11\n44\n=\nx\n1\n4\n=\nx\n(\n6\nx\n)\n(\n7\n2\nx\n−\n5\n3\nx\n)\n=\n(\n22\n3\n)\n(\n6\nx\n)\n(\n6\nx\n)\n(\n7\n2\nx\n)\n−\n(\n6\nx\n)\n(\n5\n3\nx\n)\n=\n(\n22\n3\n)\n(\n6\nx\n)\nUse the distributive property\n.\n(\n6\nx\n)\n(\n7\n2\nx\n)\n−\n(\n6\nx\n)\n(\n5\n3\nx\n)\n=\n(\n22\n3\n)\n(\n6\nx\n)\nCancel out the common factors\n.\n3\n(\n7\n)\n−\n2\n(\n5\n)\n=\n22\n(\n2\nx\n)\nMultiply remaining factors by each numerator\n.\n21\n−\n10\n=\n44\nx\n11\n=\n44\nx\n11\n44\n=\nx\n1\n4\n=\nx\nA common mistake made when solving rational equations involves finding the LCD when one of the denominators is a binomial—two terms added or subtracted—such as\n(\nx\n+\n1\n)\n.\n(\nx\n+\n1\n)\n.\nAlways consider a binomial as an individual factor—the terms cannot be separated. For example, suppose a problem has three terms and the denominators are\nx\n,\nx\n,\nx\n−\n1\n,\nx\n−\n1\n,\nand\n3\nx\n−\n3.\n3\nx\n−\n3.\nFirst, factor all denominators. We then have\nx\n,\nx\n,\n(\nx\n−\n1\n)\n,\n(\nx\n−\n1\n)\n,\nand\n3\n(\nx\n−\n1\n)\n3\n(\nx\n−\n1\n)\nas the denominators. (Note the parentheses placed around the second denominator.) Only the last two denominators have a common factor of\n(\nx\n−\n1\n)\n.\n(\nx\n−\n1\n)\n.\nThe\nx\nx\nin the first denominator is separate from the\nx\nx\nin the\n(\nx\n−\n1\n)\n(\nx\n−\n1\n)\ndenominators. An effective way to remember this is to write factored and binomial denominators in parentheses, and consider each parentheses as a separate unit or a separate factor. The LCD in this instance is found by multiplying together the\nx\n,\nx\n,\none factor of\n(\nx\n−\n1\n)\n,\n(\nx\n−\n1\n)\n,\nand the 3. Thus, the LCD is the following:\nx\n(\nx\n−\n1\n)\n3\n=\n3\nx\n(\nx\n−\n1\n)\nx\n(\nx\n−\n1\n)\n3\n=\n3\nx\n(\nx\n−\n1\n)\nSo, both sides of the equation would be multiplied by\n3\nx\n(\nx\n−\n1\n)\n.\n3\nx\n(\nx\n−\n1\n)\n.\nLeave the LCD in factored form, as this makes it easier to see how each denominator in the problem cancels out.\nAnother example is a problem with two denominators, such as\nx\nx\nand\nx\n2\n+\n2\nx\n.\nx\n2\n+\n2\nx\n.\nOnce the second denominator is factored as\nx\n2\n+\n2\nx\n=\nx\n(\nx\n+\n2\n)\n,\nx\n2\n+\n2\nx\n=\nx\n(\nx\n+\n2\n)\n,\nthere is a common factor of\nx\nin both denominators and the LCD is\nx\n(\nx\n+\n2\n)\n.\nx\n(\nx\n+\n2\n)\n.\nSometimes we have a rational equation in the form of a proportion; that is, when one fraction equals another fraction and there are no other terms in the equation.\na\nb\n=\nc\nd\na\nb\n=\nc\nd\nWe can use another method of solving the equation without finding the LCD: cross-multiplication. We multiply terms by crossing over the equal sign.\nMultiply\na\n(\nd\n)\na\n(\nd\n)\nand\nb\n(\nc\n)\n,\nb\n(\nc\n)\n,\nwhich results in\na\nd\n=\nb\nc\n.\na\nd\n=\nb\nc\n.\nAny solution that makes a denominator in the original expression equal zero must be excluded from the possibilities.\nA\nrational equation\ncontains at least one rational expression where the variable appears in at least one of the denominators.\nGiven a rational equation, solve it.\nFactor all denominators in the equation.\nFind and exclude values that set each denominator equal to zero.\nFind the LCD.\nMultiply the whole equation by the LCD. If the LCD is correct, there will be no denominators left.\nSolve the remaining equation.\nMake sure to check solutions back in the original equations to avoid a solution producing zero in a denominator.\nSolving a Rational Equation without Factoring\nSolve the following rational equation:\n2\nx\n−\n3\n2\n=\n7\n2\nx\n2\nx\n−\n3\n2\n=\n7\n2\nx\nSolution\nWe have three denominators:\nx\n,\nx\n,\n2\n,\n2\n,\nand\n2\nx\n.\n2\nx\n.\nNo factoring is required. The product of the first two denominators is equal to the third denominator, so, the LCD is\n2\nx\n.\n2\nx\n.\nOnly one value is excluded from a solution set, 0.\nNext, multiply the whole equation (both sides of the equal sign) by\n2\nx\n.\n2\nx\n.\n2\nx\n(\n2\nx\n−\n3\n2\n)\n=\n(\n7\n2\nx\n)\n2\nx\n2\nx\n(\n2\nx\n)\n−\n2\nx\n(\n3\n2\n)\n=\n(\n7\n2\nx\n)\n2\nx\nDistribute\n2\nx\n.\n2\n(\n2\n)\n−\n3\nx\n=\n7\nDenominators cancel out\n.\n4\n−\n3\nx\n=\n7\n−3\nx\n=\n3\nx\n=\n−1\nor\n{\n−1\n}\n2\nx\n(\n2\nx\n−\n3\n2\n)\n=\n(\n7\n2\nx\n)\n2\nx\n2\nx\n(\n2\nx\n)\n−\n2\nx\n(\n3\n2\n)\n=\n(\n7\n2\nx\n)\n2\nx\nDistribute\n2\nx\n.\n2\n(\n2\n)\n−\n3\nx\n=\n7\nDenominators cancel out\n.\n4\n−\n3\nx\n=\n7\n−3\nx\n=\n3\nx\n=\n−1\nor\n{\n−1\n}\nThe proposed solution is −1,\nwhich is not an excluded value, so the solution set contains one number,\n−1\n,\n−1\n,\nor\n{\n−1\n}\n{\n−1\n}\nwritten in set notation.\nSolve the rational equation:\n2\n3\nx\n=\n1\n4\n−\n1\n6\nx\n.\n2\n3\nx\n=\n1\n4\n−\n1\n6\nx\n.\nSolving a Rational Equation by Factoring the Denominator\nSolve the following rational equation:\n1\nx\n=\n1\n10\n−\n3\n4\nx\n.\n1\nx\n=\n1\n10\n−\n3\n4\nx\n.\nSolution\nFirst find the common denominator. The three denominators in factored form are\nx\n,\n10\n=\n2\n⋅\n5\n,\nx\n,\n10\n=\n2\n⋅\n5\n,\nand\n4\nx\n=\n2\n⋅\n2\n⋅\nx\n.\n4\nx\n=\n2\n⋅\n2\n⋅\nx\n.\nThe smallest expression that is divisible by each one of the denominators is\n20\nx\n.\n20\nx\n.\nOnly\nx\n=\n0\nx\n=\n0\nis an excluded value. Multiply the whole equation by\n20\nx\n.\n20\nx\n.\n20\nx\n(\n1\nx\n)\n=\n(\n1\n10\n−\n3\n4\nx\n)\n20\nx\n20\n=\n2\nx\n−\n15\n35\n=\n2\nx\n35\n2\n=\nx\n20\nx\n(\n1\nx\n)\n=\n(\n1\n10\n−\n3\n4\nx\n)\n20\nx\n20\n=\n2\nx\n−\n15\n35\n=\n2\nx\n35\n2\n=\nx\nThe solution is\n35\n2\n.\n35\n2\n.\nSolve the rational equation:\n−\n5\n2\nx\n+\n3\n4\nx\n=\n−\n7\n4\n.\n−\n5\n2\nx\n+\n3\n4\nx\n=\n−\n7\n4\n.\nSolving Rational Equations with a Binomial in the Denominator\nSolve the following rational equations and state the excluded values:\nⓐ\n3\nx\n−\n6\n=\n5\nx\n3\nx\n−\n6\n=\n5\nx\nⓑ\nx\nx\n−\n3\n=\n5\nx\n−\n3\n−\n1\n2\nx\nx\n−\n3\n=\n5\nx\n−\n3\n−\n1\n2\nⓒ\nx\nx\n−\n2\n=\n5\nx\n−\n2\n−\n1\n2\nx\nx\n−\n2\n=\n5\nx\n−\n2\n−\n1\n2\nSolution\nⓐ\nThe denominators\nx\nx\nand\nx\n−\n6\nx\n−\n6\nhave nothing in common. Therefore, the LCD is the product\nx\n(\nx\n−\n6\n)\n.\nx\n(\nx\n−\n6\n)\n.\nHowever, for this problem, we can cross-multiply.\n3\nx\n−\n6\n=\n5\nx\n3\nx\n=\n5\n(\nx\n−\n6\n)\nDistribute\n.\n3\nx\n=\n5\nx\n−\n30\n−2\nx\n=\n−30\nx\n=\n15\n3\nx\n−\n6\n=\n5\nx\n3\nx\n=\n5\n(\nx\n−\n6\n)\nDistribute\n.\n3\nx\n=\n5\nx\n−\n30\n−2\nx\n=\n−30\nx\n=\n15\nThe solution is 15.\nThe excluded values are\n6\n6\nand\n0.\n0.\nⓑ\nThe LCD is\n2\n(\nx\n−\n3\n)\n.\n2\n(\nx\n−\n3\n)\n.\nMultiply both sides of the equation by\n2\n(\nx\n−\n3\n)\n.\n2\n(\nx\n−\n3\n)\n.\n2\n(\nx\n−\n3\n)\n(\nx\nx\n−\n3\n)\n=\n(\n5\nx\n−\n3\n−\n1\n2\n)\n2\n(\nx\n−\n3\n)\n2\n(\nx\n−\n3\n)\nx\nx\n−\n3\n=\n2\n(\nx\n−\n3\n)\n5\nx\n−\n3\n−\n2\n(\nx\n−\n3\n)\n2\n2\nx\n=\n10\n−\n(\nx\n−\n3\n)\n2\nx\n=\n10\n−\nx\n+\n3\n2\nx\n=\n13\n−\nx\n3\nx\n=\n13\nx\n=\n13\n3\n2\n(\nx\n−\n3\n)\n(\nx\nx\n−\n3\n)\n=\n(\n5\nx\n−\n3\n−\n1\n2\n)\n2\n(\nx\n−\n3\n)\n2\n(\nx\n−\n3\n)\nx\nx\n−\n3\n=\n2\n(\nx\n−\n3\n)\n5\nx\n−\n3\n−\n2\n(\nx\n−\n3\n)\n2\n2\nx\n=\n10\n−\n(\nx\n−\n3\n)\n2\nx\n=\n10\n−\nx\n+\n3\n2\nx\n=\n13\n−\nx\n3\nx\n=\n13\nx\n=\n13\n3\nThe solution is\n13\n3\n.\n13\n3\n.\nThe excluded value is\n3.\n3.\nⓒ\nThe least common denominator is\n2\n(\nx\n−\n2\n)\n.\n2\n(\nx\n−\n2\n)\n.\nMultiply both sides of the equation by\n2\n(\nx\n−\n2\n)\n.\n2\n(\nx\n−\n2\n)\n.\n2\n(\nx\n−\n2\n)\n(\nx\nx\n−\n2\n)\n=\n(\n5\nx\n−\n2\n−\n1\n2\n)\n2\n(\nx\n−\n2\n)\n2\nx\n=\n10\n−\n(\nx\n−\n2\n)\n2\nx\n=\n12\n−\nx\n3\nx\n=\n12\nx\n=\n4\n2\n(\nx\n−\n2\n)\n(\nx\nx\n−\n2\n)\n=\n(\n5\nx\n−\n2\n−\n1\n2\n)\n2\n(\nx\n−\n2\n)\n2\nx\n=\n10\n−\n(\nx\n−\n2\n)\n2\nx\n=\n12\n−\nx\n3\nx\n=\n12\nx\n=\n4\nThe solution is 4. The excluded value is\n2.\n2.\nSolve\n−\n3\n2\nx\n+\n1\n=\n4\n3\nx\n+\n1\n.\n−\n3\n2\nx\n+\n1\n=\n4\n3\nx\n+\n1\n.\nState the excluded values.\nSolving a Rational Equation with Factored Denominators and Stating Excluded Values\nSolve the rational equation after factoring the denominators:\n2\nx\n+\n1\n−\n1\nx\n−\n1\n=\n2\nx\nx\n2\n−\n1\n.\n2\nx\n+\n1\n−\n1\nx\n−\n1\n=\n2\nx\nx\n2\n−\n1\n.\nState the excluded values.\nSolution\nWe must factor the denominator\nx\n2\n−1.\nx\n2\n−1.\nWe recognize this as the difference of squares, and factor it as\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n.\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n.\nThus, the LCD that contains each denominator is\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n.\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n.\nMultiply the whole equation by the LCD, cancel out the denominators, and solve the remaining equation.\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n(\n2\nx\n+\n1\n−\n1\nx\n−\n1\n)\n=\n(\n2\nx\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n)\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n2\n(\nx\n−\n1\n)\n−\n1\n(\nx\n+\n1\n)\n=\n2\nx\n2\nx\n−\n2\n−\nx\n−\n1\n=\n2\nx\nDistribute the negative sign\n.\n−3\n−\nx\n=\n0\n−3\n=\nx\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n(\n2\nx\n+\n1\n−\n1\nx\n−\n1\n)\n=\n(\n2\nx\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n)\n(\nx\n−\n1\n)\n(\nx\n+\n1\n)\n2\n(\nx\n−\n1\n)\n−\n1\n(\nx\n+\n1\n)\n=\n2\nx\n2\nx\n−\n2\n−\nx\n−\n1\n=\n2\nx\nDistribute the negative sign\n.\n−3\n−\nx\n=\n0\n−3\n=\nx\nThe solution is\n−3.\n−3.\nThe excluded values are\n1\n1\nand\n−1.\n−1.\nSolve the rational equation:\n2\nx\n−\n2\n+\n1\nx\n+\n1\n=\n1\nx\n2\n−\nx\n−\n2\n.\n2\nx\n−\n2\n+\n1\nx\n+\n1\n=\n1\nx\n2\n−\nx\n−\n2\n.\nFinding a Linear Equation\nPerhaps the most familiar form of a linear equation is the slope-intercept form, written as\ny\n=\nm\nx\n+\nb\n,\ny\n=\nm\nx\n+\nb\n,\nwhere\nm\n=\nslope\nm\n=\nslope\nand\nb\n=\ny\n-intercept\n.\nb\n=\ny\n-intercept\n.\nLet us begin with the slope.\nThe Slope of a Line\nThe\nslope\nof a line refers to the ratio of the vertical change in\ny\nover the horizontal change in\nx\nbetween any two points on a line. It indicates the direction in which a line slants as well as its steepness. Slope is sometimes described as rise over run.\nm\n=\ny\n2\n−\ny\n1\nx\n2\n−\nx\n1\nm\n=\ny\n2\n−\ny\n1\nx\n2\n−\nx\n1\nIf the slope is positive, the line slants upward to the right. If the slope is negative, the line slants downward to the right. As the absolute value of the slope increases, the line becomes steeper. Some examples are shown in\nFigure 2\n. The lines indicate the following slopes:\nm\n=\n−3\n,\nm\n=\n−3\n,\nm\n=\n2\n,\nm\n=\n2\n,\nand\nm\n=\n1\n3\n.\nm\n=\n1\n3\n.\nFigure\n2\nThe slope of a line,\nm\n, represents the change in\ny\nover the change in\nx.\nGiven two points,\n(\nx\n1\n,\ny\n1\n)\n(\nx\n1\n,\ny\n1\n)\nand\n(\nx\n2\n,\ny\n2\n)\n,\n(\nx\n2\n,\ny\n2\n)\n,\nthe following formula determines the slope of a line containing these points:\nm\n=\ny\n2\n−\ny\n1\nx\n2\n−\nx\n1\nm\n=\ny\n2\n−\ny\n1\nx\n2\n−\nx\n1\nFinding the Slope of a Line Given Two Points\nFind the slope of a line that passes through the points\n(\n2\n,\n−1\n)\n(\n2\n,\n−1\n)\nand\n(\n−5\n,\n3\n)\n.\n(\n−5\n,\n3\n)\n.\nSolution\nWe substitute the\ny-\nvalues and the\nx-\nvalues into the formula.\nm\n=\n3\n−\n(\n−1\n)\n−5\n−\n2\n=\n4\n−7\n=\n−\n4\n7\nm\n=\n3\n−\n(\n−1\n)\n−5\n−\n2\n=\n4\n−7\n=\n−\n4\n7\nThe slope is\n−\n4\n7\n.\n−\n4\n7\n.\nAnalysis\nIt does not matter which point is called\n(\nx\n1\n,\ny\n1\n)\n(\nx\n1\n,\ny\n1\n)\nor\n(\nx\n2\n,\ny\n2\n)\n.\n(\nx\n2\n,\ny\n2\n)\n.\nAs long as we are consistent with the order of the\ny\nterms and the order of the\nx\nterms in the numerator and denominator, the calculation will yield the same result.\nFind the slope of the line that passes through the points\n(\n−2\n,\n6\n)\n(\n−2\n,\n6\n)\nand\n(\n1\n,\n4\n)\n.\n(\n1\n,\n4\n)\n.\nIdentifying the Slope and\ny-\nintercept of a Line Given an Equation\nIdentify the slope and\ny-\nintercept, given the equation\ny\n=\n−\n3\n4\nx\n−\n4.\ny\n=\n−\n3\n4\nx\n−\n4.\nSolution\nAs the line is in\ny\n=\nm\nx\n+\nb\ny\n=\nm\nx\n+\nb\nform, the given line has a slope of\nm\n=\n−\n3\n4\n.\nm\n=\n−\n3\n4\n.\nThe\ny-\nintercept is\nb\n=\n−4.\nb\n=\n−4.\nAnalysis\nThe\ny\n-intercept is the point at which the line crosses the\ny-\naxis. On the\ny-\naxis,\nx\n=\n0.\nx\n=\n0.\nWe can always identify the\ny-\nintercept when the line is in slope-intercept form, as it will always equal\nb.\nOr, just substitute\nx\n=\n0\nx\n=\n0\nand solve for\ny.\nThe Point-Slope Formula\nGiven the slope and one point on a line, we can find the equation of the line using the point-slope formula.\ny\n−\ny\n1\n=\nm\n(\nx\n−\nx\n1\n)\ny\n−\ny\n1\n=\nm\n(\nx\n−\nx\n1\n)\nThis is an important formula, as it will be used in other areas of college algebra and often in calculus to find the equation of a tangent line. We need only one point and the slope of the line to use the formula. After substituting the slope and the coordinates of one point into the formula, we simplify it and write it in slope-intercept form.\nGiven one point and the slope, the point-slope formula will lead to the equation of a line:\ny\n−\ny\n1\n=\nm\n(\nx\n−\nx\n1\n)\ny\n−\ny\n1\n=\nm\n(\nx\n−\nx\n1\n)\nFinding the Equation of a Line Given the Slope and One Point\nWrite the equation of the line with slope\nm\n=\n−3\nm\n=\n−3\nand passing through the point\n(\n4\n,\n8\n)\n.\n(\n4\n,\n8\n)\n.\nWrite the final equation in slope-intercept form.\nSolution\nUsing the point-slope formula, substitute\n−3\n−3\nfor\nm\nand the point\n(\n4\n,\n8\n)\n(\n4\n,\n8\n)\nfor\n(\nx\n1\n,\ny\n1\n)\n.\n(\nx\n1\n,\ny\n1\n)\n.\ny\n−\ny\n1\n=\nm\n(\nx\n−\nx\n1\n)\ny\n−\n8\n=\n−3\n(\nx\n−\n4\n)\ny\n−\n8\n=\n−3\nx\n+\n12\ny\n=\n−3\nx\n+\n20\ny\n−\ny\n1\n=\nm\n(\nx\n−\nx\n1\n)\ny\n−\n8\n=\n−3\n(\nx\n−\n4\n)\ny\n−\n8\n=\n−3\nx\n+\n12\ny\n=\n−3\nx\n+\n20\nAnalysis\nNote that any point on the line can be used to find the equation. If done correctly, the same final equation will be obtained.\nGiven\nm\n=\n4\n,\nm\n=\n4\n,\nfind the equation of the line in slope-intercept form passing through the point\n(\n2\n,\n5\n)\n.\n(\n2\n,\n5\n)\n.\nFinding the Equation of a Line Passing Through Two Given Points\nFind the equation of the line passing through the points\n(\n3\n,\n4\n)\n(\n3\n,\n4\n)\nand\n(\n0\n,\n−3\n)\n.\n(\n0\n,\n−3\n)\n.\nWrite the final equation in slope-intercept form.\nSolution\nFirst, we calculate the slope using the slope formula and two points.\nm\n=\n−3\n−\n4\n0\n−\n3\n=\n−\n7\n−\n3\n=\n7\n3\nm\n=\n−3\n−\n4\n0\n−\n3\n=\n−\n7\n−\n3\n=\n7\n3\nNext, we use the point-slope formula with the slope of\n7\n3\n,\n7\n3\n,\nand either point. Let’s pick the point\n(\n3\n,\n4\n)\n(\n3\n,\n4\n)\nfor\n(\nx\n1\n,\ny\n1\n)\n.\n(\nx\n1\n,\ny\n1\n)\n.\ny\n−\n4\n=\n7\n3\n(\nx\n−\n3\n)\ny\n−\n4\n=\n7\n3\nx\n−\n7\nDistribute the\n7\n3\n.\ny\n=\n7\n3\nx\n−\n3\ny\n−\n4\n=\n7\n3\n(\nx\n−\n3\n)\ny\n−\n4\n=\n7\n3\nx\n−\n7\nDistribute the\n7\n3\n.\ny\n=\n7\n3\nx\n−\n3\nIn slope-intercept form, the equation is written as\ny\n=\n7\n3\nx\n−\n3.\ny\n=\n7\n3\nx\n−\n3.\nAnalysis\nTo prove that either point can be used, let us use the second point\n(\n0\n,\n−3\n)\n(\n0\n,\n−3\n)\nand see if we get the same equation.\ny\n−\n(\n−\n3\n)\n=\n7\n3\n(\nx\n−\n0\n)\ny\n+\n3\n=\n7\n3\nx\ny\n=\n7\n3\nx\n−\n3\ny\n−\n(\n−\n3\n)\n=\n7\n3\n(\nx\n−\n0\n)\ny\n+\n3\n=\n7\n3\nx\ny\n=\n7\n3\nx\n−\n3\nWe see that the same line will be obtained using either point. This makes sense because we used both points to calculate the slope.\nStandard Form of a Line\nAnother way that we can represent the equation of a line is in\nstandard form\n. Standard form is given as\nA\nx\n+\nB\ny\n=\nC\nA\nx\n+\nB\ny\n=\nC\nwhere\nA\n,\nA\n,\nB\n,\nB\n,\nand\nC\nC\nare integers. The\nx-\nand\ny-\nterms are on one side of the equal sign and the constant term is on the other side.\nFinding the Equation of a Line and Writing It in Standard Form\nFind the equation of the line with\nm\n=\n−6\nm\n=\n−6\nand passing through the point\n(\n1\n4\n,\n−2\n)\n.\n(\n1\n4\n,\n−2\n)\n.\nWrite the equation in standard form.\nSolution\nWe begin using the point-slope formula.\ny\n−\n(\n−2\n)\n=\n−6\n(\nx\n−\n1\n4\n)\ny\n+\n2\n=\n−6\nx\n+\n3\n2\ny\n−\n(\n−2\n)\n=\n−6\n(\nx\n−\n1\n4\n)\ny\n+\n2\n=\n−6\nx\n+\n3\n2\nFrom here, we multiply through by 2, as no fractions are permitted in standard form, and then move both variables to the left aside of the equal sign and move the constants to the right.\n2\n(\ny\n+\n2\n)\n=\n(\n−6\nx\n+\n3\n2\n)\n2\n2\ny\n+\n4\n=\n−12\nx\n+\n3\n12\nx\n+\n2\ny\n=\n−1\n2\n(\ny\n+\n2\n)\n=\n(\n−6\nx\n+\n3\n2\n)\n2\n2\ny\n+\n4\n=\n−12\nx\n+\n3\n12\nx\n+\n2\ny\n=\n−1\nThis equation is now written in standard form.\nFind the equation of the line in standard form with slope\nm\n=\n−\n1\n3\nm\n=\n−\n1\n3\nand passing through the point\n(\n1\n,\n1\n3\n)\n.\n(\n1\n,\n1\n3\n)\n.\nVertical and Horizontal Lines\nThe equations of vertical and horizontal lines do not require any of the preceding formulas, although we can use the formulas to prove that the equations are correct. The equation of a\nvertical line\nis given as\nx\n=\nc\nx\n=\nc\nwhere\nc\nis a constant. The slope of a vertical line is undefined, and regardless of the\ny-\nvalue of any point on the line, the\nx-\ncoordinate of the point will be\nc\n.\nSuppose that we want to find the equation of a line containing the following points:\n(\n−3\n,\n−5\n)\n,\n(\n−3\n,\n1\n)\n,\n(\n−3\n,\n3\n)\n,\n(\n−3\n,\n−5\n)\n,\n(\n−3\n,\n1\n)\n,\n(\n−3\n,\n3\n)\n,\nand\n(\n−3\n,\n5\n)\n.\n(\n−3\n,\n5\n)\n.\nFirst, we will find the slope.\nm\n=\n5\n−\n3\n−\n3\n−\n(\n−3\n)\n=\n2\n0\nm\n=\n5\n−\n3\n−\n3\n−\n(\n−3\n)\n=\n2\n0\nZero in the denominator means that the slope is undefined and, therefore, we cannot use the point-slope formula. However, we can plot the points. Notice that all of the\nx-\ncoordinates are the same and we find a vertical line through\nx\n=\n−3.\nx\n=\n−3.\nSee\nFigure 3\n.\nThe equation of a\nhorizontal line\nis given as\ny\n=\nc\ny\n=\nc\nwhere\nc\nis a constant. The slope of a horizontal line is zero, and for any\nx-\nvalue of a point on the line, the\ny-\ncoordinate will be\nc\n.\nSuppose we want to find the equation of a line that contains the following set of points:\n(\n−2\n,\n−2\n)\n,\n(\n0\n,\n−2\n)\n,\n(\n3\n,\n−2\n)\n,\n(\n−2\n,\n−2\n)\n,\n(\n0\n,\n−2\n)\n,\n(\n3\n,\n−2\n)\n,\nand\n(\n5\n,\n−2\n)\n.\n(\n5\n,\n−2\n)\n.\nWe can use the point-slope formula. First, we find the slope using any two points on the line.\nm\n=\n−2\n−\n(\n−2\n)\n0\n−\n(\n−2\n)\n=\n0\n2\n=\n0\nm\n=\n−2\n−\n(\n−2\n)\n0\n−\n(\n−2\n)\n=\n0\n2\n=\n0\nUse any point for\n(\nx\n1\n,\ny\n1\n)\n(\nx\n1\n,\ny\n1\n)\nin the formula, or use the\ny\n-intercept.\ny\n−\n(\n−2\n)\n=\n0\n(\nx\n−\n3\n)\ny\n+\n2\n=\n0\ny\n=\n−2\ny\n−\n(\n−2\n)\n=\n0\n(\nx\n−\n3\n)\ny\n+\n2\n=\n0\ny\n=\n−2\nThe graph is a horizontal line through\ny\n=\n−2.\ny\n=\n−2.\nNotice that all of the\ny-\ncoordinates are the same. See\nFigure 3\n.\nFigure\n3\nThe line\nx\n= −3 is a vertical line. The line\ny\n= −2 is a horizontal line.\nFinding the Equation of a Line Passing Through the Given Points\nFind the equation of the line passing through the given points:\n(\n1\n,\n−3\n)\n(\n1\n,\n−3\n)\nand\n(\n1\n,\n4\n)\n.\n(\n1\n,\n4\n)\n.\nSolution\nThe\nx-\ncoordinate of both points is 1. Therefore, we have a vertical line,\nx\n=\n1.\nx\n=\n1.\nFind the equation of the line passing through\n(\n−5\n,\n2\n)\n(\n−5\n,\n2\n)\nand\n(\n2\n,\n2\n)\n.\n(\n2\n,\n2\n)\n.\nDetermining Whether Graphs of Lines are Parallel or Perpendicular\nParallel lines have the same slope and different\ny-\nintercepts. Lines that are\nparallel\nto each other will never intersect. For example,\nFigure 4\nshows the graphs of various lines with the same slope,\nm\n=\n2.\nm\n=\n2.\nFigure\n4\nParallel lines\nAll of the lines shown in the graph are parallel because they have the same slope and different\ny-\nintercepts.\nLines that are\nperpendicular\nintersect to form a\n90°\n90°\n-angle. The slope of one line is the negative\nreciprocal\nof the other. We can show that two lines are perpendicular if the product of the two slopes is\n−1\n:\nm\n1\n⋅\nm\n2\n=\n−1.\n−1\n:\nm\n1\n⋅\nm\n2\n=\n−1.\nFor example,\nFigure 5\nshows the graph of two perpendicular lines. One line has a slope of 3; the other line has a slope of\n−\n1\n3\n.\n−\n1\n3\n.\nm\n1\n⋅\nm\n2\n=\n−1\n3\n⋅\n(\n−\n1\n3\n)\n=\n−1\nm\n1\n⋅\nm\n2\n=\n−1\n3\n⋅\n(\n−\n1\n3\n)\n=\n−1\nFigure\n5\nPerpendicular lines\nGraphing Two Equations, and Determining Whether the Lines are Parallel, Perpendicular, or Neither\nGraph the equations of the given lines, and state whether they are parallel, perpendicular, or neither:\n3\ny\n=\n−\n4\nx\n+\n3\n3\ny\n=\n−\n4\nx\n+\n3\nand\n3\nx\n−\n4\ny\n=\n8.\n3\nx\n−\n4\ny\n=\n8.\nSolution\nThe first thing we want to do is rewrite the equations so that both equations are in slope-intercept form.\nFirst equation:\n3\ny\n=\n−4\nx\n+\n3\ny\n=\n−\n4\n3\nx\n+\n1\n3\ny\n=\n−4\nx\n+\n3\ny\n=\n−\n4\n3\nx\n+\n1\nSecond equation:\n3\nx\n−\n4\ny\n=\n8\n−4\ny\n=\n−3\nx\n+\n8\ny\n=\n3\n4\nx\n-\n2\n3\nx\n−\n4\ny\n=\n8\n−4\ny\n=\n−3\nx\n+\n8\ny\n=\n3\n4\nx\n-\n2\nSee the graph of both lines in\nFigure 6\nFigure\n6\nFrom the graph, we can see that the lines appear perpendicular, but we must compare the slopes.\nm\n1\n=\n−\n4\n3\nm\n2\n=\n3\n4\nm\n1\n⋅\nm\n2\n=\n(\n−\n4\n3\n)\n(\n3\n4\n)\n=\n−1\nm\n1\n=\n−\n4\n3\nm\n2\n=\n3\n4\nm\n1\n⋅\nm\n2\n=\n(\n−\n4\n3\n)\n(\n3\n4\n)\n=\n−1\nThe slopes are negative reciprocals of each other, confirming that the lines are perpendicular.\nGraph the two lines and determine whether they are parallel, perpendicular, or neither:\n2\ny\n−\nx\n=\n10\n2\ny\n−\nx\n=\n10\nand\n2\ny\n=\nx\n+\n4.\n2\ny\n=\nx\n+\n4.\nWriting the Equations of Lines Parallel or Perpendicular to a Given Line\nAs we have learned, determining whether two lines are parallel or perpendicular is a matter of finding the slopes. To write the equation of a line parallel or perpendicular to another line, we follow the same principles as we do for finding the equation of any line. After finding the slope, use the\npoint-slope formula\nto write the equation of the new line.\nGiven an equation for a line, write the equation of a line parallel or perpendicular to it.\nFind the slope of the given line. The easiest way to do this is to write the equation in slope-intercept form.\nUse the slope and the given point with the point-slope formula.\nSimplify the line to slope-intercept form and compare the equation to the given line.\nWriting the Equation of a Line Parallel to a Given Line Passing Through a Given Point\nWrite the equation of line parallel to a\n5\nx\n+\n3\ny\n=\n1\n5\nx\n+\n3\ny\n=\n1\nand passing through the point\n(\n3\n,\n5\n)\n.\n(\n3\n,\n5\n)\n.\nSolution\nFirst, we will write the equation in slope-intercept form to find the slope.\n5\nx\n+\n3\ny\n=\n1\n3\ny\n=\n–5\nx\n+\n1\ny\n=\n−\n5\n3\nx\n+\n1\n3\n5\nx\n+\n3\ny\n=\n1\n3\ny\n=\n–5\nx\n+\n1\ny\n=\n−\n5\n3\nx\n+\n1\n3\nThe slope is\nm\n=\n−\n5\n3\n.\nm\n=\n−\n5\n3\n.\nThe\ny-\nintercept is\n1\n3\n,\n1\n3\n,\nbut that really does not enter into our problem, as the only thing we need for two lines to be parallel is the same slope. The one exception is that if the\ny-\nintercepts are the same, then the two lines are the same line. The next step is to use this slope and the given point with the point-slope formula.\ny\n−\n5\n=\n−\n5\n3\n(\nx\n−\n3\n)\ny\n−\n5\n=\n−\n5\n3\nx\n+\n5\ny\n=\n−\n5\n3\nx\n+\n10\ny\n−\n5\n=\n−\n5\n3\n(\nx\n−\n3\n)\ny\n−\n5\n=\n−\n5\n3\nx\n+\n5\ny\n=\n−\n5\n3\nx\n+\n10\nThe equation of the line is\ny\n=\n−\n5\n3\nx\n+\n10.\ny\n=\n−\n5\n3\nx\n+\n10.\nSee\nFigure 7\n.\nFigure\n7\nFind the equation of the line parallel to\n5\nx\n=\n7\n+\ny\n5\nx\n=\n7\n+\ny\nand passing through the point\n(\n−1\n,\n−2\n)\n.\n(\n−1\n,\n−2\n)\n.\nFinding the Equation of a Line Perpendicular to a Given Line Passing Through a Given Point\nFind the equation of the line perpendicular to\n5\nx\n−\n3\ny\n+\n4\n=\n0\n5\nx\n−\n3\ny\n+\n4\n=\n0\nand passing through the point\n(\n−\n4\n,\n1\n)\n.\n(\n−\n4\n,\n1\n)\n.\nSolution\nThe first step is to write the equation in slope-intercept form.\n5\nx\n−\n3\ny\n+\n4\n=\n0\n−3\ny\n=\n−5\nx\n−\n4\ny\n=\n5\n3\nx\n+\n4\n3\n5\nx\n−\n3\ny\n+\n4\n=\n0\n−3\ny\n=\n−5\nx\n−\n4\ny\n=\n5\n3\nx\n+\n4\n3\nWe see that the slope is\nm\n=\n5\n3\n.\nm\n=\n5\n3\n.\nThis means that the slope of the line perpendicular to the given line is the negative reciprocal, or\n−\n3\n5\n.\n−\n3\n5\n.\nNext, we use the point-slope formula with this new slope and the given point.\ny\n−\n1\n=\n−\n3\n5\n(\nx\n−\n(\n−4\n)\n)\ny\n−\n1\n=\n−\n3\n5\nx\n−\n12\n5\ny\n=\n−\n3\n5\nx\n−\n12\n5\n+\n5\n5\ny\n=\n−\n3\n5\nx\n−\n7\n5\ny\n−\n1\n=\n−\n3\n5\n(\nx\n−\n(\n−4\n)\n)\ny\n−\n1\n=\n−\n3\n5\nx\n−\n12\n5\ny\n=\n−\n3\n5\nx\n−\n12\n5\n+\n5\n5\ny\n=\n−\n3\n5\nx\n−\n7\n5\nAccess these online resources for additional instruction and practice with linear equations.\nSolving rational equations\nEquation of a line given two points\nFinding the equation of a line perpendicular to another line through a given point\nFinding the equation of a line parallel to another line through a given point\n2.2 Section Exercises\nVerbal\n1\n.\nWhat does it mean when we say that two lines are parallel?\n2\n.\nWhat is the relationship between the slopes of perpendicular lines (assuming neither is horizontal nor vertical)?\n3\n.\nHow do we recognize when an equation, for example\ny\n=\n4\nx\n+\n3\n,\ny\n=\n4\nx\n+\n3\n,\nwill be a straight line (linear) when graphed?\n4\n.\nWhat does it mean when we say that a linear equation is inconsistent?\n5\n.\nWhen solving the following equation:\n2\nx\n−\n5\n=\n4\nx\n+\n1\n2\nx\n−\n5\n=\n4\nx\n+\n1\nexplain why we must exclude\nx\n=\n5\nx\n=\n5\nand\nx\n=\n−1\nx\n=\n−1\nas possible solutions from the solution set.\nAlgebraic\nFor the following exercises, solve the equation for\nx\n.\nx\n.\n6\n.\n7\nx\n+\n2\n=\n3\nx\n−\n9\n7\nx\n+\n2\n=\n3\nx\n−\n9\n7\n.\n4\nx\n−\n3\n=\n5\n4\nx\n−\n3\n=\n5\n8\n.\n3\n(\nx\n+\n2\n)\n−\n12\n=\n5\n(\nx\n+\n1\n)\n3\n(\nx\n+\n2\n)\n−\n12\n=\n5\n(\nx\n+\n1\n)\n9\n.\n12\n−\n5\n(\nx\n+\n3\n)\n=\n2\nx\n−\n5\n12\n−\n5\n(\nx\n+\n3\n)\n=\n2\nx\n−\n5\n10\n.\n1\n2\n−\n1\n3\nx\n=\n4\n3\n1\n2\n−\n1\n3\nx\n=\n4\n3\n11\n.\nx\n3\n−\n3\n4\n=\n2\nx\n+\n3\n12\nx\n3\n−\n3\n4\n=\n2\nx\n+\n3\n12\n12\n.\n2\n3\nx\n+\n1\n2\n=\n31\n6\n2\n3\nx\n+\n1\n2\n=\n31\n6\n13\n.\n3\n(\n2\nx\n−\n1\n)\n+\nx\n=\n5\nx\n+\n3\n3\n(\n2\nx\n−\n1\n)\n+\nx\n=\n5\nx\n+\n3\n14\n.\n2\nx\n3\n−\n3\n4\n=\nx\n6\n+\n21\n4\n2\nx\n3\n−\n3\n4\n=\nx\n6\n+\n21\n4\n15\n.\nx\n+\n2\n4\n−\nx\n−\n1\n3\n=\n2\nx\n+\n2\n4\n−\nx\n−\n1\n3\n=\n2\nFor the following exercises, solve each rational equation for\nx\n.\nx\n.\nState all\nx\n-values that are excluded from the solution set.\n16\n.\n3\nx\n−\n1\n3\n=\n1\n6\n3\nx\n−\n1\n3\n=\n1\n6\n17\n.\n2\n−\n3\nx\n+\n4\n=\nx\n+\n2\nx\n+\n4\n2\n−\n3\nx\n+\n4\n=\nx\n+\n2\nx\n+\n4\n18\n.\n3\nx\n−\n2\n=\n1\nx\n−\n1\n+\n7\n(\nx\n−\n1\n)\n(\nx\n−\n2\n)\n3\nx\n−\n2\n=\n1\nx\n−\n1\n+\n7\n(\nx\n−\n1\n)\n(\nx\n−\n2\n)\n19\n.\n3\nx\nx\n−\n1\n+\n2\n=\n3\nx\n−\n1\n3\nx\nx\n−\n1\n+\n2\n=\n3\nx\n−\n1\n20\n.\n5\nx\n+\n1\n+\n1\nx\n−\n3\n=\n−\n6\nx\n2\n−\n2\nx\n−\n3\n5\nx\n+\n1\n+\n1\nx\n−\n3\n=\n−\n6\nx\n2\n−\n2\nx\n−\n3\n21\n.\n1\nx\n=\n1\n5\n+\n3\n2\nx\n1\nx\n=\n1\n5\n+\n3\n2\nx\nFor the following exercises, find the equation of the line using the point-slope formula.\nWrite all the final equations using the slope-intercept form.\n22\n.\n(\n0\n,\n3\n)\n(\n0\n,\n3\n)\nwith a slope of\n2\n3\n2\n3\n23\n.\n(\n1\n,\n2\n)\n(\n1\n,\n2\n)\nwith a slope of\n−\n4\n5\n−\n4\n5\n24\n.\nx\n-intercept is 1, and\n(\n−2\n,\n6\n)\n(\n−2\n,\n6\n)\n25\n.\ny\n-intercept is 2, and\n(\n4\n,\n−1\n)\n(\n4\n,\n−1\n)\n26\n.\n(\n−3\n,\n10\n)\n(\n−3\n,\n10\n)\nand\n(\n5\n,\n−6\n)\n(\n5\n,\n−6\n)\n27\n.\n(\n1\n,\n3\n)\nand\n(\n5\n,\n5\n)\n(\n1\n,\n3\n)\nand\n(\n5\n,\n5\n)\n28\n.\nparallel to\ny\n=\n2\nx\n+\n5\ny\n=\n2\nx\n+\n5\nand passes through the point\n(\n4\n,\n3\n)\n(\n4\n,\n3\n)\n29\n.\nperpendicular to\n3\ny\n=\nx\n−\n4\n3\ny\n=\nx\n−\n4\nand passes through the point\n(\n−2\n,\n1\n)\n(\n−2\n,\n1\n)\n.\nFor the following exercises, find the equation of the line using the given information.\n30\n.\n(\n−\n2\n,\n0\n)\n(\n−\n2\n,\n0\n)\nand\n(\n−2\n,\n5\n)\n(\n−2\n,\n5\n)\n31\n.\n(\n1\n,\n7\n)\n(\n1\n,\n7\n)\nand\n(\n3\n,\n7\n)\n(\n3\n,\n7\n)\n32\n.\nThe slope is undefined and it passes through the point\n(\n2\n,\n3\n)\n.\n(\n2\n,\n3\n)\n.\n33\n.\nThe slope equals zero and it passes through the point\n(\n1\n,\n−4\n)\n.\n(\n1\n,\n−4\n)\n.\n34\n.\nThe slope is\n3\n4\n3\n4\nand it passes through the point\n(\n1\n,\n4\n)\n(\n1\n,\n4\n)\n.\n35\n.\n(\n–1\n,\n3\n)\n(\n–1\n,\n3\n)\nand\n(\n4\n,\n–5\n)\n(\n4\n,\n–5\n)\nGraphical\nFor the following exercises, graph the pair of equations on the same axes, and state whether they are parallel, perpendicular, or neither.\n36\n.\ny\n=\n2\nx\n+\n7\ny\n=\n−\n1\n2\nx\n−\n4\ny\n=\n2\nx\n+\n7\ny\n=\n−\n1\n2\nx\n−\n4\n37\n.\n3\nx\n−\n2\ny\n=\n5\n6\ny\n−\n9\nx\n=\n6\n3\nx\n−\n2\ny\n=\n5\n6\ny\n−\n9\nx\n=\n6\n38\n.\ny\n=\n3\nx\n+\n1\n4\ny\n=\n3\nx\n+\n2\ny\n=\n3\nx\n+\n1\n4\ny\n=\n3\nx\n+\n2\n39\n.\nx\n=\n4\ny\n=\n−3\nx\n=\n4\ny\n=\n−3\nNumeric\nFor the following exercises, find the slope of the line that passes through the given points.\n40\n.\n(\n5\n,\n4\n)\n(\n5\n,\n4\n)\nand\n(\n7\n,\n9\n)\n(\n7\n,\n9\n)\n41\n.\n(\n−3\n,\n2\n)\n(\n−3\n,\n2\n)\nand\n(\n4\n,\n−7\n)\n(\n4\n,\n−7\n)\n42\n.\n(\n−5\n,\n4\n)\n(\n−5\n,\n4\n)\nand\n(\n2\n,\n4\n)\n(\n2\n,\n4\n)\n43\n.\n(\n−1\n,\n−2\n)\n(\n−1\n,\n−2\n)\nand\n(\n3\n,\n4\n)\n(\n3\n,\n4\n)\n44\n.\n(\n3\n,\n3\n)\n(\n3\n,\n3\n)\nand\n(\n3\n,\n−2\n)\n(\n3\n,\n−2\n)\nFor the following exercises, find the slope of the lines that pass through each pair of points and determine whether the lines are parallel or perpendicular.\n45\n.\n(\n−1\n,\n3\n)\nand\n(\n5\n,\n1\n)\n(\n−2\n,\n3\n)\nand\n(\n0\n,\n9\n)\n(\n−1\n,\n3\n)\nand\n(\n5\n,\n1\n)\n(\n−2\n,\n3\n)\nand\n(\n0\n,\n9\n)\n46\n.\n(\n2\n,\n5\n)\nand\n(\n5\n,\n9\n)\n(\n−1\n,\n−1\n)\nand\n(\n2\n,\n3\n)\n(\n2\n,\n5\n)\nand\n(\n5\n,\n9\n)\n(\n−1\n,\n−1\n)\nand\n(\n2\n,\n3\n)\nTechnology\nFor the following exercises, express the equations in slope intercept form (rounding each number to the thousandths place). Enter this into a graphing calculator as Y1, then adjust the ymin and ymax values for your window to include where the\ny\n-intercept occurs. State your ymin and ymax values.\n47\n.\n0.537\nx\n−\n2.19\ny\n=\n100\n0.537\nx\n−\n2.19\ny\n=\n100\n48\n.\n4,500\nx\n−\n200\ny\n=\n9,528\n4,500\nx\n−\n200\ny\n=\n9,528\n49\n.\n200\n−\n30\ny\nx\n=\n70\n200\n−\n30\ny\nx\n=\n70\nExtensions\n50\n.\nStarting with the point-slope formula\ny\n−\ny\n1\n=\nm\n(\nx\n−\nx\n1\n)\n,\ny\n−\ny\n1\n=\nm\n(\nx\n−\nx\n1\n)\n,\nsolve this expression for\nx\nx\nin terms of\nx\n1\n,\ny\n,\ny\n1\n,\nx\n1\n,\ny\n,\ny\n1\n,\nand\nm\nm\n.\n51\n.\nStarting with the standard form of an equation\nA\nx\n+\nB\ny\n=\nC\nA\nx\n+\nB\ny\n=\nC\nsolve this expression for\ny\ny\nin terms of\nA\n,\nB\n,\nC\nA\n,\nB\n,\nC\nand\nx\nx\n. Then put the expression in slope-intercept form.\n52\n.\nUse the above derived formula to put the following standard equation in slope intercept form:\n7\nx\n−\n5\ny\n=\n25.\n7\nx\n−\n5\ny\n=\n25.\n53\n.\nGiven that the following coordinates are the vertices of a rectangle, prove that this truly is a rectangle by showing the slopes of the sides that meet are perpendicular.\n(\n–\n1\n,\n1\n)\n,\n(\n2\n,\n0\n)\n,\n(\n3\n,\n3\n)\n(\n–\n1\n,\n1\n)\n,\n(\n2\n,\n0\n)\n,\n(\n3\n,\n3\n)\nand\n(\n0\n,\n4\n)\n(\n0\n,\n4\n)\n54\n.\nFind the slopes of the diagonals in the previous exercise. Are they perpendicular?\nReal-World Applications\n55\n.\nThe slope for a wheelchair ramp for a home has to be\n1\n12\n.\n1\n12\n.\nIf the vertical distance from the ground to the door bottom is 2.5 ft, find the distance the ramp has to extend from the home in order to comply with the needed slope.\n56\n.\nIf the profit equation for a small business selling\nx\nx\nnumber of item one and\ny\ny\nnumber of item two is\np\n=\n3\nx\n+\n4\ny\n,\np\n=\n3\nx\n+\n4\ny\n,\nfind the\ny\ny\nvalue when\np\n=\n$\n453\nand\nx\n=\n75.\np\n=\n$\n453\nand\nx\n=\n75.\nFor the following exercises, use this scenario: The cost of renting a car is $45/wk plus $0.25/mi traveled during that week. An equation to represent the cost would be\ny\n=\n45\n+\n.25\nx\n,\ny\n=\n45\n+\n.25\nx\n,\nwhere\nx\nx\nis the number of miles traveled.\n57\n.\nWhat is your cost if you travel 50 mi?\n58\n.\nIf your cost were\n$\n63.75\n,\n$\n63.75\n,\nhow many miles were you charged for traveling?\n59\n.\nSuppose you have a maximum of $100 to spend for the car rental. What would be the maximum number of miles you could travel?",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-19T18:53:25Z"
+}

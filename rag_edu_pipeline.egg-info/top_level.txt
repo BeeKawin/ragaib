@@ -1,0 +1,6 @@
+chat
+config
+embeddings
+retrieval
+scraper
+vector_store

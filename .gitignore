@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+vector_db/
+data/eval/results/
+data/eval/summaries/
