@@ -20,6 +20,9 @@ from config.settings import (
     GEMINI_API_KEY,
     LLM_MODEL,
     LLM_PROVIDER,
+    OLLAMA_BASE_URL,
+    OLLAMA_NUM_CTX,
+    OLLAMA_NUM_PREDICT,
     SUBJECT_META,
     GRADE_META,
 )
@@ -33,12 +36,21 @@ def _get_llm(streaming: bool = False):
         from langchain_google_genai import ChatGoogleGenerativeAI
         return ChatGoogleGenerativeAI(
             model=LLM_MODEL,
-            google_api_key=GEMINI_API_KEY,
+            api_key=GEMINI_API_KEY,
             temperature=0.3,
-            max_output_tokens=2048,
+            max_tokens=2048,
+        )
+    if LLM_PROVIDER == "ollama":
+        from langchain_community.chat_models.ollama import ChatOllama
+        return ChatOllama(
+            base_url=OLLAMA_BASE_URL,
+            model=LLM_MODEL,
+            temperature=0.3,
+            num_ctx=OLLAMA_NUM_CTX,
+            num_predict=OLLAMA_NUM_PREDICT,
         )
     raise ValueError(
-        f"Unsupported LLM_PROVIDER='{LLM_PROVIDER}'. Use one of: anthropic, openai, gemini"
+        f"Unsupported LLM_PROVIDER='{LLM_PROVIDER}'. Use one of: gemini, ollama"
     )
 
 

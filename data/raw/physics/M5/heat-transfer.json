@@ -2,12 +2,22 @@
   "subject": "physics",
   "grade": "M5",
   "topic": "Heat Transfer",
-  "url": "https://www.ck12.org/physics/heat/",
-  "title": "File Not Found | CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/college-physics-2e/pages/14-introduction-to-heat-and-heat-transfer-methods",
+  "title": "Introduction to Heat and Heat Transfer Methods",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 14.1 Heat\n- 14.2 Temperature Change and Heat Capacity\n- 14.3 Phase Change and Latent Heat\n- 14.4 Heat Transfer Methods\n- 14.5 Conduction\n- 14.6 Convection\n- 14.7 Radiation"
+    },
+    {
+      "heading": "Introduction to Heat and Heat Transfer Methods",
+      "content": "Energy can exist in many forms and heat is one of the most intriguing. Heat is often hidden, as it only exists when in transit, and is transferred by a number of distinctly different methods. Heat transfer touches every aspect of our lives and helps us understand how the universe functions. It explains the chill we feel on a clear breezy night, or why Earth’s core has yet to cool. This chapter defines and explores heat transfer, its effects, and the methods by which heat is transferred. These topics are fundamental, as well as practical, and will often be referred to in the chapters ahead."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "File Not Found | CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:59:39Z"
+  "raw_text": "Figure\n14.1\nEunice Newton Foote was the first to determine the relationship between carbon dioxide, water vapor, and the potential for global heating. She designed and conducted a number of experiments to uncover the ability of different gases to trap heat, describing what would later be referred to as greenhouse gases. (credit: Carlyn Iverson, NOAA Climate.gov)\nChapter Outline\n14.1\nHeat\n14.2\nTemperature Change and Heat Capacity\n14.3\nPhase Change and Latent Heat\n14.4\nHeat Transfer Methods\n14.5\nConduction\n14.6\nConvection\n14.7\nRadiation\nIntroduction to Heat and Heat Transfer Methods\nEnergy can exist in many forms and heat is one of the most intriguing. Heat is often hidden, as it only exists when in transit, and is transferred by a number of distinctly different methods. Heat transfer touches every aspect of our lives and helps us understand how the universe functions. It explains the chill we feel on a clear breezy night, or why Earth’s core has yet to cool. This chapter defines and explores heat transfer, its effects, and the methods by which heat is transferred. These topics are fundamental, as well as practical, and will often be referred to in the chapters ahead.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:18:24Z"
 }

@@ -2,12 +2,22 @@
   "subject": "biology",
   "grade": "M4",
   "topic": "Cellular Respiration",
-  "url": "https://www.ck12.org/biology/cellular-respiration/",
-  "title": "| CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/biology-2e/pages/7-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 7.1 Energy in Living Systems\n- 7.2 Glycolysis\n- 7.3 Oxidation of Pyruvate and the Citric Acid Cycle\n- 7.4 Oxidative Phosphorylation\n- 7.5 Metabolism without Oxygen\n- 7.6 Connections of Carbohydrate, Protein, and Lipid Metabolic Pathways\n- 7.7 Regulation of Cellular Respiration"
+    },
+    {
+      "heading": "Introduction",
+      "content": "The electrical energy plant in Figure 7.1 converts energy from one form to another form that can be more easily used. This type of generating plant starts with underground thermal energy (heat) and transforms it into electrical energy that will be transported to homes and factories. Like a generating plant, plants and animals also must take in energy from the environment and convert it into a form that their cells can use. Mass and its stored energy enter an organism’s body in one form and are converted into another form that can fuel the organism’s life functions. In the process of photosynthesis, plants and other photosynthetic producers take in energy in the form of light (solar energy) and convert it into chemical energy in the form of glucose, which stores this energy in its chemical bonds. Then, a series of metabolic pathways, collectively called cellular respiration, extracts the energy from the bonds in glucose and converts it into a form that all living things can use."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "| CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:58:42Z"
+  "raw_text": "Figure\n7.1\nThis geothermal energy plant transforms thermal energy from deep in the ground into electrical energy, which can be easily used. (credit: modification of work by the U.S. Department of Defense)\nChapter Outline\n7.1\nEnergy in Living Systems\n7.2\nGlycolysis\n7.3\nOxidation of Pyruvate and the Citric Acid Cycle\n7.4\nOxidative Phosphorylation\n7.5\nMetabolism without Oxygen\n7.6\nConnections of Carbohydrate, Protein, and Lipid Metabolic Pathways\n7.7\nRegulation of Cellular Respiration\nIntroduction\nThe electrical energy plant in\nFigure 7.1\nconverts energy from one form to another form that can be more easily used. This type of generating plant starts with underground thermal energy (heat) and transforms it into electrical energy that will be transported to homes and factories. Like a generating plant, plants and animals also must take in energy from the environment and convert it into a form that their cells can use. Mass and its stored energy enter an organism’s body in one form and are converted into another form that can fuel the organism’s life functions. In the process of photosynthesis, plants and other photosynthetic producers take in energy in the form of light (solar energy) and convert it into chemical energy in the form of glucose, which stores this energy in its chemical bonds. Then, a series of metabolic pathways, collectively called cellular respiration, extracts the energy from the bonds in glucose and converts it into a form that all living things can use.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:47Z"
 }

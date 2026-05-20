@@ -2,12 +2,22 @@
   "subject": "biology",
   "grade": "M6",
   "topic": "Biotechnology",
-  "url": "https://www.ck12.org/biology/biotechnology/",
-  "title": "| CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/biology-2e/pages/17-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 17.1 Biotechnology\n- 17.2 Mapping Genomes\n- 17.3 Whole-Genome Sequencing\n- 17.4 Applying Genomics\n- 17.5 Genomics and Proteomics"
+    },
+    {
+      "heading": "Introduction",
+      "content": "The study of nucleic acids began with the discovery of DNA, progressed to the study of genes and small fragments, and has now exploded to the field of genomics. Genomics is the study of entire genomes, including the complete set of genes, their nucleotide sequence and organization, and their interactions within a species and with other species. DNA sequencing technology has contributed to advances in genomics. Just as information technology has led to Google maps that enable people to obtain detailed information about locations around the globe, researchers use genomic information to create similar DNA maps of different organisms. These findings have helped anthropologists to better understand human migration and have aided the medical field through mapping human genetic diseases. Genomic information can contribute to scientific understanding in various ways and knowledge in the field is quickly growing."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "| CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:59:49Z"
+  "raw_text": "Figure\n17.1\nGenomics compares the DNA of different organisms, enabling scientists to create maps with which to navigate different organisms' DNA. (credit \"map\": modification of photo by NASA)\nChapter Outline\n17.1\nBiotechnology\n17.2\nMapping Genomes\n17.3\nWhole-Genome Sequencing\n17.4\nApplying Genomics\n17.5\nGenomics and Proteomics\nIntroduction\nThe study of nucleic acids began with the discovery of DNA, progressed to the study of genes and small fragments, and has now exploded to the field of genomics. Genomics is the study of entire genomes, including the complete set of genes, their nucleotide sequence and organization, and their interactions within a species and with other species. DNA sequencing technology has contributed to advances in genomics. Just as information technology has led to Google maps that enable people to obtain detailed information about locations around the globe, researchers use genomic information to create similar DNA maps of different organisms. These findings have helped anthropologists to better understand human migration and have aided the medical field through mapping human genetic diseases. Genomic information can contribute to scientific understanding in various ways and knowledge in the field is quickly growing.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:35Z"
 }

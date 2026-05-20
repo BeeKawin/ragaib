@@ -2,12 +2,22 @@
   "subject": "physics",
   "grade": "M4",
   "topic": "Kinematics 1D",
-  "url": "https://www.ck12.org/physics/kinematics/",
-  "title": "File Not Found | CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/college-physics-2e/pages/2-introduction-to-one-dimensional-kinematics",
+  "title": "Introduction to One-Dimensional Kinematics",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 2.1 Displacement\n- 2.2 Vectors, Scalars, and Coordinate Systems\n- 2.3 Time, Velocity, and Speed\n- 2.4 Acceleration\n- 2.5 Motion Equations for Constant Acceleration in One Dimension\n- 2.6 Problem-Solving Basics for One-Dimensional Kinematics\n- 2.7 Falling Objects\n- 2.8 Graphical Analysis of One-Dimensional Motion"
+    },
+    {
+      "heading": "Introduction to One-Dimensional Kinematics",
+      "content": "Objects are in motion everywhere we look. Everything from a tennis game to a space-probe flyby of the planet Neptune involves motion. When you are resting, your heart moves blood through your veins. And even in inanimate objects, there is continuous motion in the vibrations of atoms and molecules. Questions about motion are interesting in and of themselves: How long will it take for a space probe to get to Mars? Where will a football land if it is thrown at a certain angle? But an understanding of motion is also key to understanding other concepts in physics. An understanding of acceleration, for example, is crucial to the study of force.\nOur formal study of physics begins with kinematics which is defined as the study of motion without considering its causes . The word “kinematics” comes from a Greek term meaning motion and is related to other English words such as “cinema” (movies) and “kinesiology” (the study of human motion). In one-dimensional kinematics and Two-Dimensional Kinematics we will study only the motion of a football, for example, without worrying about what forces cause or change its motion. Such considerations come in other chapters. In this chapter, we examine the simplest type of motion—namely, motion along a straight line, or one-dimensional motion. In Two-Dimensional Kinematics , we apply concepts developed here to study motion along curved paths (two- and three-dimensional motion); for example, that of a car rounding a curve.\nOpenStax AP Physics Chapter 2: One-Dimensional Kinematics (Physics Concept Trailer™)"
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "File Not Found | CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:58:33Z"
+  "raw_text": "Figure\n2.1\nThe motion of an American kestrel through the air can be described by the bird’s displacement, speed, velocity, and acceleration. When it flies in a straight line without any change in direction, its motion is said to be one dimensional. (credit: Vince Maidens, Wikimedia Commons)\nChapter Outline\n2.1\nDisplacement\n2.2\nVectors, Scalars, and Coordinate Systems\n2.3\nTime, Velocity, and Speed\n2.4\nAcceleration\n2.5\nMotion Equations for Constant Acceleration in One Dimension\n2.6\nProblem-Solving Basics for One-Dimensional Kinematics\n2.7\nFalling Objects\n2.8\nGraphical Analysis of One-Dimensional Motion\nIntroduction to One-Dimensional Kinematics\nObjects are in motion everywhere we look. Everything from a tennis game to a space-probe flyby of the planet Neptune involves motion. When you are resting, your heart moves blood through your veins. And even in inanimate objects, there is continuous motion in the vibrations of atoms and molecules. Questions about motion are interesting in and of themselves:\nHow long will it take for a space probe to get to Mars? Where will a football land if it is thrown at a certain angle?\nBut an understanding of motion is also key to understanding other concepts in physics. An understanding of acceleration, for example, is crucial to the study of force.\nOur formal study of physics begins with\nkinematics\nwhich is defined as the\nstudy of motion without considering its causes\n. The word “kinematics” comes from a Greek term meaning motion and is related to other English words such as “cinema” (movies) and “kinesiology” (the study of human motion). In one-dimensional kinematics and\nTwo-Dimensional Kinematics\nwe will study only the\nmotion\nof a football, for example, without worrying about what forces cause or change its motion. Such considerations come in other chapters. In this chapter, we examine the simplest type of motion—namely, motion along a straight line, or one-dimensional motion. In\nTwo-Dimensional Kinematics\n, we apply concepts developed here to study motion along curved paths (two- and three-dimensional motion); for example, that of a car rounding a curve.\nOpenStax AP Physics Chapter 2: One-Dimensional Kinematics (Physics Concept Trailer™)",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:31Z"
 }

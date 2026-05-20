@@ -2,12 +2,22 @@
   "subject": "physics",
   "grade": "M4",
   "topic": "Kinematics 2D",
-  "url": "https://www.ck12.org/physics/two-dimensional-motion/",
-  "title": "File Not Found | CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/college-physics-2e/pages/3-introduction-to-two-dimensional-kinematics",
+  "title": "Introduction to Two-Dimensional Kinematics",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 3.1 Kinematics in Two Dimensions: An Introduction\n- 3.2 Vector Addition and Subtraction: Graphical Methods\n- 3.3 Vector Addition and Subtraction: Analytical Methods\n- 3.4 Projectile Motion\n- 3.5 Addition of Velocities"
+    },
+    {
+      "heading": "Introduction to Two-Dimensional Kinematics",
+      "content": "The arc of a basketball, the orbit of a satellite, a bicycle rounding a curve, a swimmer diving into a pool, blood gushing out of a wound, and a puppy chasing its tail are but a few examples of motions along curved paths. In fact, most motions in nature follow curved paths rather than straight lines. Motion along a curved path on a flat surface or a plane (such as that of a ball on a pool table or a skater on an ice rink) is two-dimensional, and thus described by two-dimensional kinematics. Motion not confined to a plane, such as a car following a winding mountain road, is described by three-dimensional kinematics. Both two- and three-dimensional kinematics are simple extensions of the one-dimensional kinematics developed for straight-line motion in the previous chapter. This simple extension will allow us to apply physics to many more situations, and it will also yield unexpected insights about nature.\nOpenStax AP Physics Chapter 3: Two-Dimensional Kinematics (Physics Concept Trailer™)"
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "File Not Found | CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:58:38Z"
+  "raw_text": "Figure\n3.1\nHitting a tennis ball is difficult enough when it is traveling at high speeds in a relatively straight line. However, most motion is in curved, rather than straight-line, paths. Tennis players must account for the arc of the ball and the impact of its spin, while they also predict how it will bounce and plan the location of their shot. Motion along a curved path is two- or three-dimensional motion, and can be described in a similar fashion to one-dimensional motion. (credit: Edwin Martinez/Flickr)\nChapter Outline\n3.1\nKinematics in Two Dimensions: An Introduction\n3.2\nVector Addition and Subtraction: Graphical Methods\n3.3\nVector Addition and Subtraction: Analytical Methods\n3.4\nProjectile Motion\n3.5\nAddition of Velocities\nIntroduction to Two-Dimensional Kinematics\nThe arc of a basketball, the orbit of a satellite, a bicycle rounding a curve, a swimmer diving into a pool, blood gushing out of a wound, and a puppy chasing its tail are but a few examples of motions along curved paths. In fact, most motions in nature follow curved paths rather than straight lines. Motion along a curved path on a flat surface or a plane (such as that of a ball on a pool table or a skater on an ice rink) is two-dimensional, and thus described by two-dimensional kinematics. Motion not confined to a plane, such as a car following a winding mountain road, is described by three-dimensional kinematics. Both two- and three-dimensional kinematics are simple extensions of the one-dimensional kinematics developed for straight-line motion in the previous chapter. This simple extension will allow us to apply physics to many more situations, and it will also yield unexpected insights about nature.\nOpenStax AP Physics Chapter 3: Two-Dimensional Kinematics (Physics Concept Trailer™)",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:42Z"
 }

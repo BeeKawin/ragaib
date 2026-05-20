@@ -2,12 +2,22 @@
   "subject": "biology",
   "grade": "M4",
   "topic": "Cell Biology",
-  "url": "https://www.ck12.org/biology/cell-biology/",
-  "title": "Cell Biology | CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/biology-2e/pages/4-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 4.1 Studying Cells\n- 4.2 Prokaryotic Cells\n- 4.3 Eukaryotic Cells\n- 4.4 The Endomembrane System and Proteins\n- 4.5 The Cytoskeleton\n- 4.6 Connections between Cells and Cellular Activities"
+    },
+    {
+      "heading": "Introduction",
+      "content": "Close your eyes and picture a brick wall. What is the wall's basic building block? It is a single brick. Like a brick wall, cells are the building blocks that make up your body.\nYour body has many kinds of cells, each specialized for a specific purpose. Just as we use a variety of materials to build a home, the human body is constructed from many cell types. For example, epithelial cells protect the body's surface and cover the organs and body cavities within. Bone cells help to support and protect the body. Immune system cells fight invading bacteria. Additionally, blood and blood cells carry nutrients and oxygen throughout the body while removing carbon dioxide. Each of these cell types plays a vital role during the body's growth, development, and day-to-day maintenance. In spite of their enormous variety, however, cells from all organisms—even ones as diverse as bacteria, onion, and human—share certain fundamental characteristics."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "Cell Biology | CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:58:11Z"
+  "raw_text": "Figure\n4.1\n(a) Nasal sinus cells (viewed with a light microscope), (b) onion cells (viewed with a light microscope), and (c)\nVibrio tasmaniensis\nbacterial cells (seen through a scanning electron microscope) are from very different organisms, yet all share certain basic cell structure characteristics. (credit a: modification of work by Ed Uthman, MD; credit b: modification of work by Umberto Salvagnin; credit c: modification of work by Anthony D'Onofrio, William H. Fowle, Eric J. Stewart, and Kim Lewis of the Lewis Lab at Northeastern University; scale-bar data from Matt Russell)\nChapter Outline\n4.1\nStudying Cells\n4.2\nProkaryotic Cells\n4.3\nEukaryotic Cells\n4.4\nThe Endomembrane System and Proteins\n4.5\nThe Cytoskeleton\n4.6\nConnections between Cells and Cellular Activities\nIntroduction\nClose your eyes and picture a brick wall. What is the wall's basic building block? It is a single brick. Like a brick wall, cells are the building blocks that make up your body.\nYour body has many kinds of cells, each specialized for a specific purpose. Just as we use a variety of materials to build a home, the human body is constructed from many cell types. For example, epithelial cells protect the body's surface and cover the organs and body cavities within. Bone cells help to support and protect the body. Immune system cells fight invading bacteria. Additionally, blood and blood cells carry nutrients and oxygen throughout the body while removing carbon dioxide. Each of these cell types plays a vital role during the body's growth, development, and day-to-day maintenance. In spite of their enormous variety, however, cells from all organisms—even ones as diverse as bacteria, onion, and human—share certain fundamental characteristics.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:47Z"
 }

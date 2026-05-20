@@ -2,12 +2,22 @@
   "subject": "physics",
   "grade": "M4",
   "topic": "Circular Motion",
-  "url": "https://www.ck12.org/physics/circular-motion/",
-  "title": "| CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/college-physics-2e/pages/6-introduction-to-uniform-circular-motion-and-gravitation",
+  "title": "Introduction to Uniform Circular Motion and Gravitation",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 6.1 Rotation Angle and Angular Velocity\n- 6.2 Centripetal Acceleration\n- 6.3 Centripetal Force\n- 6.4 Fictitious Forces and Non-inertial Frames: The Coriolis Force\n- 6.5 Newton’s Universal Law of Gravitation\n- 6.6 Satellites and Kepler’s Laws: An Argument for Simplicity"
+    },
+    {
+      "heading": "Introduction to Uniform Circular Motion and Gravitation",
+      "content": "Many motions, such as the arc of a bird’s flight or Earth’s path around the Sun, are curved. Recall that Newton’s first law tells us that motion is along a straight line at constant speed unless there is a net external force. We will therefore study not only motion along curves, but also the forces that cause it, including gravitational forces. In some ways, this chapter is a continuation of Dynamics: Newton's Laws of Motion as we study more applications of Newton’s laws of motion.\nThis chapter deals with the simplest form of curved motion, uniform circular motion , motion in a circular path at constant speed. Studying this topic illustrates most concepts associated with rotational motion and leads to the study of many new topics we group under the name rotation . Pure rotational motion occurs when points in an object move in circular paths centered on one point. Pure translational motion is motion with no rotation. Some motion combines both types, such as a rotating hockey puck moving along ice."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "| CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:58:48Z"
+  "raw_text": "Figure\n6.1\nThis Australian Grand Prix Formula 1 race car moves in a circular path as it makes the turn. Its wheels also spin rapidly—the latter completing many revolutions, the former only part of one (a circular arc). The same physical principles are involved in each. (credit: Richard Munckton)\nChapter Outline\n6.1\nRotation Angle and Angular Velocity\n6.2\nCentripetal Acceleration\n6.3\nCentripetal Force\n6.4\nFictitious Forces and Non-inertial Frames: The Coriolis Force\n6.5\nNewton’s Universal Law of Gravitation\n6.6\nSatellites and Kepler’s Laws: An Argument for Simplicity\nIntroduction to Uniform Circular Motion and Gravitation\nMany motions, such as the arc of a bird’s flight or Earth’s path around the Sun, are curved. Recall that Newton’s first law tells us that motion is along a straight line at constant speed unless there is a net external force. We will therefore study not only motion along curves, but also the forces that cause it, including gravitational forces. In some ways, this chapter is a continuation of\nDynamics: Newton's Laws of Motion\nas we study more applications of Newton’s laws of motion.\nThis chapter deals with the simplest form of curved motion,\nuniform circular motion\n, motion in a circular path at constant speed. Studying this topic illustrates most concepts associated with rotational motion and leads to the study of many new topics we group under the name\nrotation\n. Pure\nrotational motion\noccurs when points in an object move in circular paths centered on one point. Pure\ntranslational motion\nis motion with no rotation. Some motion combines both types, such as a rotating hockey puck moving along ice.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:18:04Z"
 }

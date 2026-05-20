@@ -1,12 +1,3 @@
-"""
-scraper/openstax_scraper.py
-
-Async OpenStax scraper.
-
-It saves the same raw JSON shape as the previous scraper so the existing
-DocumentProcessor, vector indexer, and RAG chain can keep working.
-"""
-
 from __future__ import annotations
 
 import asyncio

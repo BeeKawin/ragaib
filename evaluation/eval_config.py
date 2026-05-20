@@ -3,7 +3,7 @@
 import os
 from pathlib import Path
 
-from config.settings import DATA_DIR
+from config.settings import DATA_DIR, LLM_MODEL, LLM_PROVIDER
 
 EVAL_DIR = DATA_DIR / "eval"
 GOLD_QA_PATH = EVAL_DIR / "gold_qa.jsonl"
@@ -22,7 +22,8 @@ METRIC_WEIGHTS = {
 }
 
 PASS_THRESHOLD = 70.0
-JUDGE_MODEL = os.getenv("JUDGE_MODEL", "gemini-2.5-flash-lite")
+JUDGE_PROVIDER = os.getenv("JUDGE_PROVIDER", LLM_PROVIDER)
+JUDGE_MODEL = os.getenv("JUDGE_MODEL", LLM_MODEL)
 JUDGE_TIMEOUT_SECONDS = 45
 JUDGE_MAX_RETRIES = 2
 

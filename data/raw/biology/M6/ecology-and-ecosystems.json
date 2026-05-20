@@ -2,12 +2,22 @@
   "subject": "biology",
   "grade": "M6",
   "topic": "Ecology and Ecosystems",
-  "url": "https://www.ck12.org/biology/ecology/",
-  "title": "Ecology | CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/biology-2e/pages/44-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 44.1 The Scope of Ecology\n- 44.2 Biogeography\n- 44.3 Terrestrial Biomes\n- 44.4 Aquatic Biomes\n- 44.5 Climate and the Effects of Global Climate Change"
+    },
+    {
+      "heading": "Introduction",
+      "content": "Why study ecology? Perhaps you are interested in learning about the natural world and how living things have adapted to the physical conditions of their environment. Or, perhaps you’re a future physician seeking to understand the connection between your patients' health and their environment.\nHumans are a part of the ecological landscape, and human health is one important part of human interaction with our physical and living environment. Lyme disease, for instance, serves as one modern-day example of the connection between our health and the natural world ( Figure 44.1 ). More formally known as Lyme borreliosis, Lyme disease is a bacterial infection that can be transmitted to humans when they are bitten by the deer tick ( Ixodes scapularis in the eastern U.S., and Ixodes pacificus along the Pacific coast). Deer ticks are the primary vectors (a vector is an organism that transmits a pathogen) for this disease. However, not all ticks carry the pathogen, and not all deer ticks carry the bacteria that will cause Lyme disease in humans. Also, the ticks I. scapularis and pacificus can have other hosts besides deer. In fact, it turns out that the probability of infection depends on the type of host upon which the tick develops: a higher proportion of ticks that live on white-footed mice carry the bacterium than do ticks that live on deer. Knowledge about the environments and population densities in which the host species is abundant would help a physician or an epidemiologist better understand how Lyme disease is transmitted and how its incidence could be reduced."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "Ecology | CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:59:44Z"
+  "raw_text": "Figure\n44.1\nThe (a) deer tick carries the bacterium that produces Lyme disease in humans, often evident in (b) a symptomatic bull’s eye rash. The (c) white-footed mouse is one well-known host to deer ticks carrying the Lyme disease bacterium. (credit a: modification of work by Scott Bauer, USDA ARS; credit b: modification of work by James Gathany, CDC; credit c: modification of work by Rob Ireton)\nChapter Outline\n44.1\nThe Scope of Ecology\n44.2\nBiogeography\n44.3\nTerrestrial Biomes\n44.4\nAquatic Biomes\n44.5\nClimate and the Effects of Global Climate Change\nIntroduction\nWhy study ecology? Perhaps you are interested in learning about the natural world and how living things have adapted to the physical conditions of their environment. Or, perhaps you’re a future physician seeking to understand the connection between your patients' health and their environment.\nHumans are a part of the ecological landscape, and human health is one important part of human interaction with our physical and living environment. Lyme disease, for instance, serves as one modern-day example of the connection between our health and the natural world (\nFigure 44.1\n). More formally known as Lyme borreliosis, Lyme disease is a bacterial infection that can be transmitted to humans when they are bitten by the deer tick (\nIxodes scapularis\nin the eastern U.S., and\nIxodes pacificus\nalong the Pacific coast). Deer ticks are the primary\nvectors\n(a vector is an organism that transmits a pathogen) for this disease. However, not all ticks carry the pathogen, and not all deer ticks carry the bacteria that will cause Lyme disease in humans. Also, the ticks\nI. scapularis\nand\npacificus\ncan have other hosts besides deer. In fact, it turns out that the\nprobability of infection\ndepends on the type of host upon which the tick develops: a higher proportion of ticks that live on white-footed mice carry the bacterium than do ticks that live on deer. Knowledge about the environments and population densities in which the host species is abundant would help a physician or an epidemiologist better understand how Lyme disease is transmitted and how its incidence could be reduced.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:18:15Z"
 }

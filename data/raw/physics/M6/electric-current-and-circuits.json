@@ -2,12 +2,22 @@
   "subject": "physics",
   "grade": "M6",
   "topic": "Electric Current and Circuits",
-  "url": "https://www.ck12.org/physics/electric-current/",
-  "title": "Electric Current | CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/college-physics-2e/pages/20-introduction-to-electric-current-resistance-and-ohms-law",
+  "title": "Introduction to Electric Current, Resistance, and Ohm's Law",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 20.1 Current\n- 20.2 Ohm’s Law: Resistance and Simple Circuits\n- 20.3 Resistance and Resistivity\n- 20.4 Electric Power and Energy\n- 20.5 Alternating Current versus Direct Current\n- 20.6 Electric Hazards and the Human Body\n- 20.7 Nerve Conduction–Electrocardiograms"
+    },
+    {
+      "heading": "Introduction to Electric Current, Resistance, and Ohm's Law",
+      "content": "The flicker of numbers on a handheld calculator, nerve impulses carrying signals of vision to the brain, an ultrasound device sending a signal to a computer screen, the brain sending a message for a baby to twitch its toes, an electric train pulling its load over a mountain pass, a hydroelectric plant sending energy to metropolitan and rural users—these and many other examples of electricity involve electric current, the movement of charge . Humankind has indeed harnessed electricity, the basis of technology, to improve our quality of life. Whereas the previous two chapters concentrated on static electricity and the fundamental force underlying its behavior, the next few chapters will be devoted to electric and magnetic phenomena involving current. In addition to exploring applications of electricity, we shall gain new insights into nature—in particular, the fact that all magnetism results from electric current.\nOpenStax AP Physics Chapter 20: DC Circuits (Physics Concept Trailer™)"
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "Electric Current | CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:59:54Z"
+  "raw_text": "Figure\n20.1\nElectric energy in massive quantities is transmitted from this hydroelectric facility, the Srisailam power station located along the Krishna River in India, by the movement of charge—that is, by electric current. (credit: Chintohere, Wikimedia Commons)\nChapter Outline\n20.1\nCurrent\n20.2\nOhm’s Law: Resistance and Simple Circuits\n20.3\nResistance and Resistivity\n20.4\nElectric Power and Energy\n20.5\nAlternating Current versus Direct Current\n20.6\nElectric Hazards and the Human Body\n20.7\nNerve Conduction–Electrocardiograms\nIntroduction to Electric Current, Resistance, and Ohm's Law\nThe flicker of numbers on a handheld calculator, nerve impulses carrying signals of vision to the brain, an ultrasound device sending a signal to a computer screen, the brain sending a message for a baby to twitch its toes, an electric train pulling its load over a mountain pass, a hydroelectric plant sending energy to metropolitan and rural users—these and many other examples of electricity involve\nelectric current, the movement of charge\n. Humankind has indeed harnessed electricity, the basis of technology, to improve our quality of life. Whereas the previous two chapters concentrated on static electricity and the fundamental force underlying its behavior, the next few chapters will be devoted to electric and magnetic phenomena involving current. In addition to exploring applications of electricity, we shall gain new insights into nature—in particular, the fact that all magnetism results from electric current.\nOpenStax AP Physics Chapter 20: DC Circuits (Physics Concept Trailer™)",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:39Z"
 }

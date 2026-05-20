@@ -2,12 +2,22 @@
   "subject": "biology",
   "grade": "M4",
   "topic": "Mitosis and Meiosis",
-  "url": "https://www.ck12.org/biology/cell-division/",
-  "title": "| CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/biology-2e/pages/10-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 10.1 Cell Division\n- 10.2 The Cell Cycle\n- 10.3 Control of the Cell Cycle\n- 10.4 Cancer and the Cell Cycle\n- 10.5 Prokaryotic Cell Division"
+    },
+    {
+      "heading": "Introduction",
+      "content": "A human, like every sexually reproducing organism, begins life as a fertilized egg (embryo) or zygote . In our species, billions of cell divisions subsequently must occur in a controlled manner in order to produce a complex, multicellular human comprising trillions of cells. Thus, the original single-celled zygote is literally the ancestor of all cells in the body. However, once a human is fully grown, cell reproduction is still necessary to repair and regenerate tissues, and sometimes to increase our size! In fact, all multicellular organisms use cell division for growth and the maintenance and repair of cells and tissues. Cell division is closely regulated, and the occasional failure of this regulation can have life-threatening consequences. Single-celled organisms may also use cell division as their method of reproduction."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "| CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:58:22Z"
+  "raw_text": "Figure\n10.1\nA sea urchin begins life as a single diploid cell (zygote) that (a) divides through cell division to form two genetically identical daughter cells, visible here through scanning electron microscopy (SEM). After four rounds of cell division, (b) there are 16 cells, as seen in this SEM image. After many rounds of cell division, the individual develops into a complex, multicellular organism, as seen in this (c) mature sea urchin. (credit a: modification of work by Evelyn Spiegel, Louisa Howard; credit b: modification of work by Evelyn Spiegel, Louisa Howard; credit c: modification of work by Marco Busdraghi; scale-bar data from Matt Russell)\nChapter Outline\n10.1\nCell Division\n10.2\nThe Cell Cycle\n10.3\nControl of the Cell Cycle\n10.4\nCancer and the Cell Cycle\n10.5\nProkaryotic Cell Division\nIntroduction\nA human, like every sexually reproducing organism, begins life as a fertilized egg (embryo) or\nzygote\n. In our species, billions of cell divisions subsequently must occur in a controlled manner in order to produce a complex, multicellular human comprising trillions of cells. Thus, the original single-celled zygote is literally the ancestor of all cells in the body. However, once a human is fully grown, cell reproduction is still necessary to repair and regenerate tissues, and sometimes to increase our size! In fact, all multicellular organisms use cell division for growth and the maintenance and repair of cells and tissues. Cell division is closely regulated, and the occasional failure of this regulation can have life-threatening consequences. Single-celled organisms may also use cell division as their method of reproduction.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:18:12Z"
 }

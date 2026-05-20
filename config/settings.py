@@ -28,8 +28,11 @@ for _d in [RAW_DIR, PROCESSED_DIR, VECTOR_DB_DIR]:
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY", "")
 
 # ── LLM / Embedding ───────────────────────────────────────────────────────────
-LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")   # "openai" | "anthropic" | "gemini"
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")   # "gemini" | "ollama"
 LLM_MODEL    = os.getenv("LLM_MODEL", "gemini-2.5-flash-lite")
+OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
+OLLAMA_NUM_CTX = int(os.getenv("OLLAMA_NUM_CTX", "4096"))
+OLLAMA_NUM_PREDICT = int(os.getenv("OLLAMA_NUM_PREDICT", "2048"))
 
 # Multilingual model — handles Thai + English mixed queries
 EMBEDDING_MODEL = os.getenv(

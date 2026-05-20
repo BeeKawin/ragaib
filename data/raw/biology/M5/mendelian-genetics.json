@@ -2,12 +2,22 @@
   "subject": "biology",
   "grade": "M5",
   "topic": "Mendelian Genetics",
-  "url": "https://www.ck12.org/biology/mendelian-genetics/",
-  "title": "| CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/biology-2e/pages/12-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 12.1 Mendel’s Experiments and the Laws of Probability\n- 12.2 Characteristics and Traits\n- 12.3 Laws of Inheritance"
+    },
+    {
+      "heading": "Introduction",
+      "content": "Genetics is the study of heredity. Johann Gregor Mendel set the framework for genetics long before chromosomes or genes had been identified, at a time when meiosis was not well understood. Mendel selected a simple biological system and conducted methodical, quantitative analyses using large sample sizes. Because of Mendel’s work, the fundamental principles of heredity were revealed. We now know that genes, carried on chromosomes, are the basic functional units of heredity with the capability to be replicated, expressed, or mutated. Today, the postulates put forth by Mendel form the basis of classical, or Mendelian, genetics. Not all traits are transmitted from parents to offspring according to Mendelian genetics, but Mendel’s experiments serve as an excellent starting point for thinking about inheritance."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "| CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:58:47Z"
+  "raw_text": "Figure\n12.1\nExperimenting with thousands of garden peas, Mendel uncovered the fundamentals of genetics. (credit: modification of work by Jerry Kirkhart)\nChapter Outline\n12.1\nMendel’s Experiments and the Laws of Probability\n12.2\nCharacteristics and Traits\n12.3\nLaws of Inheritance\nIntroduction\nGenetics is the study of heredity. Johann Gregor Mendel set the framework for genetics long before chromosomes or genes had been identified, at a time when meiosis was not well understood. Mendel selected a simple biological system and conducted methodical, quantitative analyses using large sample sizes. Because of Mendel’s work, the fundamental principles of heredity were revealed. We now know that genes, carried on chromosomes, are the basic functional units of heredity with the capability to be replicated, expressed, or mutated. Today, the postulates put forth by Mendel form the basis of classical, or Mendelian, genetics. Not all traits are transmitted from parents to offspring according to Mendelian genetics, but Mendel’s experiments serve as an excellent starting point for thinking about inheritance.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:58Z"
 }

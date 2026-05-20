@@ -2,12 +2,22 @@
   "subject": "chemistry",
   "grade": "M6",
   "topic": "Chemical Kinetics",
-  "url": "https://www.ck12.org/chemistry/reaction-kinetics/",
-  "title": "| CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/chemistry-2e/pages/12-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 12.1 Chemical Reaction Rates\n- 12.2 Factors Affecting Reaction Rates\n- 12.3 Rate Laws\n- 12.4 Integrated Rate Laws\n- 12.5 Collision Theory\n- 12.6 Reaction Mechanisms\n- 12.7 Catalysis"
+    },
+    {
+      "heading": "Introduction",
+      "content": "The lizard in the photograph is not simply enjoying the sunshine or working on its tan. The heat from the sun’s rays is critical to the lizard’s survival. A warm lizard can move faster than a cold one because the chemical reactions that allow its muscles to move occur more rapidly at higher temperatures. A cold lizard is a slower lizard and an easier meal for predators.\nFrom baking a cake to determining the useful lifespan of a bridge, rates of chemical reactions play important roles in our understanding of processes that involve chemical changes. Two questions are typically posed when planning to carry out a chemical reaction. The first is: “Will the reaction produce the desired products in useful quantities?” The second question is: “How rapidly will the reaction occur?” A third question is often asked when investigating reactions in greater detail: “What specific molecular-level processes take place as the reaction occurs?” Knowing the answer to this question is of practical importance when the yield or rate of a reaction needs to be controlled.\nThe study of chemical kinetics concerns the second and third questions—that is, the rate at which a reaction yields products and the molecular-scale means by which a reaction occurs. This chapter examines the factors that influence the rates of chemical reactions, the mechanisms by which reactions proceed, and the quantitative techniques used to describe the rates at which reactions occur."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "| CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:57:51Z"
+  "raw_text": "Figure\n12.1\nAn agama lizard basks in the sun. As its body warms, the chemical reactions of its metabolism speed up.\nChapter Outline\n12.1\nChemical Reaction Rates\n12.2\nFactors Affecting Reaction Rates\n12.3\nRate Laws\n12.4\nIntegrated Rate Laws\n12.5\nCollision Theory\n12.6\nReaction Mechanisms\n12.7\nCatalysis\nIntroduction\nThe lizard in the photograph is not simply enjoying the sunshine or working on its tan. The heat from the sun’s rays is critical to the lizard’s survival. A warm lizard can move faster than a cold one because the chemical reactions that allow its muscles to move occur more rapidly at higher temperatures. A cold lizard is a slower lizard and an easier meal for predators.\nFrom baking a cake to determining the useful lifespan of a bridge, rates of chemical reactions play important roles in our understanding of processes that involve chemical changes. Two questions are typically posed when planning to carry out a chemical reaction. The first is: “Will the reaction produce the desired products in useful quantities?” The second question is: “How rapidly will the reaction occur?” A third question is often asked when investigating reactions in greater detail: “What specific molecular-level processes take place as the reaction occurs?” Knowing the answer to this question is of practical importance when the yield or rate of a reaction needs to be controlled.\nThe study of chemical kinetics concerns the second and third questions—that is, the rate at which a reaction yields products and the molecular-scale means by which a reaction occurs. This chapter examines the factors that influence the rates of chemical reactions, the mechanisms by which reactions proceed, and the quantitative techniques used to describe the rates at which reactions occur.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:18:19Z"
 }

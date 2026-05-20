@@ -14,10 +14,14 @@ Chunking strategy
 
 import json
 import re
+import sys
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Generator, Optional
+
+if __package__ in {None, ""}:
+    sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 from langchain_core.documents import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter

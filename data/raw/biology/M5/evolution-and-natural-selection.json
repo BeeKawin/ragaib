@@ -2,12 +2,26 @@
   "subject": "biology",
   "grade": "M5",
   "topic": "Evolution and Natural Selection",
-  "url": "https://www.ck12.org/biology/evolution/",
-  "title": "| CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/biology-2e/pages/18-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 18.1 Understanding Evolution\n- 18.2 Formation of New Species\n- 18.3 Reconnection and Speciation Rates"
+    },
+    {
+      "heading": "Introduction",
+      "content": "All living organisms, from bacteria to baboons to blueberries, evolved at some point from a different species. Although it may seem that living things today stay much the same, that is not the case—evolution is an ongoing process.\nThe theory of evolution is the unifying theory of biology, meaning it is the framework within which biologists ask questions about the living world. Its power is that it provides direction for predictions about living things that are borne out in ongoing experiments. The Ukrainian-born American geneticist Theodosius Dobzhansky famously wrote that “nothing makes sense in biology except in the light of evolution.” 1 He meant that the tenet that all life has evolved and diversified from a common ancestor is the foundation from which we approach all questions in biology."
+    },
+    {
+      "heading": "Footnotes",
+      "content": "- 1 Theodosius Dobzhansky. “Biology, Molecular and Organismic.” American Zoologist 4, no. 4 (1964): 449."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "| CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:59:08Z"
+  "raw_text": "Figure\n18.1\nAll organisms are products of evolution adapted to their environment. (a) Saguaro (\nCarnegiea gigantea\n) can soak up 750 liters of water in a single rain storm, enabling these cacti to survive the dry conditions of the Sonora desert in Mexico and the Southwestern United States. (b) The Andean semiaquatic lizard (\nPotamites montanicola\n) discovered in Peru in 2010 lives between 1,570 to 2,100 meters in elevation, and, unlike most lizards, is nocturnal and swims. Scientists still do not know how these cold-blood animals are able to move in the cold (10 to 15°C) temperatures of the Andean night. (credit a: modification of work by Gentry George, U.S. Fish and Wildlife Service; credit b: modification of work by Germán Chávez and Diego Vásquez,\nZooKeys\n)\nChapter Outline\n18.1\nUnderstanding Evolution\n18.2\nFormation of New Species\n18.3\nReconnection and Speciation Rates\nIntroduction\nAll living organisms, from bacteria to baboons to blueberries, evolved at some point from a different species. Although it may seem that living things today stay much the same, that is not the case—evolution is an ongoing process.\nThe theory of evolution is the unifying theory of biology, meaning it is the framework within which biologists ask questions about the living world. Its power is that it provides direction for predictions about living things that are borne out in ongoing experiments. The Ukrainian-born American geneticist Theodosius Dobzhansky famously wrote that “nothing makes sense in biology except in the light of evolution.”\n1\nHe meant that the tenet that all life has evolved and diversified from a common ancestor is the foundation from which we approach all questions in biology.\nFootnotes\n1\nTheodosius Dobzhansky. “Biology, Molecular and Organismic.”\nAmerican Zoologist\n4, no. 4 (1964): 449.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:39Z"
 }

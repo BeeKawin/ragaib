@@ -2,12 +2,22 @@
   "subject": "chemistry",
   "grade": "M5",
   "topic": "Electrochemistry",
-  "url": "https://www.ck12.org/chemistry/electrochemistry/",
-  "title": "Electrochemistry | CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/chemistry-2e/pages/17-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 17.1 Review of Redox Chemistry\n- 17.2 Galvanic Cells\n- 17.3 Electrode and Cell Potentials\n- 17.4 Potential, Free Energy, and Equilibrium\n- 17.5 Batteries and Fuel Cells\n- 17.6 Corrosion\n- 17.7 Electrolysis"
+    },
+    {
+      "heading": "Introduction",
+      "content": "Another chapter in this text introduced the chemistry of reduction-oxidation (redox) reactions. This important reaction class is defined by changes in oxidation states for one or more reactant elements, and it includes a subset of reactions involving the transfer of electrons between reactant species. Around the turn of the nineteenth century, chemists began exploring ways these electrons could be transferred indirectly via an external circuit rather than directly via intimate contact of redox reactants. In the two centuries since, the field of electrochemistry has evolved to yield significant insights on the fundamental aspects of redox chemistry as well as a wealth of technologies ranging from industrial-scale metallurgical processes to robust, rechargeable batteries for electric vehicles ( Figure 17.1 ). In this chapter, the essential concepts of electrochemistry will be addressed."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "Electrochemistry | CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:59:55Z"
+  "raw_text": "Figure\n17.1\nElectric vehicles are powered by batteries, devices that harness the energy of spontaneous redox reactions. (credit: modification of work by Robert Couse-Baker)\nChapter Outline\n17.1\nReview of Redox Chemistry\n17.2\nGalvanic Cells\n17.3\nElectrode and Cell Potentials\n17.4\nPotential, Free Energy, and Equilibrium\n17.5\nBatteries and Fuel Cells\n17.6\nCorrosion\n17.7\nElectrolysis\nIntroduction\nAnother chapter in this text introduced the chemistry of reduction-oxidation (redox) reactions. This important reaction class is defined by changes in oxidation states for one or more reactant elements, and it includes a subset of reactions involving the transfer of electrons between reactant species. Around the turn of the nineteenth century, chemists began exploring ways these electrons could be transferred\nindirectly\nvia an external circuit rather than directly via intimate contact of redox reactants. In the two centuries since, the field of\nelectrochemistry\nhas evolved to yield significant insights on the fundamental aspects of redox chemistry as well as a wealth of technologies ranging from industrial-scale metallurgical processes to robust, rechargeable batteries for electric vehicles (\nFigure 17.1\n). In this chapter, the essential concepts of electrochemistry will be addressed.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:53Z"
 }

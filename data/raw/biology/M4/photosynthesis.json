@@ -2,12 +2,22 @@
   "subject": "biology",
   "grade": "M4",
   "topic": "Photosynthesis",
-  "url": "https://www.ck12.org/biology/photosynthesis/",
-  "title": "| CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/biology-2e/pages/8-introduction",
+  "title": "Introduction",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 8.1 Overview of Photosynthesis\n- 8.2 The Light-Dependent Reactions of Photosynthesis\n- 8.3 Using Light Energy to Make Organic Molecules"
+    },
+    {
+      "heading": "Introduction",
+      "content": "The metabolic processes in all organisms—from bacteria to humans—require energy. To get this energy, many organisms access stored energy by eating, that is, by ingesting other organisms. But where does the stored energy in food originate? All of this energy can be traced back to photosynthesis."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "| CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:58:37Z"
+  "raw_text": "Figure\n8.1\nThis world map shows Earth’s distribution of photosynthetic activity determined by chlorophyll\na\nconcentrations. On land, chlorophyll is evident from terrestrial plants, and within oceanic zones, from chlorophyll from phytoplankton. (credit: modification of work by SeaWiFS Project, NASA/Goddard Space Flight Center and ORBIMAGE)\nChapter Outline\n8.1\nOverview of Photosynthesis\n8.2\nThe Light-Dependent Reactions of Photosynthesis\n8.3\nUsing Light Energy to Make Organic Molecules\nIntroduction\nThe metabolic processes in all organisms—from bacteria to humans—require energy. To get this energy, many organisms access stored energy by eating, that is, by ingesting other organisms. But where does the stored energy in food originate? All of this energy can be traced back to photosynthesis.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:37Z"
 }

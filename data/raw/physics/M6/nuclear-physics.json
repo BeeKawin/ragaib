@@ -2,12 +2,22 @@
   "subject": "physics",
   "grade": "M6",
   "topic": "Nuclear Physics",
-  "url": "https://www.ck12.org/physics/nuclear-physics/",
-  "title": "File Not Found | CK-12 Foundation",
-  "sections": [],
+  "url": "https://openstax.org/books/college-physics-2e/pages/31-introduction-to-radioactivity-and-nuclear-physics",
+  "title": "Introduction to Radioactivity and Nuclear Physics",
+  "sections": [
+    {
+      "heading": "Chapter Outline",
+      "content": "- 31.1 Nuclear Radioactivity\n- 31.2 Radiation Detection and Detectors\n- 31.3 Substructure of the Nucleus\n- 31.4 Nuclear Decay and Conservation Laws\n- 31.5 Half-Life and Activity\n- 31.6 Binding Energy\n- 31.7 Tunneling"
+    },
+    {
+      "heading": "Introduction to Radioactivity and Nuclear Physics",
+      "content": "There is an ongoing quest to find substructures of matter. At one time, it was thought that atoms would be the ultimate substructure, but just when the first direct evidence of atoms was obtained, it became clear that they have a substructure and a tiny nucleus . The nucleus itself has spectacular characteristics. For example, certain nuclei are unstable, and their decay emits radiations with energies millions of times greater than atomic energies. Some of the mysteries of nature, such as why the core of the earth remains molten and how the sun produces its energy, are explained by nuclear phenomena. The exploration of radioactivity and the nucleus revealed fundamental and previously unknown particles, forces, and conservation laws. That exploration has evolved into a search for further underlying structures, such as quarks. In this chapter, the fundamentals of nuclear radioactivity and the nucleus are explored. The following two chapters explore the more important applications of nuclear physics in the field of medicine. We will also explore the basics of what we know about quarks and other substructures smaller than nuclei."
+    }
+  ],
   "key_terms": [],
   "equations": [],
   "examples": [],
-  "raw_text": "File Not Found | CK-12 Foundation\nSupport\nPlease wait...\nPlease wait...\nOops, looks like cookies are disabled on your browser. Click\nhere\nto see how to enable them.\nX\nStudent Sign Up\nAre you a teacher?\nSign up here\nSign in with Google\nHaving issues?\nClick here\nSign in with Microsoft\nSign in with Apple\nor\nSign up using email\nBy signing up, I confirm that I have read and agree to the\nTerms of use\nand\nPrivacy Policy\nAlready have an account?\nSign In\nNo Results Found\nYour search\ndid not match anything in\n.\nGot It",
-  "scraped_at": "2026-05-05T19:58:06Z"
+  "raw_text": "Figure\n31.1\nThe synchrotron source produces electromagnetic radiation, as evident from the visible glow. (credit: United States Department of Energy, via Wikimedia Commons)\nChapter Outline\n31.1\nNuclear Radioactivity\n31.2\nRadiation Detection and Detectors\n31.3\nSubstructure of the Nucleus\n31.4\nNuclear Decay and Conservation Laws\n31.5\nHalf-Life and Activity\n31.6\nBinding Energy\n31.7\nTunneling\nIntroduction to Radioactivity and Nuclear Physics\nThere is an ongoing quest to find substructures of matter. At one time, it was thought that atoms would be the ultimate substructure, but just when the first direct evidence of atoms was obtained, it became clear that they have a substructure and a tiny\nnucleus\n. The nucleus itself has spectacular characteristics. For example, certain nuclei are unstable, and their decay emits radiations with energies millions of times greater than atomic energies. Some of the mysteries of nature, such as why the core of the earth remains molten and how the sun produces its energy, are explained by nuclear phenomena. The exploration of\nradioactivity\nand the nucleus revealed fundamental and previously unknown particles, forces, and conservation laws. That exploration has evolved into a search for further underlying structures, such as quarks. In this chapter, the fundamentals of nuclear radioactivity and the nucleus are explored. The following two chapters explore the more important applications of nuclear physics in the field of medicine. We will also explore the basics of what we know about quarks and other substructures smaller than nuclei.",
+  "source": "OpenStax",
+  "scraped_at": "2026-05-20T12:17:37Z"
 }

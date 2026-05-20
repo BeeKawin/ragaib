@@ -4,9 +4,13 @@ import json
 from dataclasses import dataclass
 from typing import Any
 
-from config.settings import GEMINI_API_KEY
+from config.settings import (
+    GEMINI_API_KEY,
+    OLLAMA_BASE_URL,
+    OLLAMA_NUM_CTX,
+)
 
-from .eval_config import JUDGE_MAX_RETRIES, JUDGE_MODEL, JUDGE_TIMEOUT_SECONDS
+from .eval_config import JUDGE_MAX_RETRIES, JUDGE_MODEL, JUDGE_PROVIDER, JUDGE_TIMEOUT_SECONDS
 
 
 @dataclass
@@ -92,16 +96,33 @@ class GeminiJudge:
         self.model = model
 
     def score(self, question: str, reference_answer: str, model_answer: str, context: str) -> JudgeResult:
-        from langchain_google_genai import ChatGoogleGenerativeAI
+        if JUDGE_PROVIDER == "gemini":
+            from langchain_google_genai import ChatGoogleGenerativeAI
 
-        llm = ChatGoogleGenerativeAI(
-            model=self.model,
-            google_api_key=GEMINI_API_KEY,
-            temperature=0,
-            max_output_tokens=512,
-            timeout=JUDGE_TIMEOUT_SECONDS,
-            max_retries=JUDGE_MAX_RETRIES,
-        )
+            llm = ChatGoogleGenerativeAI(
+                model=self.model,
+                api_key=GEMINI_API_KEY,
+                temperature=0,
+                max_tokens=512,
+                timeout=JUDGE_TIMEOUT_SECONDS,
+                max_retries=JUDGE_MAX_RETRIES,
+            )
+        elif JUDGE_PROVIDER == "ollama":
+            from langchain_community.chat_models.ollama import ChatOllama
+
+            llm = ChatOllama(
+                base_url=OLLAMA_BASE_URL,
+                model=self.model,
+                temperature=0,
+                num_ctx=OLLAMA_NUM_CTX,
+                num_predict=512,
+                format="json",
+                timeout=JUDGE_TIMEOUT_SECONDS,
+            )
+        else:
+            raise ValueError(
+                f"Unsupported JUDGE_PROVIDER='{JUDGE_PROVIDER}'. Use one of: gemini, ollama"
+            )
 
         prompt = _build_prompt(question, reference_answer, model_answer, context)
         response = llm.invoke(prompt)
