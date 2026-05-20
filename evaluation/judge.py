@@ -5,7 +5,6 @@ from dataclasses import dataclass
 from typing import Any
 
 from config.settings import (
-    GEMINI_API_KEY,
     OLLAMA_BASE_URL,
     OLLAMA_NUM_CTX,
 )
@@ -96,18 +95,7 @@ class GeminiJudge:
         self.model = model
 
     def score(self, question: str, reference_answer: str, model_answer: str, context: str) -> JudgeResult:
-        if JUDGE_PROVIDER == "gemini":
-            from langchain_google_genai import ChatGoogleGenerativeAI
-
-            llm = ChatGoogleGenerativeAI(
-                model=self.model,
-                api_key=GEMINI_API_KEY,
-                temperature=0,
-                max_tokens=512,
-                timeout=JUDGE_TIMEOUT_SECONDS,
-                max_retries=JUDGE_MAX_RETRIES,
-            )
-        elif JUDGE_PROVIDER == "ollama":
+        if JUDGE_PROVIDER == "ollama":
             from langchain_community.chat_models.ollama import ChatOllama
 
             llm = ChatOllama(
