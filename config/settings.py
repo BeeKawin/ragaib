@@ -2,7 +2,7 @@
 config/settings.py
 ──────────────────
 Central configuration: paths, model settings, and the full
-Thailand High-School (ม.4–ม.6) curriculum map to CK-12 URLs.
+Thailand High-School (ม.4 ม.6) curriculum map to OpenStax URLs.
 """
 
 import os
