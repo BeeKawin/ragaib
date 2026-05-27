@@ -17,6 +17,8 @@ class ScoredItem:
     question: str
     reference_answer: str
     preferred_answer_type: str
+    language: str
+    keypoints: str
     model_answer: str
     retrieved_context: str
     scores: JudgeResult

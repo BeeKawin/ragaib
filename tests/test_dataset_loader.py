@@ -34,6 +34,8 @@ class TestDatasetLoader(unittest.TestCase):
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0].id, "MATH-001")
         self.assertEqual(items[0].subject, "math")
+        self.assertEqual(items[0].language, "")
+        self.assertEqual(items[0].keypoints, "")
         self.assertIn("expected_keywords=union; sets", items[0].notes)
 
     def test_load_bee_csv_aliases(self):
@@ -49,6 +51,8 @@ class TestDatasetLoader(unittest.TestCase):
         self.assertEqual(items[0].subject, "physics")
         self.assertEqual(items[0].reference_answer, "1 m = 100 cm.")
         self.assertEqual(items[0].preferred_answer_type, "homework-help")
+        self.assertEqual(items[0].language, "EN")
+        self.assertEqual(items[0].keypoints, "use conversion factor")
         self.assertIn("language=EN", items[0].notes)
         self.assertIn("keypoints=use conversion factor", items[0].notes)
 

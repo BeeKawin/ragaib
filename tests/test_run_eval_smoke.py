@@ -1,7 +1,7 @@
 ﻿import json
 import unittest
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
 from evaluation.judge import JudgeResult
 from evaluation.scoring import ScoredItem
@@ -40,6 +40,8 @@ class TestRunEvalSmoke(unittest.TestCase):
             question="Q1",
             reference_answer="A1",
             preferred_answer_type="general",
+            language="",
+            keypoints="",
             model_answer="M1",
             retrieved_context="C1",
             scores=JudgeResult(4, 4, 4, 4, 4, "general", "general", 7, "ok"),
@@ -64,6 +66,39 @@ class TestRunEvalSmoke(unittest.TestCase):
         self.assertIn("type_alignment", payload["scores"])
         self.assertNotIn("safety", payload["scores"])
         self.assertEqual(payload["overall_band"], 7)
+
+    def test_run_item_passes_generation_metadata(self):
+        item = run_eval.EvalItem(
+            id="x1",
+            subject="physics",
+            grade="M4",
+            question="Q1",
+            reference_answer="A1",
+            preferred_answer_type="homework-help",
+            language="TH",
+            keypoints="show formula; final answer",
+        )
+        fake_chain = Mock()
+        fake_chain.ask.return_value = "M1"
+        fake_chain.get_context_docs.return_value = []
+        fake_judge = Mock()
+        fake_judge.score.return_value = JudgeResult(
+            4, 4, 4, 4, 4, "homework-help", "homework-help", 7, "ok"
+        )
+
+        with patch.object(run_eval, "get_rag_chain", return_value=fake_chain):
+            scored = run_eval._run_item(item, fake_judge)
+
+        fake_chain.ask.assert_called_once_with(
+            "Q1",
+            subject="physics",
+            grade="M4",
+            preferred_answer_type="homework-help",
+            language="TH",
+            keypoints="show formula; final answer",
+        )
+        self.assertEqual(scored.language, "TH")
+        self.assertEqual(scored.keypoints, "show formula; final answer")
 
 
 if __name__ == "__main__":

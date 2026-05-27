@@ -39,7 +39,14 @@ def _format_context(docs: list[dict]) -> str:
 
 def _run_item(item: EvalItem, judge: GeminiJudge) -> ScoredItem:
     chain = get_rag_chain()
-    model_answer = chain.ask(item.question, subject=item.subject, grade=item.grade)
+    model_answer = chain.ask(
+        item.question,
+        subject=item.subject,
+        grade=item.grade,
+        preferred_answer_type=item.preferred_answer_type,
+        language=item.language,
+        keypoints=item.keypoints,
+    )
     context_docs = chain.get_context_docs(item.question, subject=item.subject, grade=item.grade)
     context = _format_context(context_docs)
     judge_result = judge.score(
@@ -57,6 +64,8 @@ def _run_item(item: EvalItem, judge: GeminiJudge) -> ScoredItem:
         question=item.question,
         reference_answer=item.reference_answer,
         preferred_answer_type=item.preferred_answer_type,
+        language=item.language,
+        keypoints=item.keypoints,
         model_answer=model_answer,
         retrieved_context=context,
         scores=judge_result,
@@ -114,6 +123,8 @@ def run_evaluation(
             "question": s.question,
             "reference_answer": s.reference_answer,
             "preferred_answer_type": s.preferred_answer_type,
+            "language": s.language,
+            "keypoints": s.keypoints,
             "model_answer": s.model_answer,
             "retrieved_context": s.retrieved_context,
             "scores": asdict(s.scores),

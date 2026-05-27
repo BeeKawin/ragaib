@@ -17,6 +17,8 @@ class EvalItem:
     question: str
     reference_answer: str
     preferred_answer_type: str = "general"
+    language: str = ""
+    keypoints: str = ""
     notes: str = ""
 
 
@@ -34,6 +36,11 @@ def _first_str(raw: dict, keys: list[str]) -> str:
             return value.strip()
     joined = "' or '".join(keys)
     raise ValueError(f"'{joined}' must be a non-empty string")
+
+
+def _optional_str(raw: dict, key: str) -> str:
+    value = raw.get(key)
+    return value.strip() if isinstance(value, str) else ""
 
 
 def _normalize_subject(value: object) -> Optional[str]:
@@ -81,6 +88,8 @@ def _item_from_raw(raw: dict, row_label: str) -> EvalItem:
             preferred_answer_type=normalize_answer_type(
                 raw.get("preferred_answer_type") or raw.get("type")
             ),
+            language=_optional_str(raw, "language"),
+            keypoints=_optional_str(raw, "keypoints"),
             notes=(raw.get("notes") or _notes_from_csv(raw)).strip(),
         )
     except ValueError as exc:

@@ -105,6 +105,19 @@ Guidelines:
 - You may respond in Thai (ภาษาไทย) if the student writes in Thai.
 """
 
+SYSTEM_TEMPLATE = SYSTEM_TEMPLATE.replace(
+    "\nGuidelines:",
+    """
+Evaluation response requirements:
+- Target language: {target_language}
+- Target answer type: {target_answer_type}
+- Expected coverage hints: {keypoints}
+
+Use these requirements to shape the answer when they are specific. Treat keypoints as soft coverage hints, not as text to copy. Prioritize correctness and retrieved context.
+
+Guidelines:""",
+)
+
 HUMAN_TEMPLATE = "{question}"
 
 
@@ -116,6 +129,25 @@ def _make_prompt() -> ChatPromptTemplate:
 
 
 # ── Context formatter ─────────────────────────────────────────────────────────
+
+def _target_language(language: Optional[str]) -> str:
+    if not language:
+        return "Match the user question language"
+    raw = language.strip().upper()
+    if raw == "TH":
+        return "Thai"
+    if raw == "EN":
+        return "English"
+    return "Match the user question language"
+
+
+def _target_answer_type(preferred_answer_type: Optional[str]) -> str:
+    return preferred_answer_type.strip() if preferred_answer_type else "general"
+
+
+def _keypoints_text(keypoints: Optional[str]) -> str:
+    return keypoints.strip() if keypoints else "None provided"
+
 
 def _format_docs(docs: list[Document]) -> str:
     if not docs:
@@ -195,6 +227,9 @@ class EduRAGChain:
         subject:  Optional[str] = None,
         grade:    Optional[str] = None,
         top_k:    int = 6,
+        preferred_answer_type: Optional[str] = None,
+        language: Optional[str] = None,
+        keypoints: Optional[str] = None,
     ) -> str:
         """Retrieve context and return full LLM answer (blocking)."""
         docs    = self.vsm.search(question, subject=subject, grade=grade, top_k=top_k)
@@ -208,6 +243,9 @@ class EduRAGChain:
         return chain.invoke({
             "question": question,
             "context":  context,
+            "target_language": _target_language(language),
+            "target_answer_type": _target_answer_type(preferred_answer_type),
+            "keypoints": _keypoints_text(keypoints),
             **display,
         })
 
@@ -217,6 +255,9 @@ class EduRAGChain:
         subject:  Optional[str] = None,
         grade:    Optional[str] = None,
         top_k:    int = 6,
+        preferred_answer_type: Optional[str] = None,
+        language: Optional[str] = None,
+        keypoints: Optional[str] = None,
     ) -> AsyncIterator[str]:
         """Streaming version — yields text chunks as they arrive."""
         docs    = self.vsm.search(question, subject=subject, grade=grade, top_k=top_k)
@@ -230,6 +271,9 @@ class EduRAGChain:
         async for chunk in chain.astream({
             "question": question,
             "context":  context,
+            "target_language": _target_language(language),
+            "target_answer_type": _target_answer_type(preferred_answer_type),
+            "keypoints": _keypoints_text(keypoints),
             **display,
         }):
             yield chunk
