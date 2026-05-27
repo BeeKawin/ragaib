@@ -6,7 +6,6 @@ from typing import Any
 
 from config.settings import (
     GEMINI_API_KEY,
-    OLLAMA_API_KEY,
     OLLAMA_BASE_URL,
     OLLAMA_NUM_CTX,
 )
@@ -291,14 +290,7 @@ class GeminiJudge:
     def __init__(self, model: str = JUDGE_MODEL):
         self.model = model
 
-    def score(
-        self,
-        question: str,
-        reference_answer: str,
-        model_answer: str,
-        context: str,
-        preferred_answer_type: str | None = None,
-    ) -> JudgeResult:
+    def score(self, question: str, reference_answer: str, model_answer: str, context: str) -> JudgeResult:
         if JUDGE_PROVIDER == "gemini":
             from langchain_google_genai import ChatGoogleGenerativeAI
 
