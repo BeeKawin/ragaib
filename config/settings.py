@@ -26,9 +26,13 @@ for _d in [RAW_DIR, PROCESSED_DIR, VECTOR_DB_DIR]:
 
 # ── API Keys ──────────────────────────────────────────────────────────────────
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY", "")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
+OPENROUTER_BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
+OPENROUTER_SITE_URL = os.getenv("OPENROUTER_SITE_URL", "http://localhost")
+OPENROUTER_APP_NAME = os.getenv("OPENROUTER_APP_NAME", "RAGAI-B-Evaluation")
 
 # ── LLM / Embedding ───────────────────────────────────────────────────────────
-LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")   # "gemini" | "ollama"
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "gemini")   # "gemini" | "ollama" | "openrouter"
 LLM_MODEL    = os.getenv("LLM_MODEL", "gemini-2.5-flash-lite")
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 OLLAMA_API_KEY = os.getenv("OLLAMA_API_KEY", "")

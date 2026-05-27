@@ -27,6 +27,15 @@ def _require_str(raw: dict, key: str) -> str:
     return value.strip()
 
 
+def _first_str(raw: dict, keys: list[str]) -> str:
+    for key in keys:
+        value = raw.get(key)
+        if isinstance(value, str) and value.strip():
+            return value.strip()
+    joined = "' or '".join(keys)
+    raise ValueError(f"'{joined}' must be a non-empty string")
+
+
 def _normalize_subject(value: object) -> Optional[str]:
     if not isinstance(value, str) or not value.strip():
         return None
@@ -44,7 +53,17 @@ def _normalize_subject(value: object) -> Optional[str]:
 
 def _notes_from_csv(raw: dict) -> str:
     parts = []
-    for key in ["topic", "subtopic", "difficulty", "question_type", "expected_keywords", "source_topic"]:
+    for key in [
+        "topic",
+        "subtopic",
+        "language",
+        "difficulty",
+        "question_type",
+        "type",
+        "expected_keywords",
+        "keypoints",
+        "source_topic",
+    ]:
         value = raw.get(key)
         if isinstance(value, str) and value.strip():
             parts.append(f"{key}={value.strip()}")
@@ -58,8 +77,10 @@ def _item_from_raw(raw: dict, row_label: str) -> EvalItem:
             subject=_normalize_subject(raw.get("subject")),
             grade=(raw.get("grade") or None),
             question=_require_str(raw, "question"),
-            reference_answer=_require_str(raw, "reference_answer"),
-            preferred_answer_type=normalize_answer_type(raw.get("preferred_answer_type")),
+            reference_answer=_first_str(raw, ["reference_answer", "answer"]),
+            preferred_answer_type=normalize_answer_type(
+                raw.get("preferred_answer_type") or raw.get("type")
+            ),
             notes=(raw.get("notes") or _notes_from_csv(raw)).strip(),
         )
     except ValueError as exc:

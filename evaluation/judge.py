@@ -6,8 +6,13 @@ from typing import Any
 
 from config.settings import (
     GEMINI_API_KEY,
+    OLLAMA_API_KEY,
     OLLAMA_BASE_URL,
     OLLAMA_NUM_CTX,
+    OPENROUTER_API_KEY,
+    OPENROUTER_APP_NAME,
+    OPENROUTER_BASE_URL,
+    OPENROUTER_SITE_URL,
 )
 
 from .eval_config import JUDGE_MAX_RETRIES, JUDGE_MODEL, JUDGE_PROVIDER, JUDGE_TIMEOUT_SECONDS
@@ -87,6 +92,15 @@ def _ollama_headers() -> dict | None:
     if not OLLAMA_API_KEY:
         return None
     return {"Authorization": f"Bearer {OLLAMA_API_KEY}"}
+
+
+def _openrouter_headers() -> dict:
+    headers = {}
+    if OPENROUTER_SITE_URL:
+        headers["HTTP-Referer"] = OPENROUTER_SITE_URL
+    if OPENROUTER_APP_NAME:
+        headers["X-OpenRouter-Title"] = OPENROUTER_APP_NAME
+    return headers
 
 
 def _extract_json_object(text: str) -> dict[str, Any]:
@@ -290,7 +304,14 @@ class GeminiJudge:
     def __init__(self, model: str = JUDGE_MODEL):
         self.model = model
 
-    def score(self, question: str, reference_answer: str, model_answer: str, context: str) -> JudgeResult:
+    def score(
+        self,
+        question: str,
+        reference_answer: str,
+        model_answer: str,
+        context: str,
+        preferred_answer_type: str | None = None,
+    ) -> JudgeResult:
         if JUDGE_PROVIDER == "gemini":
             from langchain_google_genai import ChatGoogleGenerativeAI
 
@@ -315,9 +336,22 @@ class GeminiJudge:
                 timeout=JUDGE_TIMEOUT_SECONDS,
                 headers=_ollama_headers(),
             )
+        elif JUDGE_PROVIDER == "openrouter":
+            from langchain_community.chat_models.openai import ChatOpenAI
+
+            llm = ChatOpenAI(
+                api_key=OPENROUTER_API_KEY,
+                base_url=OPENROUTER_BASE_URL,
+                default_headers=_openrouter_headers(),
+                model=self.model,
+                temperature=0,
+                max_tokens=512,
+                timeout=JUDGE_TIMEOUT_SECONDS,
+                max_retries=JUDGE_MAX_RETRIES,
+            )
         else:
             raise ValueError(
-                f"Unsupported JUDGE_PROVIDER='{JUDGE_PROVIDER}'. Use one of: gemini, ollama"
+                f"Unsupported JUDGE_PROVIDER='{JUDGE_PROVIDER}'. Use one of: gemini, ollama, openrouter"
             )
 
         target_answer_type = normalize_answer_type(preferred_answer_type)

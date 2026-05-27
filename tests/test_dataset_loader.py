@@ -36,6 +36,33 @@ class TestDatasetLoader(unittest.TestCase):
         self.assertEqual(items[0].subject, "math")
         self.assertIn("expected_keywords=union; sets", items[0].notes)
 
+    def test_load_bee_csv_aliases(self):
+        path = self.tmp_dir / "physics_bee.csv"
+        path.write_text(
+            "id,subject,grade,topic,subtopic,language,type,question,answer,keypoints\n"
+            "PHY-001,Physics,M4,Measurement,SI Units,EN,homework-help,"
+            "Convert 1 m to cm.,1 m = 100 cm.,use conversion factor\n",
+            encoding="utf-8",
+        )
+        items = load_eval_dataset(path)
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].subject, "physics")
+        self.assertEqual(items[0].reference_answer, "1 m = 100 cm.")
+        self.assertEqual(items[0].preferred_answer_type, "homework-help")
+        self.assertIn("language=EN", items[0].notes)
+        self.assertIn("keypoints=use conversion factor", items[0].notes)
+
+    def test_load_bee_csv_invalid_type_defaults_to_general(self):
+        path = self.tmp_dir / "physics_bee_invalid_type.csv"
+        path.write_text(
+            "id,subject,grade,topic,subtopic,language,type,question,answer,keypoints\n"
+            "PHY-001,Physics,M4,Measurement,SI Units,EN,calculation,"
+            "Convert 1 m to cm.,1 m = 100 cm.,use conversion factor\n",
+            encoding="utf-8",
+        )
+        items = load_eval_dataset(path)
+        self.assertEqual(items[0].preferred_answer_type, "general")
+
     def test_load_dataset_invalid_schema(self):
         path = self.tmp_dir / "gold_invalid.jsonl"
         path.write_text('{"id":"a1","question":"Q"}\n', encoding="utf-8")

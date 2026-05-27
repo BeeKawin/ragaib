@@ -24,6 +24,10 @@ from config.settings import (
     OLLAMA_BASE_URL,
     OLLAMA_NUM_CTX,
     OLLAMA_NUM_PREDICT,
+    OPENROUTER_API_KEY,
+    OPENROUTER_APP_NAME,
+    OPENROUTER_BASE_URL,
+    OPENROUTER_SITE_URL,
     SUBJECT_META,
     GRADE_META,
 )
@@ -36,6 +40,15 @@ def _ollama_headers() -> Optional[dict]:
     if not OLLAMA_API_KEY:
         return None
     return {"Authorization": f"Bearer {OLLAMA_API_KEY}"}
+
+
+def _openrouter_headers() -> dict:
+    headers = {}
+    if OPENROUTER_SITE_URL:
+        headers["HTTP-Referer"] = OPENROUTER_SITE_URL
+    if OPENROUTER_APP_NAME:
+        headers["X-OpenRouter-Title"] = OPENROUTER_APP_NAME
+    return headers
 
 
 def _get_llm(streaming: bool = False):
@@ -57,8 +70,19 @@ def _get_llm(streaming: bool = False):
             num_predict=OLLAMA_NUM_PREDICT,
             headers=_ollama_headers(),
         )
+    if LLM_PROVIDER == "openrouter":
+        from langchain_community.chat_models.openai import ChatOpenAI
+        return ChatOpenAI(
+            api_key=OPENROUTER_API_KEY,
+            base_url=OPENROUTER_BASE_URL,
+            default_headers=_openrouter_headers(),
+            model=LLM_MODEL,
+            temperature=0.3,
+            max_tokens=OLLAMA_NUM_PREDICT,
+            streaming=streaming,
+        )
     raise ValueError(
-        f"Unsupported LLM_PROVIDER='{LLM_PROVIDER}'. Use one of: gemini, ollama"
+        f"Unsupported LLM_PROVIDER='{LLM_PROVIDER}'. Use one of: gemini, ollama, openrouter"
     )
 
 
