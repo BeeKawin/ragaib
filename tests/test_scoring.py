@@ -1,33 +1,26 @@
-﻿import unittest
+import unittest
 
-from evaluation.judge import JudgeResult
-from evaluation.scoring import weighted_score
+from evaluation.judge import JudgeResult, calculate_overall_band
 
 
-class TestWeightedScore(unittest.TestCase):
-    def test_weighted_score_range(self):
-        s = JudgeResult(
-            correctness=5,
-            groundedness=5,
-            completeness=5,
-            clarity=5,
-            safety=5,
-            rationale="",
-        )
-        self.assertEqual(weighted_score(s), 100.0)
+class TestOverallBand(unittest.TestCase):
+    def test_overall_band_range(self):
+        self.assertEqual(calculate_overall_band(5, 5, 5, 5, 5), 10)
 
-    def test_weighted_score_computation(self):
-        s = JudgeResult(
+    def test_overall_band_applies_caps(self):
+        score = JudgeResult(
             correctness=3,
             groundedness=4,
             completeness=5,
             clarity=2,
-            safety=1,
+            type_alignment=1,
+            target_answer_type="general",
+            detected_answer_type="quick-answer",
+            overall_band=calculate_overall_band(3, 4, 5, 2, 1),
             rationale="",
         )
-        score = weighted_score(s)
-        self.assertGreaterEqual(score, 0)
-        self.assertLessEqual(score, 100)
+        self.assertGreaterEqual(score.overall_band, 1)
+        self.assertLessEqual(score.overall_band, 8)
 
 
 if __name__ == "__main__":

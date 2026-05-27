@@ -6,6 +6,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
 
+from .judge import normalize_answer_type
+
 
 @dataclass
 class EvalItem:
@@ -14,6 +16,7 @@ class EvalItem:
     grade: Optional[str]
     question: str
     reference_answer: str
+    preferred_answer_type: str = "general"
     notes: str = ""
 
 
@@ -56,6 +59,7 @@ def _item_from_raw(raw: dict, row_label: str) -> EvalItem:
             grade=(raw.get("grade") or None),
             question=_require_str(raw, "question"),
             reference_answer=_require_str(raw, "reference_answer"),
+            preferred_answer_type=normalize_answer_type(raw.get("preferred_answer_type")),
             notes=(raw.get("notes") or _notes_from_csv(raw)).strip(),
         )
     except ValueError as exc:

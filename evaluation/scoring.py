@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from statistics import mean
 from typing import Any
 
-from .eval_config import METRIC_WEIGHTS, PASS_THRESHOLD
+from .eval_config import PASS_BAND_THRESHOLD
 from .judge import JudgeResult
 
 
@@ -16,22 +16,11 @@ class ScoredItem:
     grade: str
     question: str
     reference_answer: str
+    preferred_answer_type: str
     model_answer: str
     retrieved_context: str
     scores: JudgeResult
-    weighted_score: float
-
-
-def weighted_score(scores: JudgeResult, weights: dict[str, float] | None = None) -> float:
-    w = weights or METRIC_WEIGHTS
-    raw = (
-        scores.correctness * w["correctness"]
-        + scores.groundedness * w["groundedness"]
-        + scores.completeness * w["completeness"]
-        + scores.clarity * w["clarity"]
-        + scores.safety * w["safety"]
-    )
-    return round((raw / 5.0) * 100.0, 2)
+    overall_band: int
 
 
 def _mean(values: list[float]) -> float:
@@ -44,22 +33,22 @@ def build_summary(results: list[ScoredItem]) -> dict[str, Any]:
         "groundedness": [r.scores.groundedness for r in results],
         "completeness": [r.scores.completeness for r in results],
         "clarity": [r.scores.clarity for r in results],
-        "safety": [r.scores.safety for r in results],
+        "type_alignment": [r.scores.type_alignment for r in results],
     }
-    weighted = [r.weighted_score for r in results]
+    bands = [r.overall_band for r in results]
 
     by_subject: dict[str, list[float]] = defaultdict(list)
     by_grade: dict[str, list[float]] = defaultdict(list)
     for r in results:
-        by_subject[r.subject].append(r.weighted_score)
-        by_grade[r.grade].append(r.weighted_score)
+        by_subject[r.subject].append(r.overall_band)
+        by_grade[r.grade].append(r.overall_band)
 
-    passed = sum(1 for s in weighted if s >= PASS_THRESHOLD)
+    passed = sum(1 for band in bands if band >= PASS_BAND_THRESHOLD)
 
     return {
         "count": len(results),
-        "overall_weighted_score": _mean(weighted),
-        "pass_threshold": PASS_THRESHOLD,
+        "overall_band": _mean(bands),
+        "pass_threshold": PASS_BAND_THRESHOLD,
         "pass_rate": round((passed / max(len(results), 1)) * 100.0, 2),
         "metric_averages": {k: _mean(v) for k, v in metric_values.items()},
         "by_subject": {k: _mean(v) for k, v in sorted(by_subject.items())},

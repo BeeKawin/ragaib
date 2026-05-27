@@ -14,7 +14,7 @@ from retrieval.rag_chain import get_rag_chain
 from .eval_config import GOLD_QA_PATH, RESULTS_DIR, SUMMARIES_DIR, resolve_path
 from .dataset import EvalItem, load_eval_dataset
 from .judge import GeminiJudge
-from .scoring import ScoredItem, build_summary, weighted_score
+from .scoring import ScoredItem, build_summary
 
 
 def _iso_ts() -> str:
@@ -47,6 +47,7 @@ def _run_item(item: EvalItem, judge: GeminiJudge) -> ScoredItem:
         reference_answer=item.reference_answer,
         model_answer=model_answer,
         context=context,
+        preferred_answer_type=item.preferred_answer_type,
     )
 
     return ScoredItem(
@@ -55,10 +56,11 @@ def _run_item(item: EvalItem, judge: GeminiJudge) -> ScoredItem:
         grade=item.grade or "",
         question=item.question,
         reference_answer=item.reference_answer,
+        preferred_answer_type=item.preferred_answer_type,
         model_answer=model_answer,
         retrieved_context=context,
         scores=judge_result,
-        weighted_score=weighted_score(judge_result),
+        overall_band=judge_result.overall_band,
     )
 
 
@@ -71,7 +73,7 @@ def _write_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
 def _emit_console(summary: dict[str, Any]) -> None:
     logger.info("Eval complete")
     logger.info(f"Items: {summary['count']}")
-    logger.info(f"Overall weighted score: {summary['overall_weighted_score']}")
+    logger.info(f"Overall band: {summary['overall_band']}")
     logger.info(f"Pass rate: {summary['pass_rate']}% (threshold={summary['pass_threshold']})")
     metrics = summary.get("metric_averages", {})
     logger.info(
@@ -111,10 +113,11 @@ def run_evaluation(
             "grade": s.grade,
             "question": s.question,
             "reference_answer": s.reference_answer,
+            "preferred_answer_type": s.preferred_answer_type,
             "model_answer": s.model_answer,
             "retrieved_context": s.retrieved_context,
             "scores": asdict(s.scores),
-            "weighted_score": s.weighted_score,
+            "overall_band": s.overall_band,
         }
         jsonl_rows.append(row)
 

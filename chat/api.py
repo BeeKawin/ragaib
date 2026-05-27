@@ -69,8 +69,8 @@ class EvalRunResponse(BaseModel):
     judge_model: str
     results_path: str
     count: int
-    overall_weighted_score: float
-    pass_threshold: float
+    overall_band: float
+    pass_threshold: int
     pass_rate: float
     metric_averages: dict
     by_subject: dict

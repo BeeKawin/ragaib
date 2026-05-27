@@ -13,15 +13,7 @@ SUMMARIES_DIR = EVAL_DIR / "summaries"
 for _d in [EVAL_DIR, RESULTS_DIR, SUMMARIES_DIR]:
     _d.mkdir(parents=True, exist_ok=True)
 
-METRIC_WEIGHTS = {
-    "correctness": 0.35,
-    "groundedness": 0.25,
-    "completeness": 0.20,
-    "clarity": 0.10,
-    "safety": 0.10,
-}
-
-PASS_THRESHOLD = 70.0
+PASS_BAND_THRESHOLD = 7
 JUDGE_PROVIDER = os.getenv("JUDGE_PROVIDER", LLM_PROVIDER)
 JUDGE_MODEL = os.getenv("JUDGE_MODEL", LLM_MODEL)
 JUDGE_TIMEOUT_SECONDS = 45

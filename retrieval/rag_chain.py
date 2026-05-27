@@ -20,6 +20,7 @@ from config.settings import (
     GEMINI_API_KEY,
     LLM_MODEL,
     LLM_PROVIDER,
+    OLLAMA_API_KEY,
     OLLAMA_BASE_URL,
     OLLAMA_NUM_CTX,
     OLLAMA_NUM_PREDICT,
@@ -30,6 +31,12 @@ from vector_store.indexer import get_vector_store
 
 
 # ── LLM factory ───────────────────────────────────────────────────────────────
+
+def _ollama_headers() -> Optional[dict]:
+    if not OLLAMA_API_KEY:
+        return None
+    return {"Authorization": f"Bearer {OLLAMA_API_KEY}"}
+
 
 def _get_llm(streaming: bool = False):
     if LLM_PROVIDER == "gemini":
@@ -48,6 +55,7 @@ def _get_llm(streaming: bool = False):
             temperature=0.3,
             num_ctx=OLLAMA_NUM_CTX,
             num_predict=OLLAMA_NUM_PREDICT,
+            headers=_ollama_headers(),
         )
     raise ValueError(
         f"Unsupported LLM_PROVIDER='{LLM_PROVIDER}'. Use one of: gemini, ollama"

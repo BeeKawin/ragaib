@@ -39,10 +39,11 @@ class TestRunEvalSmoke(unittest.TestCase):
             grade="M4",
             question="Q1",
             reference_answer="A1",
+            preferred_answer_type="general",
             model_answer="M1",
             retrieved_context="C1",
-            scores=JudgeResult(4, 4, 4, 4, 4, "ok"),
-            weighted_score=80.0,
+            scores=JudgeResult(4, 4, 4, 4, 4, "general", "general", 7, "ok"),
+            overall_band=7,
         )
 
         with patch.object(run_eval, "RESULTS_DIR", self.results_dir), \
@@ -60,6 +61,9 @@ class TestRunEvalSmoke(unittest.TestCase):
         payload = json.loads(row)
         self.assertEqual(payload["id"], "x1")
         self.assertIn("scores", payload)
+        self.assertIn("type_alignment", payload["scores"])
+        self.assertNotIn("safety", payload["scores"])
+        self.assertEqual(payload["overall_band"], 7)
 
 
 if __name__ == "__main__":
